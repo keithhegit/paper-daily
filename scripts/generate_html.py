@@ -54,16 +54,29 @@ class HTMLGenerator:
     </header>
     
     <nav class="container">
-        <div class="filters">
-            <button class="filter-btn active" data-filter="all">全部 ({len(self.papers)})</button>
-            <button class="filter-btn" data-filter="Computer Vision">Computer Vision</button>
-            <button class="filter-btn" data-filter="Natural Language Processing">NLP</button>
-            <button class="filter-btn" data-filter="Machine Learning">Machine Learning</button>
-            <button class="filter-btn" data-filter="Robotics">Robotics</button>
-            <button class="filter-btn" data-filter="Multimodal">Multimodal</button>
+        <div class="filter-section">
+            <div class="filter-group">
+                <label class="filter-label">📌 发表状态：</label>
+                <div class="filters status-filters">
+                    <button class="filter-btn status-btn active" data-status="all">全部 ({len(self.papers)})</button>
+                    <button class="filter-btn status-btn" data-status="published">已发表 ({sum(1 for p in self.papers if p.get('conference'))})</button>
+                    <button class="filter-btn status-btn" data-status="preprint">预印本 ({sum(1 for p in self.papers if not p.get('conference'))})</button>
+                </div>
+            </div>
+            <div class="filter-group">
+                <label class="filter-label">🏷️ 研究领域：</label>
+                <div class="filters category-filters">
+                    <button class="filter-btn category-btn active" data-category="all">全部</button>
+                    <button class="filter-btn category-btn" data-category="Computer Vision">Computer Vision</button>
+                    <button class="filter-btn category-btn" data-category="Natural Language Processing">NLP</button>
+                    <button class="filter-btn category-btn" data-category="Machine Learning">Machine Learning</button>
+                    <button class="filter-btn category-btn" data-category="Robotics">Robotics</button>
+                    <button class="filter-btn category-btn" data-category="Multimodal">Multimodal</button>
+                </div>
+            </div>
         </div>
         <div class="search-box">
-            <input type="text" id="searchInput" placeholder="搜索论文标题、作者、摘要...">
+            <input type="text" id="searchInput" placeholder="🔍 搜索论文标题、作者、摘要...">
         </div>
     </nav>
     
@@ -92,6 +105,23 @@ class HTMLGenerator:
         
         logger.info(f"生成主页: {output_file}")
     
+    def get_category_name(self, category: str) -> str:
+        """将 ArXiv 类别代码转换为友好的名称"""
+        category_map = {
+            'cs.AI': 'Artificial Intelligence',
+            'cs.CV': 'Computer Vision',
+            'cs.CL': 'Computational Linguistics (NLP)',
+            'cs.LG': 'Machine Learning',
+            'cs.IR': 'Information Retrieval',
+            'cs.RO': 'Robotics',
+            'cs.NE': 'Neural and Evolutionary Computing',
+            'cs.CR': 'Cryptography and Security',
+            'cs.HC': 'Human-Computer Interaction',
+            'cs.MM': 'Multimedia',
+            'stat.ML': 'Machine Learning (Statistics)',
+        }
+        return category_map.get(category, category)
+    
     def generate_papers_html(self) -> str:
         """生成论文列表 HTML"""
         if not self.papers:
@@ -104,14 +134,32 @@ class HTMLGenerator:
             if len(paper['authors']) > 5:
                 authors_html += ' et al.'
             
+            # 获取友好的类别名称
+            primary_category = paper.get('primary_category', paper['venue'])
+            category_name = self.get_category_name(primary_category)
+            
+            # 构建来源信息 - 优先显示会议/期刊
+            conference = paper.get('conference')
+            if conference:
+                # 如果有会议/期刊信息，优先显示
+                source_info = f"📍 {conference}"
+                source_class = "conference"
+            else:
+                # 否则显示 ArXiv 预印本
+                source_info = f"📄 ArXiv Preprint ({category_name})"
+                source_class = "preprint"
+            
+            # 确定发表状态
+            is_published = 'published' if conference else 'preprint'
+            
             paper_html = f"""
-            <article class="paper-card" data-tags="{','.join(paper.get('tags', []))}">
+            <article class="paper-card" data-tags="{','.join(paper.get('tags', []))}" data-status="{is_published}">
                 <h2 class="paper-title">
                     <a href="{paper['arxiv_url']}" target="_blank">{paper['title']}</a>
                 </h2>
                 <div class="paper-meta">
                     <span class="meta-item">📅 {paper['published']}</span>
-                    <span class="meta-item">📖 {paper['source']} - {paper.get('primary_category', paper['venue'])}</span>
+                    <span class="meta-item venue-{source_class}">{source_info}</span>
                 </div>
                 <div class="paper-authors">
                     👥 {authors_html}
@@ -191,11 +239,26 @@ nav {
     box-shadow: 0 2px 10px rgba(0,0,0,0.05);
 }
 
+.filter-section {
+    margin-bottom: 1rem;
+}
+
+.filter-group {
+    margin-bottom: 1rem;
+}
+
+.filter-label {
+    display: inline-block;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+}
+
 .filters {
     display: flex;
     flex-wrap: wrap;
     gap: 0.5rem;
-    margin-bottom: 1rem;
 }
 
 .filter-btn {
@@ -218,6 +281,10 @@ nav {
     color: white;
 }
 
+.search-box {
+    margin-top: 1.5rem;
+}
+
 .search-box input {
     width: 100%;
     padding: 0.8rem;
@@ -232,11 +299,20 @@ nav {
     border-color: #667eea;
 }
 
+/* 主内容区域 */
+main {
+    margin-top: 0;
+}
+
+#papers-container {
+    margin-top: 1rem;
+}
+
 /* 论文卡片 */
 .paper-card {
     background: white;
     padding: 1.5rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0,0,0,0.05);
     transition: transform 0.3s, box-shadow 0.3s;
@@ -268,6 +344,18 @@ nav {
     gap: 1rem;
     margin-bottom: 0.8rem;
     font-size: 0.9rem;
+    color: #666;
+}
+
+.meta-item.venue-conference {
+    color: #2e7d32;
+    font-weight: 600;
+    background: #e8f5e9;
+    padding: 0.2rem 0.6rem;
+    border-radius: 4px;
+}
+
+.meta-item.venue-preprint {
     color: #666;
 }
 
@@ -384,21 +472,35 @@ footer a {
         """生成 JavaScript 文件"""
         js = """// 筛选和搜索功能
 document.addEventListener('DOMContentLoaded', function() {
-    const filterBtns = document.querySelectorAll('.filter-btn');
+    const statusBtns = document.querySelectorAll('.status-btn');
+    const categoryBtns = document.querySelectorAll('.category-btn');
     const searchInput = document.getElementById('searchInput');
     const papers = document.querySelectorAll('.paper-card');
     
-    let currentFilter = 'all';
+    let currentStatus = 'all';
+    let currentCategory = 'all';
     let searchTerm = '';
     
-    // 筛选按钮点击事件
-    filterBtns.forEach(btn => {
+    // 发表状态筛选按钮点击事件
+    statusBtns.forEach(btn => {
         btn.addEventListener('click', function() {
             // 更新按钮状态
-            filterBtns.forEach(b => b.classList.remove('active'));
+            statusBtns.forEach(b => b.classList.remove('active'));
             this.classList.add('active');
             
-            currentFilter = this.dataset.filter;
+            currentStatus = this.dataset.status;
+            filterPapers();
+        });
+    });
+    
+    // 研究领域筛选按钮点击事件
+    categoryBtns.forEach(btn => {
+        btn.addEventListener('click', function() {
+            // 更新按钮状态
+            categoryBtns.forEach(b => b.classList.remove('active'));
+            this.classList.add('active');
+            
+            currentCategory = this.dataset.category;
             filterPapers();
         });
     });
@@ -415,15 +517,19 @@ document.addEventListener('DOMContentLoaded', function() {
         
         papers.forEach(paper => {
             const tags = paper.dataset.tags.split(',');
+            const status = paper.dataset.status;
             const text = paper.textContent.toLowerCase();
             
-            // 检查标签筛选
-            const matchFilter = currentFilter === 'all' || tags.includes(currentFilter);
+            // 检查发表状态筛选
+            const matchStatus = currentStatus === 'all' || status === currentStatus;
+            
+            // 检查研究领域筛选
+            const matchCategory = currentCategory === 'all' || tags.includes(currentCategory);
             
             // 检查搜索关键词
             const matchSearch = searchTerm === '' || text.includes(searchTerm);
             
-            if (matchFilter && matchSearch) {
+            if (matchStatus && matchCategory && matchSearch) {
                 paper.style.display = 'block';
                 visibleCount++;
             } else {

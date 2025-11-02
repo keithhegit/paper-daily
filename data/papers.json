@@ -22,9 +22,11 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26745v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": null,
+    "conference": null,
     "tags": [
-      "Machine Learning",
-      "Natural Language Processing"
+      "Natural Language Processing",
+      "Machine Learning"
     ]
   },
   {
@@ -46,6 +48,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26740v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Robotics",
       "Machine Learning"
@@ -72,9 +76,11 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26732v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": null,
+    "conference": null,
     "tags": [
-      "Machine Learning",
-      "Natural Language Processing"
+      "Natural Language Processing",
+      "Machine Learning"
     ]
   },
   {
@@ -101,6 +107,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26730v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": "12 pages, 11 figures",
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -128,6 +136,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26722v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Robotics"
     ]
@@ -153,9 +163,11 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26721v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": null,
+    "conference": null,
     "tags": [
-      "Multimodal",
-      "Natural Language Processing"
+      "Natural Language Processing",
+      "Multimodal"
     ]
   },
   {
@@ -179,6 +191,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26714v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": "mini paper, 2 figures",
+    "conference": null,
     "tags": []
   },
   {
@@ -203,9 +217,11 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26702v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": "Paper page at https://outshift-open.github.io/ASTRA",
+    "conference": null,
     "tags": [
-      "Robotics",
-      "Natural Language Processing"
+      "Natural Language Processing",
+      "Robotics"
     ]
   },
   {
@@ -234,9 +250,11 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26697v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": null,
+    "conference": null,
     "tags": [
-      "Robotics",
-      "Natural Language Processing"
+      "Natural Language Processing",
+      "Robotics"
     ]
   },
   {
@@ -259,10 +277,12 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26684v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Computer Vision",
-      "Robotics",
-      "Machine Learning"
+      "Machine Learning",
+      "Robotics"
     ]
   },
   {
@@ -289,6 +309,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26683v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -317,9 +339,11 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26658v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": null,
+    "conference": null,
     "tags": [
-      "Machine Learning",
-      "Natural Language Processing"
+      "Natural Language Processing",
+      "Machine Learning"
     ]
   },
   {
@@ -344,6 +368,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26646v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": "6 pages, 5 figures; ROS+Gazebo (TurtleBot3) implementation;\n  evaluation with PathBench metrics; code (primary):\n  https://github.com/MayaCHEN-github/HierarchicalRL-robot-navigation; mirror\n  (for reproducibility): https://github.com/ShowyHe/DRL-robot-navigation",
+    "conference": null,
     "tags": [
       "Robotics",
       "Machine Learning"
@@ -371,6 +397,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26616v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": null,
+    "conference": null,
     "tags": []
   },
   {
@@ -396,6 +424,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26606v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": "Accepted to the 8th BlackboxNLP Workshop at EMNLP 2025",
+    "conference": "EMNLP 2025",
     "tags": [
       "Natural Language Processing"
     ]
@@ -422,9 +452,11 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26603v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": "34 pages, 9 figures. Code available at\n  https://github.com/RedaElMakroum/agentic-ai-hems",
+    "conference": null,
     "tags": [
-      "Robotics",
-      "Natural Language Processing"
+      "Natural Language Processing",
+      "Robotics"
     ]
   },
   {
@@ -447,6 +479,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26601v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": "5 pages, 4 figures",
+    "conference": null,
     "tags": [
       "Machine Learning"
     ]
@@ -473,6 +507,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26585v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -502,6 +538,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26575v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Machine Learning"
     ]
@@ -528,6 +566,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26566v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Machine Learning"
     ]
@@ -552,6 +592,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26551v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": "10 pages, 5 figures. Demonstrates a reinforcement learning framework\n  for adaptive tool manipulation with variable-length extensions",
+    "conference": null,
     "tags": [
       "Robotics"
     ]
@@ -592,6 +634,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26550v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": "19 pages",
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -618,6 +662,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26543v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": "NeurIPS 2025 (Spotlight)",
+    "conference": "NeurIPS 2025",
     "tags": [
       "Natural Language Processing"
     ]
@@ -645,6 +691,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26518v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": null,
+    "conference": null,
     "tags": []
   },
   {
@@ -668,6 +716,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26512v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": "ICDM 2025 Workshop",
+    "conference": null,
     "tags": []
   },
   {
@@ -689,9 +739,11 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26494v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": null,
+    "conference": null,
     "tags": [
-      "Robotics",
-      "Natural Language Processing"
+      "Natural Language Processing",
+      "Robotics"
     ]
   },
   {
@@ -720,6 +772,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26493v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": null,
+    "conference": null,
     "tags": []
   },
   {
@@ -743,6 +797,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26486v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": "Accepted in ICKG 2025 Conference, 8 Pages, 2 Figures",
+    "conference": null,
     "tags": []
   },
   {
@@ -765,6 +821,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26484v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -789,6 +847,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26481v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": "5 pages, 5 figures, HAI 2025: Workshop on Socially Aware and\n  Cooperative Intelligent Systems",
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -821,10 +881,12 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26474v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": "Preprint",
+    "conference": null,
     "tags": [
-      "Multimodal",
+      "Natural Language Processing",
       "Machine Learning",
-      "Natural Language Processing"
+      "Multimodal"
     ]
   },
   {
@@ -850,6 +912,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26457v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": "Accepted by ICSE 2026. Code and data:\n  https://github.com/SIMIAO515/SecureReviewer",
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -879,6 +943,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26451v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": null,
+    "conference": null,
     "tags": []
   },
   {
@@ -904,6 +970,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26444v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": null,
+    "conference": null,
     "tags": []
   },
   {
@@ -929,6 +997,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26420v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": "8 pages,9 figures",
+    "conference": null,
     "tags": [
       "Machine Learning"
     ]
@@ -954,6 +1024,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26418v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -979,6 +1051,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26412v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Multimodal"
     ]
@@ -1003,9 +1077,11 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26411v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": null,
+    "conference": null,
     "tags": [
-      "Multimodal",
-      "Natural Language Processing"
+      "Natural Language Processing",
+      "Multimodal"
     ]
   },
   {
@@ -1030,10 +1106,12 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26406v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": "8 pages",
+    "conference": null,
     "tags": [
       "Robotics",
-      "Multimodal",
-      "Machine Learning"
+      "Machine Learning",
+      "Multimodal"
     ]
   },
   {
@@ -1057,6 +1135,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26402v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -1081,6 +1161,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26396v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": "40 pages",
+    "conference": null,
     "tags": []
   },
   {
@@ -1104,6 +1186,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26390v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Machine Learning"
     ]
@@ -1129,6 +1213,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26384v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": "9 pages, 2 figures, 4 tables",
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -1153,6 +1239,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26380v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": "52 pages, 1 figure",
+    "conference": null,
     "tags": [
       "Robotics"
     ]
@@ -1180,6 +1268,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26374v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": null,
+    "conference": null,
     "tags": []
   },
   {
@@ -1202,6 +1292,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26352v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -1226,6 +1318,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26347v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Robotics",
       "Machine Learning"
@@ -1250,6 +1344,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26346v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": null,
+    "conference": null,
     "tags": []
   },
   {
@@ -1272,6 +1368,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26345v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -1295,6 +1393,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26342v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Machine Learning"
     ]
@@ -1323,9 +1423,11 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26339v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": "11 pages, 6 figures. Includes supplementary material. Under review as\n  a conference paper at ICLR 2026",
+    "conference": "ICLR 2026",
     "tags": [
-      "Multimodal",
-      "Robotics"
+      "Robotics",
+      "Multimodal"
     ]
   },
   {
@@ -1350,6 +1452,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26336v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -1378,6 +1482,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26324v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": "NeurIPS 2025",
+    "conference": "NeurIPS 2025",
     "tags": []
   },
   {
@@ -1405,6 +1511,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26309v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": "Under review at The Web Conference 2026 (Semantics & Knowledge\n  track). Code will be released upon acceptance. This arXiv v1 contains no\n  repository links to preserve double-blind review",
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -1431,6 +1539,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26303v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": "50 pages",
+    "conference": null,
     "tags": [
       "Machine Learning"
     ]
@@ -1457,6 +1567,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26302v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Multimodal"
     ]
@@ -1481,9 +1593,11 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26298v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": null,
+    "conference": null,
     "tags": [
-      "Robotics",
-      "Natural Language Processing"
+      "Natural Language Processing",
+      "Robotics"
     ]
   },
   {
@@ -1514,6 +1628,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26285v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -1539,6 +1655,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26278v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Machine Learning"
     ]
@@ -1574,6 +1692,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26275v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": null,
+    "conference": null,
     "tags": []
   },
   {
@@ -1595,6 +1715,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26270v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": "Under review as a conference paper",
+    "conference": null,
     "tags": [
       "Machine Learning"
     ]
@@ -1618,9 +1740,11 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26243v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": "NeurIPS 2025 (Spotlight)",
+    "conference": "NeurIPS 2025",
     "tags": [
-      "Robotics",
-      "Natural Language Processing"
+      "Natural Language Processing",
+      "Robotics"
     ]
   },
   {
@@ -1646,6 +1770,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26242v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Robotics"
     ]
@@ -1670,6 +1796,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26238v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": "14 pages, 3 figures, 8 tables",
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -1696,6 +1824,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26230v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": "10 pages, 6 figures",
+    "conference": null,
     "tags": [
       "Machine Learning"
     ]
@@ -1722,9 +1852,11 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26219v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": "21 pages, 8 figures",
+    "conference": null,
     "tags": [
-      "Robotics",
-      "Natural Language Processing"
+      "Natural Language Processing",
+      "Robotics"
     ]
   },
   {
@@ -1751,6 +1883,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26217v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": "6 pages",
+    "conference": null,
     "tags": [
       "Machine Learning"
     ]
@@ -1777,6 +1911,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26205v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -1802,6 +1938,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26202v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": "Code: https://github.com/rmovva/wimhf",
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -1825,9 +1963,11 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26200v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": "Accepted in NeurIPS 2025",
+    "conference": "NeurIPS 2025",
     "tags": [
-      "Robotics",
-      "Natural Language Processing"
+      "Natural Language Processing",
+      "Robotics"
     ]
   },
   {
@@ -1850,6 +1990,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26188v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": "NCMLAI 2018",
+    "conference": null,
     "tags": []
   },
   {
@@ -1873,6 +2015,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26186v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": "Published in the Thirty-Ninth Conference on Neural Information\n  Processing Systems (NeurIPS 2025)",
+    "conference": "NeurIPS 2025",
     "tags": [
       "Machine Learning"
     ]
@@ -1899,6 +2043,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26185v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": null,
+    "conference": null,
     "tags": []
   },
   {
@@ -1925,6 +2071,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26172v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": null,
+    "conference": null,
     "tags": []
   },
   {
@@ -1951,9 +2099,11 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26167v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": null,
+    "conference": null,
     "tags": [
-      "Machine Learning",
-      "Natural Language Processing"
+      "Natural Language Processing",
+      "Machine Learning"
     ]
   },
   {
@@ -1978,6 +2128,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26165v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": "6th ACM International Conference on AI in Finance, November 15-18,\n  2025, Singapore",
+    "conference": "6th ACM International Conference on AI in Finance,",
     "tags": [
       "Machine Learning"
     ]
@@ -2004,6 +2156,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26159v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": "This paper is currently under review for presentation at the IEEE\n  SAMI 2026 Conference",
+    "conference": "This paper is currently under review for presentat",
     "tags": []
   },
   {
@@ -2026,6 +2180,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26157v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": "EMNLP 2025 (main)",
+    "conference": "EMNLP 2025",
     "tags": [
       "Machine Learning"
     ]
@@ -2051,9 +2207,11 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26151v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": "Accepted to Computer Vision for Automated Medical Diagnosis (CVAMD)\n  Workshop at ICCV 2025",
+    "conference": "ICCV 2025",
     "tags": [
-      "Multimodal",
-      "Natural Language Processing"
+      "Natural Language Processing",
+      "Multimodal"
     ]
   },
   {
@@ -2094,10 +2252,12 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26144v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": null,
+    "conference": null,
     "tags": [
-      "Robotics",
+      "Natural Language Processing",
       "Machine Learning",
-      "Natural Language Processing"
+      "Robotics"
     ]
   },
   {
@@ -2122,6 +2282,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26143v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": "9 pages",
+    "conference": null,
     "tags": [
       "Machine Learning"
     ]
@@ -2153,9 +2315,11 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26136v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": null,
+    "conference": null,
     "tags": [
-      "Machine Learning",
-      "Natural Language Processing"
+      "Natural Language Processing",
+      "Machine Learning"
     ]
   },
   {
@@ -2179,6 +2343,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26130v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": "Pre-print prepared for journal submission",
+    "conference": "Pre-print prepared for journal submission",
     "tags": [
       "Natural Language Processing"
     ]
@@ -2214,10 +2380,12 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26125v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": null,
+    "conference": null,
     "tags": [
+      "Natural Language Processing",
       "Multimodal",
-      "Robotics",
-      "Natural Language Processing"
+      "Robotics"
     ]
   },
   {
@@ -2242,6 +2410,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26113v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": "project page:\n  \\url{https://minjoong507.github.io/projects/EgoExo-Con/}",
+    "conference": null,
     "tags": [
       "Machine Learning"
     ]
@@ -2267,6 +2437,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26105v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": null,
+    "conference": null,
     "tags": []
   },
   {
@@ -2288,6 +2460,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26099v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Machine Learning"
     ]
@@ -2318,9 +2492,11 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26098v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": null,
+    "conference": null,
     "tags": [
-      "Machine Learning",
-      "Natural Language Processing"
+      "Natural Language Processing",
+      "Machine Learning"
     ]
   },
   {
@@ -2349,6 +2525,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26094v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": null,
+    "conference": null,
     "tags": []
   },
   {
@@ -2372,6 +2550,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26089v1",
     "source": "ArXiv",
     "venue": "cs.AI",
+    "comment": "29 pages, 12 figures. Fazel Arasteh and Arian Haghparast contributed\n  equally to this research. Submitted to ACM Transactions on Spatial Algorithms\n  and Systems (TSAS). The code for this work is publicly available at\n  https://github.com/Arianhgh/HHAN",
+    "conference": "29 pages, 12 figures. Fazel Arasteh and Arian Hagh",
     "tags": [
       "Robotics",
       "Machine Learning"
@@ -2402,9 +2582,11 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26800v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": "Project page: https://yukun-huang.github.io/OmniX/",
+    "conference": null,
     "tags": [
-      "Multimodal",
-      "Machine Learning"
+      "Machine Learning",
+      "Multimodal"
     ]
   },
   {
@@ -2426,6 +2608,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26799v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": "EMNLP 2025 (Findings). Project page:\n  https://cfeng16.github.io/mdlm4vfl/",
+    "conference": "EMNLP 2025",
     "tags": [
       "Natural Language Processing"
     ]
@@ -2458,6 +2642,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26796v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": "26 pages; 21 figures; 3 tables; project page:\n  https://see-4d.github.io/",
+    "conference": null,
     "tags": [
       "Robotics"
     ]
@@ -2486,6 +2672,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26795v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": "NeurIPS 2025",
+    "conference": "NeurIPS 2025",
     "tags": []
   },
   {
@@ -2517,9 +2705,11 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26794v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": null,
+    "conference": null,
     "tags": [
-      "Multimodal",
-      "Natural Language Processing"
+      "Natural Language Processing",
+      "Multimodal"
     ]
   },
   {
@@ -2544,10 +2734,12 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26786v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": "Code link: https://github.com/princeton-computational-imaging/HEIR",
+    "conference": null,
     "tags": [
       "Computer Vision",
-      "Robotics",
-      "Machine Learning"
+      "Machine Learning",
+      "Robotics"
     ]
   },
   {
@@ -2570,9 +2762,11 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26781v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": null,
+    "conference": null,
     "tags": [
-      "Multimodal",
-      "Natural Language Processing"
+      "Natural Language Processing",
+      "Multimodal"
     ]
   },
   {
@@ -2597,6 +2791,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26778v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": null,
+    "conference": null,
     "tags": []
   },
   {
@@ -2620,10 +2816,12 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26769v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": null,
+    "conference": null,
     "tags": [
+      "Natural Language Processing",
       "Multimodal",
-      "Robotics",
-      "Natural Language Processing"
+      "Robotics"
     ]
   },
   {
@@ -2653,6 +2851,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26759v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": "Accepted to ACMMM 2025",
+    "conference": "Accepted to ACMMM 2025",
     "tags": [
       "Machine Learning"
     ]
@@ -2684,6 +2884,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26703v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": null,
+    "conference": null,
     "tags": []
   },
   {
@@ -2704,6 +2906,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26694v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": "Article written for Frontiers of Science Award, International\n  Congress on Basic Science, 2025",
+    "conference": "Article written for Frontiers of Science Award, In",
     "tags": []
   },
   {
@@ -2726,10 +2930,12 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26684v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Computer Vision",
-      "Robotics",
-      "Machine Learning"
+      "Machine Learning",
+      "Robotics"
     ]
   },
   {
@@ -2752,6 +2958,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26681v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Computer Vision",
       "Machine Learning"
@@ -2778,6 +2986,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26661v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": null,
+    "conference": null,
     "tags": []
   },
   {
@@ -2799,10 +3009,12 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26653v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Computer Vision",
-      "Robotics",
-      "Machine Learning"
+      "Machine Learning",
+      "Robotics"
     ]
   },
   {
@@ -2827,6 +3039,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26641v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Computer Vision",
       "Multimodal",
@@ -2858,9 +3072,11 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26635v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": null,
+    "conference": null,
     "tags": [
-      "Machine Learning",
-      "Natural Language Processing"
+      "Natural Language Processing",
+      "Machine Learning"
     ]
   },
   {
@@ -2881,6 +3097,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26630v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Computer Vision"
     ]
@@ -2905,6 +3123,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26614v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Computer Vision",
       "Natural Language Processing"
@@ -2934,6 +3154,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26609v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Machine Learning"
     ]
@@ -2958,6 +3180,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26601v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": "5 pages, 4 figures",
+    "conference": null,
     "tags": [
       "Machine Learning"
     ]
@@ -3001,11 +3225,13 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26583v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": "project page: https://emu.world",
+    "conference": null,
     "tags": [
       "Computer Vision",
+      "Machine Learning",
       "Multimodal",
-      "Robotics",
-      "Machine Learning"
+      "Robotics"
     ]
   },
   {
@@ -3030,6 +3256,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26582v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -3052,9 +3280,11 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26580v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": "Preprint under review at IEEE Transactions on Pattern Analysis and\n  Machine Intelligence (TPAMI), 2025",
+    "conference": null,
     "tags": [
-      "Multimodal",
-      "Natural Language Processing"
+      "Natural Language Processing",
+      "Multimodal"
     ]
   },
   {
@@ -3080,6 +3310,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26573v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": "6 pages, 2025 IEEE International Workshop on Metrology for\n  Agriculture and Forestry (MetroAgriFor)",
+    "conference": "6 pages, 2025 IEEE International Workshop on Metro",
     "tags": [
       "Machine Learning"
     ]
@@ -3110,6 +3342,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26569v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": "Accepted at 32nd International Conference on MultiMedia Modeling",
+    "conference": null,
     "tags": [
       "Multimodal"
     ]
@@ -3139,6 +3373,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26568v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": "Accepted by Computerized Medical Imaging and Graphics (CMIG)",
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -3161,6 +3397,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26509v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Computer Vision",
       "Machine Learning"
@@ -3194,10 +3432,12 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26474v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": "Preprint",
+    "conference": null,
     "tags": [
-      "Multimodal",
+      "Natural Language Processing",
       "Machine Learning",
-      "Natural Language Processing"
+      "Multimodal"
     ]
   },
   {
@@ -3222,6 +3462,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26466v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Multimodal"
     ]
@@ -3250,9 +3492,11 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26464v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": "12 pages, 7 figures",
+    "conference": null,
     "tags": [
-      "Multimodal",
-      "Natural Language Processing"
+      "Natural Language Processing",
+      "Multimodal"
     ]
   },
   {
@@ -3274,6 +3518,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26443v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": "http://rhodriguerrier.github.io/PointSt3R",
+    "conference": null,
     "tags": [
       "Computer Vision"
     ]
@@ -3298,9 +3544,11 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26441v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": "23 pages, 14 figures",
+    "conference": null,
     "tags": [
-      "Multimodal",
-      "Natural Language Processing"
+      "Natural Language Processing",
+      "Multimodal"
     ]
   },
   {
@@ -3324,6 +3572,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26412v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Multimodal"
     ]
@@ -3346,6 +3596,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26391v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": "Demo paper",
+    "conference": null,
     "tags": [
       "Computer Vision",
       "Robotics"
@@ -3372,6 +3624,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26390v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Machine Learning"
     ]
@@ -3400,6 +3654,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26369v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": "7 pages, 3 figures, accepted to IPIN 2025",
+    "conference": null,
     "tags": []
   },
   {
@@ -3423,9 +3679,11 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26358v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": null,
+    "conference": null,
     "tags": [
-      "Multimodal",
-      "Robotics"
+      "Robotics",
+      "Multimodal"
     ]
   },
   {
@@ -3452,9 +3710,11 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26339v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": "11 pages, 6 figures. Includes supplementary material. Under review as\n  a conference paper at ICLR 2026",
+    "conference": "ICLR 2026",
     "tags": [
-      "Multimodal",
-      "Robotics"
+      "Robotics",
+      "Multimodal"
     ]
   },
   {
@@ -3478,9 +3738,11 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26315v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": null,
+    "conference": null,
     "tags": [
-      "Machine Learning",
-      "Natural Language Processing"
+      "Natural Language Processing",
+      "Machine Learning"
     ]
   },
   {
@@ -3503,6 +3765,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26304v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": "Published at IWAIPR 2025 conference",
+    "conference": null,
     "tags": []
   },
   {
@@ -3527,6 +3791,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26297v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -3551,6 +3817,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26294v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": "Published at IWAIPR 2025 conference",
+    "conference": null,
     "tags": [
       "Robotics",
       "Machine Learning"
@@ -3580,6 +3848,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26292v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Robotics",
       "Machine Learning"
@@ -3606,6 +3876,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26282v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": "Accepted at BIOSIG 2025 conference",
+    "conference": null,
     "tags": []
   },
   {
@@ -3632,6 +3904,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26268v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": "NeurIPS 2025 spotlight",
+    "conference": "NeurIPS 2025",
     "tags": []
   },
   {
@@ -3656,9 +3930,11 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26241v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": "10 pages",
+    "conference": null,
     "tags": [
-      "Multimodal",
-      "Natural Language Processing"
+      "Natural Language Processing",
+      "Multimodal"
     ]
   },
   {
@@ -3684,6 +3960,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26213v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": "TL;DR: With OmniLayout-1M dataset and LLM-based coarse-to-fine\n  learning, we enable universal and diverse document layout generation",
+    "conference": null,
     "tags": []
   },
   {
@@ -3706,6 +3984,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26203v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Robotics",
       "Machine Learning"
@@ -3734,6 +4014,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26196v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": "SIGGRAPH Asia 2025",
+    "conference": "SIGGRAPH",
     "tags": [
       "Computer Vision",
       "Machine Learning"
@@ -3760,6 +4042,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26186v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": "Published in the Thirty-Ninth Conference on Neural Information\n  Processing Systems (NeurIPS 2025)",
+    "conference": "NeurIPS 2025",
     "tags": [
       "Machine Learning"
     ]
@@ -3785,6 +4069,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26173v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": "10 pages, 6 figures",
+    "conference": null,
     "tags": [
       "Computer Vision"
     ]
@@ -3809,10 +4095,12 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26170v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": null,
+    "conference": null,
     "tags": [
-      "Robotics",
+      "Natural Language Processing",
       "Machine Learning",
-      "Natural Language Processing"
+      "Robotics"
     ]
   },
   {
@@ -3872,6 +4160,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26160v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": null,
+    "conference": null,
     "tags": []
   },
   {
@@ -3898,6 +4188,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26154v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": "16 pages",
+    "conference": null,
     "tags": [
       "Computer Vision",
       "Machine Learning"
@@ -3924,9 +4216,11 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26151v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": "Accepted to Computer Vision for Automated Medical Diagnosis (CVAMD)\n  Workshop at ICCV 2025",
+    "conference": "ICCV 2025",
     "tags": [
-      "Multimodal",
-      "Natural Language Processing"
+      "Natural Language Processing",
+      "Multimodal"
     ]
   },
   {
@@ -3952,6 +4246,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26149v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": "13 pages, 10 figures, 5 tables",
+    "conference": null,
     "tags": []
   },
   {
@@ -3976,9 +4272,11 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26141v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": null,
+    "conference": null,
     "tags": [
-      "Robotics",
-      "Natural Language Processing"
+      "Natural Language Processing",
+      "Robotics"
     ]
   },
   {
@@ -4010,6 +4308,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26140v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": "Project page: https://fullpart3d.github.io",
+    "conference": null,
     "tags": []
   },
   {
@@ -4035,6 +4335,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26131v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": "double-column 5 pages, 3 figures",
+    "conference": null,
     "tags": [
       "Machine Learning"
     ]
@@ -4070,10 +4372,12 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26125v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": null,
+    "conference": null,
     "tags": [
+      "Natural Language Processing",
       "Multimodal",
-      "Robotics",
-      "Natural Language Processing"
+      "Robotics"
     ]
   },
   {
@@ -4095,6 +4399,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26117v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Computer Vision",
       "Machine Learning"
@@ -4132,9 +4438,11 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26114v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": null,
+    "conference": null,
     "tags": [
-      "Multimodal",
-      "Natural Language Processing"
+      "Natural Language Processing",
+      "Multimodal"
     ]
   },
   {
@@ -4159,6 +4467,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26113v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": "project page:\n  \\url{https://minjoong507.github.io/projects/EgoExo-Con/}",
+    "conference": null,
     "tags": [
       "Machine Learning"
     ]
@@ -4184,6 +4494,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26105v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": null,
+    "conference": null,
     "tags": []
   },
   {
@@ -4206,9 +4518,11 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26052v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": "39th Conference on Neural Information Processing Systems (NeurIPS\n  2025) Workshop: The First Workshop on Generative and Protective AI for\n  Content Creation",
+    "conference": "NeurIPS 2025",
     "tags": [
-      "Multimodal",
-      "Natural Language Processing"
+      "Natural Language Processing",
+      "Multimodal"
     ]
   },
   {
@@ -4233,6 +4547,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26049v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Computer Vision",
       "Machine Learning"
@@ -4260,6 +4576,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26038v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": null,
+    "conference": null,
     "tags": []
   },
   {
@@ -4285,9 +4603,11 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26745v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": null,
+    "conference": null,
     "tags": [
-      "Machine Learning",
-      "Natural Language Processing"
+      "Natural Language Processing",
+      "Machine Learning"
     ]
   },
   {
@@ -4311,9 +4631,11 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26732v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": null,
+    "conference": null,
     "tags": [
-      "Machine Learning",
-      "Natural Language Processing"
+      "Natural Language Processing",
+      "Machine Learning"
     ]
   },
   {
@@ -4341,6 +4663,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26707v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Robotics",
       "Machine Learning"
@@ -4372,9 +4696,11 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26697v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": null,
+    "conference": null,
     "tags": [
-      "Robotics",
-      "Natural Language Processing"
+      "Natural Language Processing",
+      "Robotics"
     ]
   },
   {
@@ -4454,6 +4780,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26692v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": "Kimi Linear tech report",
+    "conference": null,
     "tags": []
   },
   {
@@ -4480,6 +4808,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26683v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -4508,9 +4838,11 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26658v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": null,
+    "conference": null,
     "tags": [
-      "Machine Learning",
-      "Natural Language Processing"
+      "Natural Language Processing",
+      "Machine Learning"
     ]
   },
   {
@@ -4535,6 +4867,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26622v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": "The scaling study inspiring T5Gemma",
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -4560,6 +4894,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26615v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": "https://slideagent.github.io/",
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -4587,6 +4923,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26606v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": "Accepted to the 8th BlackboxNLP Workshop at EMNLP 2025",
+    "conference": "EMNLP 2025",
     "tags": [
       "Natural Language Processing"
     ]
@@ -4611,6 +4949,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26577v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -4640,6 +4980,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26575v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Machine Learning"
     ]
@@ -4666,6 +5008,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26543v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": "NeurIPS 2025 (Spotlight)",
+    "conference": "NeurIPS 2025",
     "tags": [
       "Natural Language Processing"
     ]
@@ -4688,9 +5032,11 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26521v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": null,
+    "conference": null,
     "tags": [
-      "Machine Learning",
-      "Natural Language Processing"
+      "Natural Language Processing",
+      "Machine Learning"
     ]
   },
   {
@@ -4714,6 +5060,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26512v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": "ICDM 2025 Workshop",
+    "conference": null,
     "tags": []
   },
   {
@@ -4741,6 +5089,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26498v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": "29 pages, 3 figures, 4 tables",
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -4771,6 +5121,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26495v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -4801,6 +5153,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26493v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": null,
+    "conference": null,
     "tags": []
   },
   {
@@ -4823,6 +5177,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26484v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -4855,10 +5211,12 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26474v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": "Preprint",
+    "conference": null,
     "tags": [
-      "Multimodal",
+      "Natural Language Processing",
       "Machine Learning",
-      "Natural Language Processing"
+      "Multimodal"
     ]
   },
   {
@@ -4884,6 +5242,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26457v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": "Accepted by ICSE 2026. Code and data:\n  https://github.com/SIMIAO515/SecureReviewer",
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -4911,9 +5271,11 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26446v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": "15 pages, 6 figures, EMNLP 2025 findings",
+    "conference": "EMNLP 2025",
     "tags": [
-      "Machine Learning",
-      "Natural Language Processing"
+      "Natural Language Processing",
+      "Machine Learning"
     ]
   },
   {
@@ -4940,6 +5302,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26423v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": "Under Review",
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -4970,6 +5334,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26422v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -4993,6 +5359,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26354v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": "Accepted at Joint Sixth Workshop on Computational Approaches to\n  Discourse, Context and Document-Level Inferences (CODI 2025) and Eighth\n  Workshop on Computational Models of Reference, Anaphora and Coreference (CRAC\n  2025)",
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -5017,6 +5385,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26352v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -5041,6 +5411,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26345v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -5067,6 +5439,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26336v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -5092,6 +5466,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26322v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -5116,9 +5492,11 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26298v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": null,
+    "conference": null,
     "tags": [
-      "Robotics",
-      "Natural Language Processing"
+      "Natural Language Processing",
+      "Robotics"
     ]
   },
   {
@@ -5149,6 +5527,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26285v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -5176,6 +5556,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26277v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -5201,6 +5583,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26274v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": "This work has been submitted to the IEEE for possible publication",
+    "conference": "This work has been submitted to the IEEE for possi",
     "tags": [
       "Natural Language Processing"
     ]
@@ -5227,10 +5611,12 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26271v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": "Work in progress",
+    "conference": null,
     "tags": [
+      "Natural Language Processing",
       "Multimodal",
-      "Robotics",
-      "Natural Language Processing"
+      "Robotics"
     ]
   },
   {
@@ -5251,6 +5637,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26254v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": "Under review",
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -5274,6 +5662,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26253v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -5300,9 +5690,11 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26241v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": "10 pages",
+    "conference": null,
     "tags": [
-      "Multimodal",
-      "Natural Language Processing"
+      "Natural Language Processing",
+      "Multimodal"
     ]
   },
   {
@@ -5327,6 +5719,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26205v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -5352,6 +5746,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26202v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": "Code: https://github.com/rmovva/wimhf",
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -5375,9 +5771,11 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26200v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": "Accepted in NeurIPS 2025",
+    "conference": "NeurIPS 2025",
     "tags": [
-      "Robotics",
-      "Natural Language Processing"
+      "Natural Language Processing",
+      "Robotics"
     ]
   },
   {
@@ -5399,6 +5797,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26193v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -5425,6 +5825,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26190v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -5446,6 +5848,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26183v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": "8 pages, 5 tables",
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -5474,6 +5878,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26182v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -5502,9 +5908,11 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26167v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": null,
+    "conference": null,
     "tags": [
-      "Machine Learning",
-      "Natural Language Processing"
+      "Natural Language Processing",
+      "Machine Learning"
     ]
   },
   {
@@ -5529,6 +5937,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26143v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": "9 pages",
+    "conference": null,
     "tags": [
       "Machine Learning"
     ]
@@ -5553,6 +5963,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26124v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": "Published in Proceedings of the 38th Canadian Conference on\n  Artificial Intelligence CanAI 2025 Calgary Alberta May 26-27 2025. 5 figures\n  7 tables",
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -5579,6 +5991,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26122v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -5613,6 +6027,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26101v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -5644,6 +6060,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26095v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": "Accepted to NeurIPS 2025 Datasets & Benchmarks track",
+    "conference": "NeurIPS 2025",
     "tags": []
   },
   {
@@ -5668,6 +6086,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26038v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": null,
+    "conference": null,
     "tags": []
   },
   {
@@ -5692,6 +6112,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26037v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": null,
+    "conference": null,
     "tags": []
   },
   {
@@ -5732,6 +6154,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26032v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -5761,9 +6185,11 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26800v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": "Project page: https://yukun-huang.github.io/OmniX/",
+    "conference": null,
     "tags": [
-      "Multimodal",
-      "Machine Learning"
+      "Machine Learning",
+      "Multimodal"
     ]
   },
   {
@@ -5790,6 +6216,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26795v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": "NeurIPS 2025",
+    "conference": "NeurIPS 2025",
     "tags": []
   },
   {
@@ -5812,9 +6240,11 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26792v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": "10+13 pages, 8+19 figures",
+    "conference": null,
     "tags": [
-      "Machine Learning",
-      "Natural Language Processing"
+      "Natural Language Processing",
+      "Machine Learning"
     ]
   },
   {
@@ -5839,10 +6269,12 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26786v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": "Code link: https://github.com/princeton-computational-imaging/HEIR",
+    "conference": null,
     "tags": [
       "Computer Vision",
-      "Robotics",
-      "Machine Learning"
+      "Machine Learning",
+      "Robotics"
     ]
   },
   {
@@ -5867,6 +6299,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26783v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Machine Learning"
     ]
@@ -5893,6 +6327,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26778v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": null,
+    "conference": null,
     "tags": []
   },
   {
@@ -5915,6 +6351,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26777v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": "NeurIPS 2025 Workshop on Recent Advances in Time Series Foundation\n  Models (BERT2S)",
+    "conference": "NeurIPS 2025",
     "tags": []
   },
   {
@@ -5938,10 +6376,12 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26769v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": null,
+    "conference": null,
     "tags": [
+      "Natural Language Processing",
       "Multimodal",
-      "Robotics",
-      "Natural Language Processing"
+      "Robotics"
     ]
   },
   {
@@ -5967,9 +6407,11 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26745v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": null,
+    "conference": null,
     "tags": [
-      "Machine Learning",
-      "Natural Language Processing"
+      "Natural Language Processing",
+      "Machine Learning"
     ]
   },
   {
@@ -5994,6 +6436,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26723v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Machine Learning"
     ]
@@ -6021,6 +6465,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26722v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Robotics"
     ]
@@ -6044,6 +6490,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26717v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": "equal contribution",
+    "conference": null,
     "tags": []
   },
   {
@@ -6072,6 +6520,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26715v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Machine Learning"
     ]
@@ -6097,6 +6547,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26714v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": "mini paper, 2 figures",
+    "conference": null,
     "tags": []
   },
   {
@@ -6122,6 +6574,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26709v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": "8 pages, 2 figures",
+    "conference": null,
     "tags": []
   },
   {
@@ -6149,6 +6603,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26707v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Robotics",
       "Machine Learning"
@@ -6175,6 +6631,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26706v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Machine Learning"
     ]
@@ -6199,6 +6657,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26704v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": "Preprint, under review",
+    "conference": null,
     "tags": [
       "Machine Learning"
     ]
@@ -6224,6 +6684,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26700v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Robotics",
       "Machine Learning"
@@ -6306,6 +6768,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26692v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": "Kimi Linear tech report",
+    "conference": null,
     "tags": []
   },
   {
@@ -6328,6 +6792,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26690v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -6352,6 +6818,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26688v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Machine Learning"
     ]
@@ -6375,6 +6843,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26679v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": "SODA 2026; equal contribution",
+    "conference": null,
     "tags": []
   },
   {
@@ -6396,6 +6866,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26672v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Robotics",
       "Machine Learning"
@@ -6421,6 +6893,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26656v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Robotics"
     ]
@@ -6447,6 +6921,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26646v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": "6 pages, 5 figures; ROS+Gazebo (TurtleBot3) implementation;\n  evaluation with PathBench metrics; code (primary):\n  https://github.com/MayaCHEN-github/HierarchicalRL-robot-navigation; mirror\n  (for reproducibility): https://github.com/ShowyHe/DRL-robot-navigation",
+    "conference": null,
     "tags": [
       "Robotics",
       "Machine Learning"
@@ -6476,6 +6952,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26645v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": "Accepted to NeurIPS 2025",
+    "conference": "NeurIPS 2025",
     "tags": []
   },
   {
@@ -6499,6 +6977,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26643v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": "25 pages, 13 figures, VLDB Journal",
+    "conference": "VLDB",
     "tags": []
   },
   {
@@ -6521,6 +7001,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26633v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Machine Learning"
     ]
@@ -6547,6 +7029,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26616v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": null,
+    "conference": null,
     "tags": []
   },
   {
@@ -6573,6 +7057,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26609v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Machine Learning"
     ]
@@ -6596,6 +7082,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26607v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Robotics",
       "Machine Learning"
@@ -6621,6 +7109,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26593v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": "Accepted to the NeurIPS 2025 Workshop on Machine Learning and the\n  Physical Sciences",
+    "conference": "NeurIPS 2025",
     "tags": [
       "Machine Learning"
     ]
@@ -6647,6 +7137,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26586v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": "Five pages, four figures, to be presented at the AI in Science\n  Summit, Denmark, November, 2025",
+    "conference": "Five pages, four figures, to be presented at the A",
     "tags": []
   },
   {
@@ -6669,6 +7161,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26577v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -6695,6 +7189,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26566v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Machine Learning"
     ]
@@ -6718,6 +7214,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26560v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": null,
+    "conference": null,
     "tags": []
   },
   {
@@ -6741,6 +7239,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26557v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Robotics",
       "Machine Learning"
@@ -6766,6 +7266,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26551v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": "10 pages, 5 figures. Demonstrates a reinforcement learning framework\n  for adaptive tool manipulation with variable-length extensions",
+    "conference": null,
     "tags": [
       "Robotics"
     ]
@@ -6792,6 +7294,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26543v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": "NeurIPS 2025 (Spotlight)",
+    "conference": "NeurIPS 2025",
     "tags": [
       "Natural Language Processing"
     ]
@@ -6816,6 +7320,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26541v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": "Submitted to Engineering Applications of Artificial Intelligence",
+    "conference": null,
     "tags": [
       "Machine Learning"
     ]
@@ -6841,6 +7347,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26533v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": null,
+    "conference": null,
     "tags": []
   },
   {
@@ -6866,6 +7374,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26527v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -6891,6 +7401,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26519v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": "Work in progress",
+    "conference": null,
     "tags": [
       "Robotics",
       "Machine Learning"
@@ -6917,6 +7429,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26512v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": "ICDM 2025 Workshop",
+    "conference": null,
     "tags": []
   },
   {
@@ -6943,9 +7457,11 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26510v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": "27 pages, 6 figures",
+    "conference": null,
     "tags": [
-      "Machine Learning",
-      "Natural Language Processing"
+      "Natural Language Processing",
+      "Machine Learning"
     ]
   },
   {
@@ -6968,6 +7484,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26501v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": "Submitted to the 24th International Conference on Pervasive Computing\n  and Communications (PerCom 2026)",
+    "conference": null,
     "tags": [
       "Machine Learning"
     ]
@@ -6999,6 +7517,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26491v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Machine Learning"
     ]
@@ -7025,6 +7545,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26487v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Machine Learning"
     ]
@@ -7050,6 +7572,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26486v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": "Accepted in ICKG 2025 Conference, 8 Pages, 2 Figures",
+    "conference": null,
     "tags": []
   },
   {
@@ -7078,9 +7602,11 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26475v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": null,
+    "conference": null,
     "tags": [
-      "Machine Learning",
-      "Natural Language Processing"
+      "Natural Language Processing",
+      "Machine Learning"
     ]
   },
   {
@@ -7111,10 +7637,12 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26474v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": "Preprint",
+    "conference": null,
     "tags": [
-      "Multimodal",
+      "Natural Language Processing",
       "Machine Learning",
-      "Natural Language Processing"
+      "Multimodal"
     ]
   },
   {
@@ -7139,6 +7667,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26466v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Multimodal"
     ]
@@ -7163,6 +7693,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26461v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -7192,6 +7724,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26451v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": null,
+    "conference": null,
     "tags": []
   },
   {
@@ -7217,6 +7751,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26444v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": null,
+    "conference": null,
     "tags": []
   },
   {
@@ -7241,6 +7777,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26433v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Robotics"
     ]
@@ -7266,6 +7804,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26402v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -7292,6 +7832,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26401v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": null,
+    "conference": null,
     "tags": []
   },
   {
@@ -7315,9 +7857,11 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26392v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": null,
+    "conference": null,
     "tags": [
-      "Machine Learning",
-      "Natural Language Processing"
+      "Natural Language Processing",
+      "Machine Learning"
     ]
   },
   {
@@ -7341,6 +7885,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26389v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Machine Learning"
     ]
@@ -7366,6 +7912,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26384v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": "9 pages, 2 figures, 4 tables",
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -7395,6 +7943,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26376v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": null,
+    "conference": null,
     "tags": []
   },
   {
@@ -7421,6 +7971,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26369v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": "7 pages, 3 figures, accepted to IPIN 2025",
+    "conference": null,
     "tags": []
   },
   {
@@ -7443,6 +7995,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26353v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Machine Learning"
     ]
@@ -7465,6 +8019,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26350v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Machine Learning"
     ]
@@ -7489,6 +8045,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26347v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Robotics",
       "Machine Learning"
@@ -7514,6 +8072,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26345v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -7537,6 +8097,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26342v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Machine Learning"
     ]
@@ -7564,6 +8126,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26340v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": "12 pages, 11 figures",
+    "conference": null,
     "tags": [
       "Robotics",
       "Machine Learning"
@@ -7588,6 +8152,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26328v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": null,
+    "conference": null,
     "tags": []
   },
   {
@@ -7614,6 +8180,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26324v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": "NeurIPS 2025",
+    "conference": "NeurIPS 2025",
     "tags": []
   },
   {
@@ -7633,6 +8201,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26323v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": "Presented at the 7th DSO Workshop at ECML PKDD 2025",
+    "conference": null,
     "tags": [
       "Machine Learning"
     ]
@@ -7657,9 +8227,11 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26311v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": "Accepted in NeurIPS 2025",
+    "conference": "NeurIPS 2025",
     "tags": [
-      "Multimodal",
-      "Machine Learning"
+      "Machine Learning",
+      "Multimodal"
     ]
   },
   {
@@ -7683,6 +8255,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26307v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": "37 pages, 4 figures, 86 references. Submitted to Journal of Computer\n  Security (under review)",
+    "conference": "37 pages, 4 figures, 86 references. Submitted to J",
     "tags": [
       "Machine Learning"
     ]
@@ -7709,6 +8283,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26303v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": "50 pages",
+    "conference": null,
     "tags": [
       "Machine Learning"
     ]
@@ -7735,6 +8311,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26302v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Multimodal"
     ]
@@ -7760,6 +8338,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26301v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Machine Learning"
     ]
@@ -7792,6 +8372,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26285v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -7814,6 +8396,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26284v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": "33 pages, 13 figures",
+    "conference": null,
     "tags": []
   },
   {
@@ -7837,6 +8421,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26278v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Machine Learning"
     ]
@@ -7872,6 +8458,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26275v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": null,
+    "conference": null,
     "tags": []
   },
   {
@@ -7895,6 +8483,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26274v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": "This work has been submitted to the IEEE for possible publication",
+    "conference": "This work has been submitted to the IEEE for possi",
     "tags": [
       "Natural Language Processing"
     ]
@@ -7920,6 +8510,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26266v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Robotics",
       "Machine Learning"
@@ -7944,9 +8536,11 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26243v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": "NeurIPS 2025 (Spotlight)",
+    "conference": "NeurIPS 2025",
     "tags": [
-      "Robotics",
-      "Natural Language Processing"
+      "Natural Language Processing",
+      "Robotics"
     ]
   },
   {
@@ -7971,6 +8565,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26230v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": "10 pages, 6 figures",
+    "conference": null,
     "tags": [
       "Machine Learning"
     ]
@@ -7997,9 +8593,11 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26219v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": "21 pages, 8 figures",
+    "conference": null,
     "tags": [
-      "Robotics",
-      "Natural Language Processing"
+      "Natural Language Processing",
+      "Robotics"
     ]
   },
   {
@@ -8022,6 +8620,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26188v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": "NCMLAI 2018",
+    "conference": null,
     "tags": []
   },
   {
@@ -8046,6 +8646,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26185v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": null,
+    "conference": null,
     "tags": []
   },
   {
@@ -8074,6 +8676,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26184v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Machine Learning"
     ]
@@ -8100,6 +8704,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26159v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": "This paper is currently under review for presentation at the IEEE\n  SAMI 2026 Conference",
+    "conference": "This paper is currently under review for presentat",
     "tags": []
   },
   {
@@ -8122,6 +8728,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26157v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": "EMNLP 2025 (main)",
+    "conference": "EMNLP 2025",
     "tags": [
       "Machine Learning"
     ]
@@ -8143,6 +8751,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26148v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Machine Learning"
     ]
@@ -8164,6 +8774,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26146v1",
     "source": "ArXiv",
     "venue": "cs.LG",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Robotics"
     ]
@@ -8189,6 +8801,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26750v1",
     "source": "ArXiv",
     "venue": "cs.IR",
+    "comment": "4 pages, 1 Figure, 2 tables",
+    "conference": null,
     "tags": []
   },
   {
@@ -8217,6 +8831,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26569v1",
     "source": "ArXiv",
     "venue": "cs.IR",
+    "comment": "Accepted at 32nd International Conference on MultiMedia Modeling",
+    "conference": null,
     "tags": [
       "Multimodal"
     ]
@@ -8245,6 +8861,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26546v1",
     "source": "ArXiv",
     "venue": "cs.IR",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -8270,6 +8888,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26512v1",
     "source": "ArXiv",
     "venue": "cs.IR",
+    "comment": "ICDM 2025 Workshop",
+    "conference": null,
     "tags": []
   },
   {
@@ -8293,6 +8913,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26486v1",
     "source": "ArXiv",
     "venue": "cs.IR",
+    "comment": "Accepted in ICKG 2025 Conference, 8 Pages, 2 Figures",
+    "conference": null,
     "tags": []
   },
   {
@@ -8315,6 +8937,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26461v1",
     "source": "ArXiv",
     "venue": "cs.IR",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -8338,9 +8962,11 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26407v1",
     "source": "ArXiv",
     "venue": "cs.IR",
+    "comment": null,
+    "conference": null,
     "tags": [
-      "Robotics",
-      "Natural Language Processing"
+      "Natural Language Processing",
+      "Robotics"
     ]
   },
   {
@@ -8368,6 +8994,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26309v1",
     "source": "ArXiv",
     "venue": "cs.IR",
+    "comment": "Under review at The Web Conference 2026 (Semantics & Knowledge\n  track). Code will be released upon acceptance. This arXiv v1 contains no\n  repository links to preserve double-blind review",
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -8397,6 +9025,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26231v1",
     "source": "ArXiv",
     "venue": "cs.IR",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Robotics",
       "Machine Learning"
@@ -8422,6 +9052,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26178v1",
     "source": "ArXiv",
     "venue": "cs.IR",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -8450,9 +9082,11 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26104v1",
     "source": "ArXiv",
     "venue": "cs.IR",
+    "comment": null,
+    "conference": null,
     "tags": [
-      "Machine Learning",
-      "Natural Language Processing"
+      "Natural Language Processing",
+      "Machine Learning"
     ]
   },
   {
@@ -8482,6 +9116,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26095v1",
     "source": "ArXiv",
     "venue": "cs.IR",
+    "comment": "Accepted to NeurIPS 2025 Datasets & Benchmarks track",
+    "conference": "NeurIPS 2025",
     "tags": []
   },
   {
@@ -8505,6 +9141,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26742v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": "Code is available at https://github.com/Dexmal/realtime-vla",
+    "conference": null,
     "tags": [
       "Robotics"
     ]
@@ -8533,6 +9171,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26670v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Robotics"
     ]
@@ -8557,6 +9197,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26656v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Robotics"
     ]
@@ -8583,6 +9225,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26646v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": "6 pages, 5 figures; ROS+Gazebo (TurtleBot3) implementation;\n  evaluation with PathBench metrics; code (primary):\n  https://github.com/MayaCHEN-github/HierarchicalRL-robot-navigation; mirror\n  (for reproducibility): https://github.com/ShowyHe/DRL-robot-navigation",
+    "conference": null,
     "tags": [
       "Robotics",
       "Machine Learning"
@@ -8609,6 +9253,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26638v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": "8 Pages, 8 Figures, Submitted and Accepted to IROS 2025",
+    "conference": "IROS 2025",
     "tags": [
       "Robotics"
     ]
@@ -8633,6 +9279,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26623v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": "8 pages, 6 figures. Submitted to IEEE-RAS International Conference on\n  Soft Robotics 2026",
+    "conference": "8 pages, 6 figures. Submitted to IEEE-RAS Internat",
     "tags": []
   },
   {
@@ -8655,6 +9303,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26614v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Computer Vision",
       "Natural Language Processing"
@@ -8682,6 +9332,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26588v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Robotics",
       "Machine Learning"
@@ -8711,6 +9363,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26571v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": null,
+    "conference": null,
     "tags": []
   },
   {
@@ -8733,6 +9387,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26551v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": "10 pages, 5 figures. Demonstrates a reinforcement learning framework\n  for adaptive tool manipulation with variable-length extensions",
+    "conference": null,
     "tags": [
       "Robotics"
     ]
@@ -8777,9 +9433,11 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26536v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": null,
+    "conference": null,
     "tags": [
-      "Multimodal",
-      "Robotics"
+      "Robotics",
+      "Multimodal"
     ]
   },
   {
@@ -8807,6 +9465,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26531v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Robotics",
       "Machine Learning"
@@ -8834,10 +9494,12 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26406v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": "8 pages",
+    "conference": null,
     "tags": [
       "Robotics",
-      "Multimodal",
-      "Machine Learning"
+      "Machine Learning",
+      "Multimodal"
     ]
   },
   {
@@ -8864,6 +9526,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26369v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": "7 pages, 3 figures, accepted to IPIN 2025",
+    "conference": null,
     "tags": []
   },
   {
@@ -8886,6 +9550,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26363v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Robotics",
       "Machine Learning"
@@ -8912,6 +9578,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26362v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Robotics"
     ]
@@ -8937,9 +9605,11 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26358v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": null,
+    "conference": null,
     "tags": [
-      "Multimodal",
-      "Robotics"
+      "Robotics",
+      "Multimodal"
     ]
   },
   {
@@ -8965,6 +9635,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26280v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Robotics",
       "Machine Learning"
@@ -8993,6 +9665,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26236v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Robotics"
     ]
@@ -9017,10 +9691,12 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26170v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": null,
+    "conference": null,
     "tags": [
-      "Robotics",
+      "Natural Language Processing",
       "Machine Learning",
-      "Natural Language Processing"
+      "Robotics"
     ]
   },
   {
@@ -9041,6 +9717,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26142v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Machine Learning"
     ]
@@ -9063,6 +9741,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26139v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": null,
+    "conference": null,
     "tags": []
   },
   {
@@ -9082,6 +9762,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26132v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": "8 pages, 7 figures, accepted to ICAR 2025",
+    "conference": null,
     "tags": [
       "Robotics",
       "Machine Learning"
@@ -9110,6 +9792,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26131v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": "double-column 5 pages, 3 figures",
+    "conference": null,
     "tags": [
       "Machine Learning"
     ]
@@ -9135,6 +9819,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26082v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": null,
+    "conference": null,
     "tags": []
   },
   {
@@ -9158,6 +9844,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26080v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": null,
+    "conference": null,
     "tags": []
   },
   {
@@ -9180,6 +9868,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26067v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Robotics",
       "Machine Learning"
@@ -9208,6 +9898,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26040v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Robotics",
       "Machine Learning"
@@ -9546,9 +10238,11 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26027v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": "Accepted to NeurIPS 2025",
+    "conference": "NeurIPS 2025",
     "tags": [
-      "Multimodal",
-      "Natural Language Processing"
+      "Natural Language Processing",
+      "Multimodal"
     ]
   },
   {
@@ -9576,6 +10270,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26022v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": null,
+    "conference": null,
     "tags": []
   },
   {
@@ -9599,6 +10295,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26017v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": "Submitted to Hydrology and Earth System Sciences",
+    "conference": "Submitted to Hydrology and Earth System Sciences",
     "tags": [
       "Machine Learning"
     ]
@@ -9626,6 +10324,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26006v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Computer Vision",
       "Multimodal",
@@ -9656,6 +10356,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26004v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": "Preprint version. This manuscript is currently under review at\n  Transportation Research Part C: Emerging Technologies. The PDF corresponds to\n  the version submitted in June 2025. The main findings of this work were\n  recognized with the Best Intelligent Transportation Systems Paper Award at\n  the 2025 TRB Annual Meeting",
+    "conference": null,
     "tags": [
       "Robotics"
     ]
@@ -9680,6 +10382,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26001v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -9704,6 +10408,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25990v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": "Paper for the Trackrad2025 challenge, Team BreizhTrack",
+    "conference": null,
     "tags": []
   },
   {
@@ -9729,6 +10435,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25976v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -9755,6 +10463,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25970v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": "Camera-ready version for NeurIPS 2025, 10 pages (main paper)",
+    "conference": "NeurIPS 2025",
     "tags": [
       "Computer Vision",
       "Robotics"
@@ -9782,10 +10492,12 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25921v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Robotics",
-      "Multimodal",
-      "Machine Learning"
+      "Machine Learning",
+      "Multimodal"
     ]
   },
   {
@@ -9807,6 +10519,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25901v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": null,
+    "conference": null,
     "tags": []
   },
   {
@@ -9831,6 +10545,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25897v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": "Project page: https://nicolas-dufour.github.io/miro",
+    "conference": null,
     "tags": [
       "Machine Learning"
     ]
@@ -9862,6 +10578,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25772v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": "Project Page URL:https://libaolu312.github.io/VFXMaster/",
+    "conference": null,
     "tags": []
   },
   {
@@ -9886,6 +10604,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25765v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Robotics",
       "Machine Learning"
@@ -9927,10 +10647,12 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25760v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": null,
+    "conference": null,
     "tags": [
+      "Natural Language Processing",
       "Multimodal",
-      "Robotics",
-      "Natural Language Processing"
+      "Robotics"
     ]
   },
   {
@@ -9954,6 +10676,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25739v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Computer Vision",
       "Natural Language Processing"
@@ -9980,6 +10704,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25594v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Machine Learning"
     ]
@@ -10011,6 +10737,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25590v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": "26 pages, 10 figures, 18 tables",
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -10036,6 +10764,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25522v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": "27 pages, 8 figures",
+    "conference": null,
     "tags": [
       "Computer Vision",
       "Natural Language Processing"
@@ -10063,6 +10793,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25512v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": "Accepted to NeurIPS 2025; Code is available at\n  https://github.com/m-parchami/FaCT",
+    "conference": "NeurIPS 2025",
     "tags": [
       "Machine Learning"
     ]
@@ -10087,6 +10819,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25463v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -10116,6 +10850,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25440v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": null,
+    "conference": null,
     "tags": []
   },
   {
@@ -10142,6 +10878,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25387v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": "NeurIPS 2025",
+    "conference": "NeurIPS 2025",
     "tags": [
       "Natural Language Processing"
     ]
@@ -10167,6 +10905,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25372v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -10202,6 +10942,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25347v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": "11 pages, 2 Figures, MICCAI AMAI 2025 workshop, to be published in\n  Volume 16206 of the Lecture Notes in Computer Science series",
+    "conference": "11 pages, 2 Figures, MICCAI AMAI 2025 workshop, to",
     "tags": [
       "Machine Learning"
     ]
@@ -10227,6 +10969,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25345v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": "Accepted by IEEE Transactions on Image Processing (TIP), 2025",
+    "conference": "Accepted by IEEE Transactions on Image Processing ",
     "tags": []
   },
   {
@@ -10253,9 +10997,11 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25332v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": null,
+    "conference": null,
     "tags": [
-      "Multimodal",
-      "Natural Language Processing"
+      "Natural Language Processing",
+      "Multimodal"
     ]
   },
   {
@@ -10280,10 +11026,12 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25327v2",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": "Code available at: https://github.com/HKUST-MINSys-Lab/MMEdge.\n  Accepted by SenSys 2026",
+    "conference": null,
     "tags": [
       "Robotics",
-      "Multimodal",
-      "Machine Learning"
+      "Machine Learning",
+      "Multimodal"
     ]
   },
   {
@@ -10304,6 +11052,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25318v1",
     "source": "ArXiv",
     "venue": "cs.CV",
+    "comment": "7 pages,1 figure,2 tables,Preprint",
+    "conference": null,
     "tags": [
       "Computer Vision"
     ]
@@ -10328,6 +11078,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26024v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -10358,9 +11110,11 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26020v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": null,
+    "conference": null,
     "tags": [
-      "Machine Learning",
-      "Natural Language Processing"
+      "Natural Language Processing",
+      "Machine Learning"
     ]
   },
   {
@@ -10386,6 +11140,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26006v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Computer Vision",
       "Multimodal",
@@ -10420,9 +11176,11 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25992v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": null,
+    "conference": null,
     "tags": [
-      "Machine Learning",
-      "Natural Language Processing"
+      "Natural Language Processing",
+      "Machine Learning"
     ]
   },
   {
@@ -10451,6 +11209,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25979v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": "10 pages, 6 figures, submitted to Ninth Annual Conference on Machine\n  Learning and Systems (MLSys'26)",
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -10476,6 +11236,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25977v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": "12 pages, 8 figures, submitted to the Proceedings of the Twenty-First\n  European Conference on Computer Systems (EuroSys'26)",
+    "conference": null,
     "tags": []
   },
   {
@@ -10498,6 +11260,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25975v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -10523,6 +11287,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25967v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -10549,6 +11315,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25947v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": "Under Review",
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -10576,6 +11344,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25941v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -10602,6 +11372,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25932v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": "Accepted for publication in the Proceedings of the 24th IEEE\n  International Conference on Trust, Security and Privacy in Computing and\n  Communications (TrustCom 2025) Privacy track, 11 pages, 8 figures",
+    "conference": "Accepted for publication in the Proceedings of the",
     "tags": [
       "Natural Language Processing"
     ]
@@ -10634,6 +11406,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25904v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": null,
+    "conference": null,
     "tags": []
   },
   {
@@ -10660,6 +11434,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25884v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Machine Learning"
     ]
@@ -10689,6 +11465,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25860v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -10717,6 +11495,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25771v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -10746,6 +11526,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25766v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": "Post-hoc attribution",
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -10768,10 +11550,12 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25761v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": null,
+    "conference": null,
     "tags": [
-      "Multimodal",
+      "Natural Language Processing",
       "Machine Learning",
-      "Natural Language Processing"
+      "Multimodal"
     ]
   },
   {
@@ -10805,6 +11589,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25744v2",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": "22 pages, 5 figures, 3 tables",
+    "conference": null,
     "tags": []
   },
   {
@@ -10856,9 +11642,11 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25741v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": null,
+    "conference": null,
     "tags": [
-      "Robotics",
-      "Natural Language Processing"
+      "Natural Language Processing",
+      "Robotics"
     ]
   },
   {
@@ -10881,6 +11669,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25732v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": "14 pages, 11 figures",
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -10923,6 +11713,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25726v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": "Website: https://toolathlon.xyz/",
+    "conference": null,
     "tags": []
   },
   {
@@ -10947,9 +11739,11 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25701v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": "8 pages, 6 figures, 3 tables, CIKM 2025 FinFAI workshop",
+    "conference": null,
     "tags": [
-      "Machine Learning",
-      "Natural Language Processing"
+      "Natural Language Processing",
+      "Machine Learning"
     ]
   },
   {
@@ -10979,6 +11773,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25817v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": "ACL 2025",
+    "conference": "ACL 2025",
     "tags": [
       "Natural Language Processing"
     ]
@@ -11009,6 +11805,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25694v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -11038,10 +11836,12 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25682v2",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": "21 pages, 11 figures, and 8 tables",
+    "conference": null,
     "tags": [
-      "Multimodal",
+      "Natural Language Processing",
       "Machine Learning",
-      "Natural Language Processing"
+      "Multimodal"
     ]
   },
   {
@@ -11067,6 +11867,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25677v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": "45 pages",
+    "conference": null,
     "tags": []
   },
   {
@@ -11090,6 +11892,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25816v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": "12 pages, 5 figures",
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -11125,9 +11929,11 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25628v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": null,
+    "conference": null,
     "tags": [
-      "Machine Learning",
-      "Natural Language Processing"
+      "Natural Language Processing",
+      "Machine Learning"
     ]
   },
   {
@@ -11157,6 +11963,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25626v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": "Accepted to NeurIPS 2025",
+    "conference": "NeurIPS 2025",
     "tags": [
       "Natural Language Processing"
     ]
@@ -11180,6 +11988,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25623v2",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": "Accepted to EMNLP - NLLP Workshop",
+    "conference": "EMNLP",
     "tags": [
       "Natural Language Processing"
     ]
@@ -11206,6 +12016,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25621v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": "37 pages, 5 figures, 10 tables. Keywords: Retrieval-Augmented\n  Generation (RAG), Question Answering (QA), Islamic Knowledge Base, Faithful\n  AI, Persian NLP, Multi-hop Reasoning, Large Language Models (LLMs)",
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -11235,6 +12047,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25595v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": "Workshop on Multi-Agent System @ ICML 2025",
+    "conference": "ICML 2025",
     "tags": [
       "Natural Language Processing"
     ]
@@ -11261,6 +12075,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25577v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": "8 pages, 3 figures, 4 tables, submitted to LREC 2026",
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -11285,10 +12101,12 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25557v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": null,
+    "conference": null,
     "tags": [
-      "Robotics",
+      "Natural Language Processing",
       "Machine Learning",
-      "Natural Language Processing"
+      "Robotics"
     ]
   },
   {
@@ -11319,6 +12137,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25536v2",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": "Main paper: 11 pages, 3 figures, 6 tables. Appendix: 28 pages. Bangde\n  Du and Minghao Guo contributed equally. Corresponding authors: Ziyi Ye\n  (ziyiye@fudan.edu.cn), Qingyao Ai (aiqy@tsinghua.edu.cn)",
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -11343,6 +12163,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25460v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -11372,6 +12194,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25441v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": "27 pages, 5 figures",
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -11401,6 +12225,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25440v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": null,
+    "conference": null,
     "tags": []
   },
   {
@@ -11424,10 +12250,12 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25434v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": "Submitted to the LREC 2026 conference",
+    "conference": null,
     "tags": [
+      "Natural Language Processing",
       "Multimodal",
-      "Robotics",
-      "Natural Language Processing"
+      "Robotics"
     ]
   },
   {
@@ -11448,6 +12276,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25432v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": "Presented at the Annual Meeting of the American Political Science\n  Association, Vancouver, BC, September 11--14 2025",
+    "conference": "Presented at the Annual Meeting of the American Po",
     "tags": [
       "Natural Language Processing"
     ]
@@ -11472,6 +12302,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25427v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": "Accepted to EMNLP 2025 Findings. RLMEval benchmark released:\n  https://github.com/augustepoiroux/RLMEval",
+    "conference": "EMNLP 2025",
     "tags": [
       "Natural Language Processing"
     ]
@@ -11495,6 +12327,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25426v1",
     "source": "ArXiv",
     "venue": "cs.CL",
+    "comment": "The manuscript is approximately 7360 words and contains 12 figures\n  and 6 tables",
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -11522,6 +12356,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26007v1",
     "source": "ArXiv",
     "venue": "cs.IR",
+    "comment": "Accepted for presentation at the AI in Science Summit 2025",
+    "conference": "Accepted for presentation at the AI in Science Sum",
     "tags": []
   },
   {
@@ -11543,6 +12379,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25718v1",
     "source": "ArXiv",
     "venue": "cs.IR",
+    "comment": "5 pages, 5 figures",
+    "conference": null,
     "tags": [
       "Multimodal"
     ]
@@ -11571,6 +12409,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25622v2",
     "source": "ArXiv",
     "venue": "cs.IR",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Multimodal"
     ]
@@ -11597,6 +12437,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25621v1",
     "source": "ArXiv",
     "venue": "cs.IR",
+    "comment": "37 pages, 5 figures, 10 tables. Keywords: Retrieval-Augmented\n  Generation (RAG), Question Answering (QA), Islamic Knowledge Base, Faithful\n  AI, Persian NLP, Multi-hop Reasoning, Large Language Models (LLMs)",
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -11624,6 +12466,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25488v1",
     "source": "ArXiv",
     "venue": "cs.IR",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Machine Learning"
     ]
@@ -11648,6 +12492,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25428v1",
     "source": "ArXiv",
     "venue": "cs.IR",
+    "comment": "Alibaba International E-commerce Product Search Competition @ CIKM\n  2025",
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -11672,6 +12518,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25402v2",
     "source": "ArXiv",
     "venue": "cs.IR",
+    "comment": null,
+    "conference": null,
     "tags": []
   },
   {
@@ -11696,6 +12544,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25285v1",
     "source": "ArXiv",
     "venue": "cs.IR",
+    "comment": null,
+    "conference": null,
     "tags": []
   },
   {
@@ -11717,6 +12567,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25283v1",
     "source": "ArXiv",
     "venue": "cs.IR",
+    "comment": "16 pages, 5 figures, Research Paper",
+    "conference": null,
     "tags": []
   },
   {
@@ -11741,6 +12593,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25259v1",
     "source": "ArXiv",
     "venue": "cs.IR",
+    "comment": "The 39th Conference on Neural Information Processing Systems (NeurIPS\n  2025)",
+    "conference": "NeurIPS 2025",
     "tags": []
   },
   {
@@ -11769,6 +12623,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25220v1",
     "source": "ArXiv",
     "venue": "cs.IR",
+    "comment": "Accepted by CIKM 2025",
+    "conference": null,
     "tags": [
       "Machine Learning"
     ]
@@ -11793,6 +12649,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25160v2",
     "source": "ArXiv",
     "venue": "cs.IR",
+    "comment": "10 pages",
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -11821,6 +12679,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25093v1",
     "source": "ArXiv",
     "venue": "cs.IR",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -11844,9 +12704,11 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26023v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": "8 pages",
+    "conference": null,
     "tags": [
-      "Robotics",
-      "Natural Language Processing"
+      "Natural Language Processing",
+      "Robotics"
     ]
   },
   {
@@ -11874,6 +12736,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26018v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": "8 pages, 9 figures, submitted for review to IEEE RA-L",
+    "conference": "8 pages, 9 figures, submitted for review to IEEE R",
     "tags": []
   },
   {
@@ -11900,6 +12764,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26004v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": "Preprint version. This manuscript is currently under review at\n  Transportation Research Part C: Emerging Technologies. The PDF corresponds to\n  the version submitted in June 2025. The main findings of this work were\n  recognized with the Best Intelligent Transportation Systems Paper Award at\n  the 2025 TRB Annual Meeting",
+    "conference": null,
     "tags": [
       "Robotics"
     ]
@@ -11925,6 +12791,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25985v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": "2025 International Conference on Advanced Robotics (ICAR)",
+    "conference": null,
     "tags": [
       "Robotics"
     ]
@@ -11949,6 +12817,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25965v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": "This work has been submitted to the IEEE for possible publication",
+    "conference": "This work has been submitted to the IEEE for possi",
     "tags": [
       "Machine Learning"
     ]
@@ -11975,6 +12845,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25960v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": "11 pages, 3 figures, Corresponding Author: Prof. Shishir Nagaraja\n  (shishir.nagaraja@newcastle.ac.uk)",
+    "conference": null,
     "tags": [
       "Machine Learning"
     ]
@@ -12003,6 +12875,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25913v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": null,
+    "conference": null,
     "tags": []
   },
   {
@@ -12024,6 +12898,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25901v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": null,
+    "conference": null,
     "tags": []
   },
   {
@@ -12046,9 +12922,11 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25850v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": null,
+    "conference": null,
     "tags": [
-      "Robotics",
-      "Natural Language Processing"
+      "Natural Language Processing",
+      "Robotics"
     ]
   },
   {
@@ -12071,6 +12949,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25768v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": "Published in RA-L 2025",
+    "conference": null,
     "tags": [
       "Computer Vision"
     ]
@@ -12095,6 +12975,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25754v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": "8 pages, 7 figures",
+    "conference": null,
     "tags": [
       "Robotics"
     ]
@@ -12117,6 +12999,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25727v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Robotics"
     ]
@@ -12140,6 +13024,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25713v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Multimodal"
     ]
@@ -12163,6 +13049,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25650v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": null,
+    "conference": null,
     "tags": []
   },
   {
@@ -12186,10 +13074,12 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25634v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": null,
+    "conference": null,
     "tags": [
-      "Robotics",
+      "Natural Language Processing",
       "Machine Learning",
-      "Natural Language Processing"
+      "Robotics"
     ]
   },
   {
@@ -12215,9 +13105,11 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25616v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": "13 pages, 6 figures",
+    "conference": null,
     "tags": [
-      "Multimodal",
-      "Natural Language Processing"
+      "Natural Language Processing",
+      "Multimodal"
     ]
   },
   {
@@ -12241,6 +13133,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25597v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Robotics"
     ]
@@ -12267,10 +13161,12 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25548v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": "8 pages, 7 figures, 1 table. Submitted to ICRA 2026",
+    "conference": "ICRA 2026",
     "tags": [
+      "Natural Language Processing",
       "Multimodal",
-      "Robotics",
-      "Natural Language Processing"
+      "Robotics"
     ]
   },
   {
@@ -12298,6 +13194,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25520v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": "The first two listed authors contributed equally. Yiyuan Zhang is the\n  corresponding author",
+    "conference": null,
     "tags": [
       "Robotics"
     ]
@@ -12325,6 +13223,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25479v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": "\\c{opyright} 2025 Alexander Rambech, Ivar Saksvik and Vahid Hassani.\n  Accepted by IFAC for publication under a Creative Commons License CC-BY-NC-ND",
+    "conference": null,
     "tags": []
   },
   {
@@ -12347,6 +13247,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25463v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -12370,6 +13272,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25422v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": "Submitted to SAE WCX 2026",
+    "conference": null,
     "tags": [
       "Robotics",
       "Machine Learning"
@@ -12397,6 +13301,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25405v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": "Under review",
+    "conference": null,
     "tags": [
       "Robotics",
       "Machine Learning"
@@ -12424,6 +13330,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25386v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": "Accepted to 2025 IEEE International Automated Vehicle Validation\n  Conference (IAVVC)",
+    "conference": "Accepted to 2025 IEEE International Automated Vehi",
     "tags": [
       "Robotics"
     ]
@@ -12447,6 +13355,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25338v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": "pp 309-317",
+    "conference": null,
     "tags": [
       "Machine Learning"
     ]
@@ -12471,6 +13381,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25335v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": "8 pages",
+    "conference": null,
     "tags": []
   },
   {
@@ -12499,6 +13411,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25314v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": "The source code will be publicly available at\n  https://github.com/ZongxiYu-ZJU/BMI",
+    "conference": null,
     "tags": []
   },
   {
@@ -12523,6 +13437,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25280v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Robotics"
     ]
@@ -12551,9 +13467,11 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25268v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": null,
+    "conference": null,
     "tags": [
-      "Robotics",
-      "Natural Language Processing"
+      "Natural Language Processing",
+      "Robotics"
     ]
   },
   {
@@ -12575,6 +13493,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25255v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Robotics",
       "Machine Learning"
@@ -12603,6 +13523,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25241v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": "10 pages, 3 figures, 5 tables",
+    "conference": null,
     "tags": [
       "Robotics",
       "Machine Learning"
@@ -12628,6 +13550,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25233v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Robotics",
       "Machine Learning"
@@ -12660,6 +13584,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25211v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Multimodal"
     ]
@@ -12684,10 +13610,12 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25191v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": null,
+    "conference": null,
     "tags": [
+      "Natural Language Processing",
       "Multimodal",
-      "Robotics",
-      "Natural Language Processing"
+      "Robotics"
     ]
   },
   {
@@ -12714,10 +13642,12 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25138v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": "Accepted to NeurIPS 2025",
+    "conference": "NeurIPS 2025",
     "tags": [
+      "Natural Language Processing",
       "Multimodal",
-      "Robotics",
-      "Natural Language Processing"
+      "Robotics"
     ]
   },
   {
@@ -12741,10 +13671,12 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25122v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": null,
+    "conference": null,
     "tags": [
+      "Natural Language Processing",
       "Multimodal",
-      "Robotics",
-      "Natural Language Processing"
+      "Robotics"
     ]
   },
   {
@@ -12768,6 +13700,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25086v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Robotics"
     ]
@@ -12792,6 +13726,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25797v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Computer Vision",
       "Machine Learning"
@@ -12815,6 +13751,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25072v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": "The International Journal of Advanced Manufacturing Technology, 2024",
+    "conference": "The International Journal of Advanced Manufacturin",
     "tags": []
   },
   {
@@ -12840,10 +13778,12 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25053v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Robotics",
-      "Multimodal",
-      "Machine Learning"
+      "Machine Learning",
+      "Multimodal"
     ]
   },
   {
@@ -12871,6 +13811,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25025v1",
     "source": "ArXiv",
     "venue": "cs.IR",
+    "comment": "To appear in IEEE BigData 2025",
+    "conference": "To appear in IEEE BigData 2025",
     "tags": [
       "Natural Language Processing"
     ]
@@ -12901,6 +13843,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.24870v1",
     "source": "ArXiv",
     "venue": "cs.IR",
+    "comment": "https://github.com/alexmartin1722/mirage",
+    "conference": null,
     "tags": [
       "Multimodal"
     ]
@@ -12981,9 +13925,11 @@
     "arxiv_url": "http://arxiv.org/abs/2510.24701v1",
     "source": "ArXiv",
     "venue": "cs.IR",
+    "comment": "https://tongyi-agent.github.io/blog",
+    "conference": null,
     "tags": [
-      "Robotics",
-      "Natural Language Processing"
+      "Natural Language Processing",
+      "Robotics"
     ]
   },
   {
@@ -13005,6 +13951,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.24652v1",
     "source": "ArXiv",
     "venue": "cs.IR",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Machine Learning"
     ]
@@ -13035,6 +13983,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.24469v1",
     "source": "ArXiv",
     "venue": "cs.IR",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -13064,9 +14014,11 @@
     "arxiv_url": "http://arxiv.org/abs/2510.24431v1",
     "source": "ArXiv",
     "venue": "cs.IR",
+    "comment": "Technical Report",
+    "conference": null,
     "tags": [
-      "Machine Learning",
-      "Natural Language Processing"
+      "Natural Language Processing",
+      "Machine Learning"
     ]
   },
   {
@@ -13093,6 +14045,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.24430v1",
     "source": "ArXiv",
     "venue": "cs.IR",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -13119,9 +14073,11 @@
     "arxiv_url": "http://arxiv.org/abs/2510.24402v1",
     "source": "ArXiv",
     "venue": "cs.IR",
+    "comment": "Preprint version submitted to the International Journal of Accounting\n  Information Systems; currently under major revision. 20 pages, 1 figure, 1\n  table",
+    "conference": null,
     "tags": [
-      "Machine Learning",
-      "Natural Language Processing"
+      "Natural Language Processing",
+      "Machine Learning"
     ]
   },
   {
@@ -13152,6 +14108,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.24369v1",
     "source": "ArXiv",
     "venue": "cs.IR",
+    "comment": null,
+    "conference": null,
     "tags": []
   },
   {
@@ -13172,6 +14130,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.23990v1",
     "source": "ArXiv",
     "venue": "cs.IR",
+    "comment": "5 pages, 1 figure, 2 tables",
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -13197,6 +14157,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.24994v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": "This Paper Has Accepted at ASME 2025 International Mechanical\n  Engineering Congress and Exposition (IMECE 2025)",
+    "conference": null,
     "tags": [
       "Robotics"
     ]
@@ -13221,6 +14183,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.24972v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Robotics",
       "Machine Learning"
@@ -13250,10 +14214,12 @@
     "arxiv_url": "http://arxiv.org/abs/2510.24949v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": null,
+    "conference": null,
     "tags": [
+      "Natural Language Processing",
       "Multimodal",
-      "Robotics",
-      "Natural Language Processing"
+      "Robotics"
     ]
   },
   {
@@ -13276,6 +14242,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.24692v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Robotics"
     ]
@@ -13300,6 +14268,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.24683v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Robotics"
     ]
@@ -13323,6 +14293,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.24680v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Robotics"
     ]
@@ -13349,6 +14321,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.24676v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": "6 pages, conference",
+    "conference": null,
     "tags": [
       "Robotics",
       "Machine Learning"
@@ -13376,6 +14350,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.24671v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -13399,6 +14375,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.24623v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": null,
+    "conference": null,
     "tags": []
   },
   {
@@ -13420,6 +14398,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.24584v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": "8 pages",
+    "conference": null,
     "tags": [
       "Machine Learning"
     ]
@@ -13445,6 +14425,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.24571v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": null,
+    "conference": null,
     "tags": []
   },
   {
@@ -13469,6 +14451,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.24554v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": "Submitted for ICRA 2026",
+    "conference": "ICRA 2026",
     "tags": []
   },
   {
@@ -13494,6 +14478,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.24533v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Computer Vision"
     ]
@@ -13517,6 +14503,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.24515v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": "Submitted to IEEE Robotics and Automation Letters",
+    "conference": "Submitted to IEEE Robotics and Automation Letters",
     "tags": [
       "Robotics"
     ]
@@ -13540,6 +14528,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.24508v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Machine Learning"
     ]
@@ -13567,6 +14557,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.24482v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": "26 pages, 6 figures, 6 tables",
+    "conference": null,
     "tags": [
       "Robotics",
       "Machine Learning"
@@ -13593,6 +14585,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.24461v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Robotics",
       "Machine Learning"
@@ -13618,6 +14612,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.24457v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": "8 pages, 11 figures",
+    "conference": null,
     "tags": []
   },
   {
@@ -13644,6 +14640,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.25725v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Robotics",
       "Machine Learning"
@@ -13670,6 +14668,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.24410v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": "This work has been submitted to the IEEE for possible publication",
+    "conference": "This work has been submitted to the IEEE for possi",
     "tags": [
       "Machine Learning"
     ]
@@ -13695,6 +14695,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.24399v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": "This work has been submitted to the IEEE for possible publication",
+    "conference": "This work has been submitted to the IEEE for possi",
     "tags": [
       "Machine Learning"
     ]
@@ -13720,6 +14722,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.24335v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": "9 pages, 10 figures",
+    "conference": null,
     "tags": [
       "Robotics"
     ]
@@ -13746,6 +14750,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.24315v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Robotics"
     ]
@@ -13774,6 +14780,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.24261v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": "Accepted to NeurIPS 2025",
+    "conference": "NeurIPS 2025",
     "tags": [
       "Robotics"
     ]
@@ -13798,9 +14806,11 @@
     "arxiv_url": "http://arxiv.org/abs/2510.24259v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": null,
+    "conference": null,
     "tags": [
-      "Machine Learning",
-      "Natural Language Processing"
+      "Natural Language Processing",
+      "Machine Learning"
     ]
   },
   {
@@ -13822,6 +14832,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.24257v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Robotics"
     ]
@@ -13848,6 +14860,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.24194v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Robotics"
     ]
@@ -13888,10 +14902,12 @@
     "arxiv_url": "http://arxiv.org/abs/2510.24161v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": null,
+    "conference": null,
     "tags": [
+      "Natural Language Processing",
       "Multimodal",
-      "Robotics",
-      "Natural Language Processing"
+      "Robotics"
     ]
   },
   {
@@ -13919,6 +14935,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.24118v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Robotics"
     ]
@@ -13945,10 +14963,12 @@
     "arxiv_url": "http://arxiv.org/abs/2510.24109v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": null,
+    "conference": null,
     "tags": [
+      "Natural Language Processing",
       "Multimodal",
-      "Robotics",
-      "Natural Language Processing"
+      "Robotics"
     ]
   },
   {
@@ -13979,6 +14999,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.24108v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Robotics",
       "Machine Learning"
@@ -14007,6 +15029,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.24095v1",
     "source": "ArXiv",
     "venue": "cs.RO",
+    "comment": "Neurips 2025",
+    "conference": "NeurIPS 2025",
     "tags": []
   },
   {
@@ -14031,6 +15055,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.23544v1",
     "source": "ArXiv",
     "venue": "cs.IR",
+    "comment": "EMNLP 2025 Main (Short)",
+    "conference": "EMNLP 2025",
     "tags": []
   },
   {
@@ -14062,9 +15088,11 @@
     "arxiv_url": "http://arxiv.org/abs/2510.23224v1",
     "source": "ArXiv",
     "venue": "cs.IR",
+    "comment": null,
+    "conference": null,
     "tags": [
-      "Multimodal",
-      "Machine Learning"
+      "Machine Learning",
+      "Multimodal"
     ]
   },
   {
@@ -14088,6 +15116,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.23104v1",
     "source": "ArXiv",
     "venue": "cs.IR",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -14118,6 +15148,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.23077v1",
     "source": "ArXiv",
     "venue": "cs.IR",
+    "comment": "NeurIPS 2025 poster",
+    "conference": "NeurIPS 2025",
     "tags": [
       "Robotics",
       "Machine Learning"
@@ -14145,6 +15177,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.23066v1",
     "source": "ArXiv",
     "venue": "cs.IR",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Computer Vision",
       "Multimodal",
@@ -14173,6 +15207,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.23018v1",
     "source": "ArXiv",
     "venue": "cs.IR",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -14202,6 +15238,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.22956v1",
     "source": "ArXiv",
     "venue": "cs.IR",
+    "comment": "Paper accepted at EMNLP 2025",
+    "conference": "EMNLP 2025",
     "tags": [
       "Natural Language Processing"
     ]
@@ -14232,6 +15270,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.22942v1",
     "source": "ArXiv",
     "venue": "cs.IR",
+    "comment": "14 pages, 8 figures, 4 tables, submitted to ICDE 2026",
+    "conference": "ICDE 2026",
     "tags": [
       "Machine Learning"
     ]
@@ -14259,6 +15299,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.22888v1",
     "source": "ArXiv",
     "venue": "cs.IR",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -14281,6 +15323,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.22865v1",
     "source": "ArXiv",
     "venue": "cs.IR",
+    "comment": "Presented at NORMalize 2025: The Third Workshop on the Normative\n  Design and Evaluation of Recommender Systems, co-located with the ACM\n  Conference on Recommender Systems 2025 (RecSys 2025), Prague",
+    "conference": "RecSys 2025",
     "tags": []
   },
   {
@@ -14308,6 +15352,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.22739v1",
     "source": "ArXiv",
     "venue": "cs.IR",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Machine Learning"
     ]
@@ -14336,6 +15382,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.22733v1",
     "source": "ArXiv",
     "venue": "cs.IR",
+    "comment": "Code and models are avaliable at https://alibaba-nlp.github.io/E2Rank",
+    "conference": null,
     "tags": []
   },
   {
@@ -14369,6 +15417,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.22732v1",
     "source": "ArXiv",
     "venue": "cs.IR",
+    "comment": "9 pages, NeurIPS 2025 Workshop on Language Agents and World Models",
+    "conference": "NeurIPS 2025",
     "tags": [
       "Machine Learning"
     ]
@@ -14396,9 +15446,11 @@
     "arxiv_url": "http://arxiv.org/abs/2510.22694v1",
     "source": "ArXiv",
     "venue": "cs.IR",
+    "comment": "Accepted at NeurIPS 2025 UniReps Workshop",
+    "conference": "NeurIPS 2025",
     "tags": [
-      "Multimodal",
-      "Natural Language Processing"
+      "Natural Language Processing",
+      "Multimodal"
     ]
   },
   {
@@ -14421,6 +15473,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.22681v1",
     "source": "ArXiv",
     "venue": "cs.IR",
+    "comment": "Preprint, accepted at WSDM 2026 (Full Paper). 16 pages, 8 figures",
+    "conference": null,
     "tags": []
   },
   {
@@ -14445,6 +15499,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.22670v1",
     "source": "ArXiv",
     "venue": "cs.IR",
+    "comment": null,
+    "conference": null,
     "tags": [
       "Natural Language Processing"
     ]
@@ -14472,6 +15528,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.22590v1",
     "source": "ArXiv",
     "venue": "cs.IR",
+    "comment": null,
+    "conference": null,
     "tags": []
   },
   {
@@ -14496,9 +15554,11 @@
     "arxiv_url": "http://arxiv.org/abs/2510.18936v2",
     "source": "ArXiv",
     "venue": "cs.IR",
+    "comment": null,
+    "conference": null,
     "tags": [
-      "Multimodal",
-      "Natural Language Processing"
+      "Natural Language Processing",
+      "Multimodal"
     ]
   }
 ]

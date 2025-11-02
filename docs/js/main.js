@@ -1,20 +1,34 @@
 // 筛选和搜索功能
 document.addEventListener('DOMContentLoaded', function() {
-    const filterBtns = document.querySelectorAll('.filter-btn');
+    const statusBtns = document.querySelectorAll('.status-btn');
+    const categoryBtns = document.querySelectorAll('.category-btn');
     const searchInput = document.getElementById('searchInput');
     const papers = document.querySelectorAll('.paper-card');
     
-    let currentFilter = 'all';
+    let currentStatus = 'all';
+    let currentCategory = 'all';
     let searchTerm = '';
     
-    // 筛选按钮点击事件
-    filterBtns.forEach(btn => {
+    // 发表状态筛选按钮点击事件
+    statusBtns.forEach(btn => {
         btn.addEventListener('click', function() {
             // 更新按钮状态
-            filterBtns.forEach(b => b.classList.remove('active'));
+            statusBtns.forEach(b => b.classList.remove('active'));
             this.classList.add('active');
             
-            currentFilter = this.dataset.filter;
+            currentStatus = this.dataset.status;
+            filterPapers();
+        });
+    });
+    
+    // 研究领域筛选按钮点击事件
+    categoryBtns.forEach(btn => {
+        btn.addEventListener('click', function() {
+            // 更新按钮状态
+            categoryBtns.forEach(b => b.classList.remove('active'));
+            this.classList.add('active');
+            
+            currentCategory = this.dataset.category;
             filterPapers();
         });
     });
@@ -31,15 +45,19 @@ document.addEventListener('DOMContentLoaded', function() {
         
         papers.forEach(paper => {
             const tags = paper.dataset.tags.split(',');
+            const status = paper.dataset.status;
             const text = paper.textContent.toLowerCase();
             
-            // 检查标签筛选
-            const matchFilter = currentFilter === 'all' || tags.includes(currentFilter);
+            // 检查发表状态筛选
+            const matchStatus = currentStatus === 'all' || status === currentStatus;
+            
+            // 检查研究领域筛选
+            const matchCategory = currentCategory === 'all' || tags.includes(currentCategory);
             
             // 检查搜索关键词
             const matchSearch = searchTerm === '' || text.includes(searchTerm);
             
-            if (matchFilter && matchSearch) {
+            if (matchStatus && matchCategory && matchSearch) {
                 paper.style.display = 'block';
                 visibleCount++;
             } else {

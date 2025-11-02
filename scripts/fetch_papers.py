@@ -85,8 +85,12 @@ class PaperFetcher:
                         'pdf_url': result.pdf_url,
                         'arxiv_url': result.entry_id,
                         'source': 'ArXiv',
-                        'venue': category
+                        'venue': category,
+                        'comment': result.comment if result.comment else None
                     }
+                    
+                    # 提取会议/期刊信息
+                    paper['conference'] = self.extract_venue_from_comment(paper.get('comment'))
                     
                     # 分类论文
                     paper['tags'] = self.classify_paper(paper)
@@ -102,6 +106,58 @@ class PaperFetcher:
         
         logger.info(f"ArXiv 总共抓取了 {len(papers)} 篇论文")
         return papers
+    
+    def extract_venue_from_comment(self, comment: str) -> str:
+        """从 comment 字段提取会议/期刊信息"""
+        if not comment:
+            return None
+        
+        comment = comment.strip()
+        
+        # 如果是 preprint，返回 None
+        if 'preprint' in comment.lower():
+            return None
+        
+        # 常见会议列表
+        conferences = [
+            'CVPR', 'ICCV', 'ECCV', 'NeurIPS', 'ICML', 'ICLR', 
+            'ACL', 'EMNLP', 'NAACL', 'AAAI', 'IJCAI', 'KDD',
+            'ICRA', 'IROS', 'CoRL', 'RSS',
+            'SIGIR', 'WWW', 'WSDM', 'RecSys',
+            'SIGMOD', 'VLDB', 'ICDE',
+            'SIGGRAPH', 'ICASSP', 'INTERSPEECH'
+        ]
+        
+        # 常见期刊列表
+        journals = [
+            'Nature', 'Science', 'PAMI', 'TPAMI', 'JMLR', 'IJCV',
+            'IEEE', 'ACM', 'Transactions', 'Journal'
+        ]
+        
+        # 检查是否包含年份信息（如 CVPR 2025）
+        import re
+        
+        # 匹配模式：会议名 + 年份
+        for conf in conferences:
+            # 匹配 "CVPR 2025" 或 "Accepted to CVPR 2025" 等模式
+            pattern = rf'\b{conf}\s*[:\']?\s*(\d{{4}})\b'
+            match = re.search(pattern, comment, re.IGNORECASE)
+            if match:
+                year = match.group(1)
+                return f"{conf} {year}"
+            
+            # 匹配只有会议名的情况
+            pattern = rf'\b{conf}\b'
+            if re.search(pattern, comment, re.IGNORECASE):
+                return conf
+        
+        # 检查期刊
+        for journal in journals:
+            if journal.lower() in comment.lower():
+                # 尝试提取完整的期刊名称（取前50个字符）
+                return comment[:50] if len(comment) > 50 else comment
+        
+        return None
     
     def classify_paper(self, paper: Dict) -> List[str]:
         """根据关键词分类论文"""
