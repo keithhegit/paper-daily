@@ -114,13 +114,17 @@ class PaperFetcher:
         
         comment = comment.strip()
         
-        # 预处理：移除页数、图表等信息
+        # 预处理：移除页数、图表、链接等冗余信息
         import re
         # 移除 "X pages, Y figures, Z tables" 等信息
         comment = re.sub(r'\d+\s*pages?[,;]?\s*', '', comment, flags=re.IGNORECASE)
         comment = re.sub(r'\d+\s*figures?[,;]?\s*', '', comment, flags=re.IGNORECASE)
         comment = re.sub(r'\d+\s*tables?[,;]?\s*', '', comment, flags=re.IGNORECASE)
         comment = re.sub(r'\d+\s*appendices[,;]?\s*', '', comment, flags=re.IGNORECASE)
+        # 移除 URL 链接
+        comment = re.sub(r'https?://[^\s,;]+', '', comment, flags=re.IGNORECASE)
+        # 移除 GitHub 链接描述
+        comment = re.sub(r'GitHub\s+link:?\s*', '', comment, flags=re.IGNORECASE)
         comment = ' '.join(comment.split())  # 清理多余空格
         
         # 如果是 preprint，返回 None
@@ -146,15 +150,18 @@ class PaperFetcher:
         import re
         
         # 尝试匹配常见模式并提取完整描述
-        # 模式1: "Accepted to/at CVPR 2025" 或 "Published in ICCV 2025"
-        pattern1 = r'(?:accepted?\s+(?:to|at|by|for)|published\s+(?:in|at)|to\s+appear\s+(?:in|at))\s+([^.,;]+?)(?:[.,;]|$)'
+        # 模式1: "Accepted at/to CVPR 2025" 或 "Published in ICCV 2025"
+        # 支持更多变体：at the, by the, for, in the 等
+        pattern1 = r'(?:accepted?\s+(?:at\s+(?:the\s+)?|to\s+(?:the\s+)?|by\s+(?:the\s+)?|for\s+(?:the\s+)?)|published\s+(?:in\s+(?:the\s+)?|at\s+(?:the\s+)?|with\s+)|to\s+appear\s+(?:in\s+(?:the\s+)?|at\s+(?:the\s+)?))\s*([^.,;()\n]+?)(?:[.,;(]|$)'
         match = re.search(pattern1, comment, re.IGNORECASE)
         if match:
             venue_text = match.group(1).strip()
-            # 清理多余空格和换行符
+            # 清理多余空格、换行符和尾部的"等"
             venue_text = ' '.join(venue_text.split())
+            # 移除尾部的位置信息（如 ", Washington, DC, USA"）
+            venue_text = re.sub(r',\s*[A-Z][a-zA-Z\s,]+,\s*[A-Z]{2,}(?:\s*,\s*[A-Z]{2,4})?$', '', venue_text)
             # 限制长度，避免过长
-            if len(venue_text) <= 120:
+            if 5 < len(venue_text) <= 150:
                 return venue_text
         
         # 模式2: 直接以会议名开头，如 "CVPR 2025, Main Conference"

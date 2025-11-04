@@ -9,6 +9,9 @@ document.addEventListener('DOMContentLoaded', function() {
     const sortBtns = document.querySelectorAll('.sort-btn');
     const searchInput = document.getElementById('searchInput');
     const exportBtn = document.getElementById('exportBtn');
+    const selectAllBtn = document.getElementById('selectAllBtn');
+    const clearAllBtn = document.getElementById('clearAllBtn');
+    const selectedCount = document.getElementById('selectedCount');
     const resultsCount = document.getElementById('resultsCount');
     const papersContainer = document.getElementById('papers-container');
     
@@ -19,6 +22,8 @@ document.addEventListener('DOMContentLoaded', function() {
         sortBtns: sortBtns.length,
         searchInput: !!searchInput,
         exportBtn: !!exportBtn,
+        selectAllBtn: !!selectAllBtn,
+        clearAllBtn: !!clearAllBtn,
         resultsCount: !!resultsCount,
         papersContainer: !!papersContainer
     });
@@ -118,26 +123,32 @@ document.addEventListener('DOMContentLoaded', function() {
         const firstCategory = paper.categories && paper.categories.length > 0 ? paper.categories[0] : '';
         
         return `
-            <article class="paper-card" data-date="${paper.published}" data-status="${status}" data-tags="${paper.tags ? paper.tags.join(',') : ''}">
-                <h2 class="paper-title">
-                    <a href="https://arxiv.org/abs/${paper.id}" target="_blank">${paper.title}</a>
-                </h2>
-                <div class="paper-meta">
-                    <span class="meta-item">📅 ${paper.published}</span>
-                    ${venueBadge}
-                    ${codeLink}
+            <article class="paper-card" data-date="${paper.published}" data-status="${status}" data-tags="${paper.tags ? paper.tags.join(',') : ''}" data-paper-id="${paper.id}">
+                <div class="paper-select">
+                    <input type="checkbox" class="paper-checkbox" id="check-${paper.id}" data-paper-id="${paper.id}">
+                    <label for="check-${paper.id}"></label>
                 </div>
-                <div class="paper-authors">
-                    👥 ${paper.authors}
-                </div>
-                <div class="paper-tags">
-                    ${tags}
-                </div>
-                <div class="paper-abstract">
-                    <details>
-                        <summary>查看摘要</summary>
-                        <p>${paper.abstract}</p>
-                    </details>
+                <div class="paper-content">
+                    <h2 class="paper-title">
+                        <a href="https://arxiv.org/abs/${paper.id}" target="_blank">${paper.title}</a>
+                    </h2>
+                    <div class="paper-meta">
+                        <span class="meta-item">📅 ${paper.published}</span>
+                        ${venueBadge}
+                        ${codeLink}
+                    </div>
+                    <div class="paper-authors">
+                        👥 ${paper.authors}
+                    </div>
+                    <div class="paper-tags">
+                        ${tags}
+                    </div>
+                    <div class="paper-abstract">
+                        <details>
+                            <summary>查看摘要</summary>
+                            <p>${paper.abstract}</p>
+                        </details>
+                    </div>
                 </div>
             </article>
         `;
@@ -370,6 +381,43 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
     
+    // 更新选中数量
+    function updateSelectedCount() {
+        const count = document.querySelectorAll('.paper-checkbox:checked').length;
+        if (selectedCount) {
+            selectedCount.textContent = count;
+        }
+    }
+    
+    // 监听复选框变化（使用事件委托）
+    if (papersContainer) {
+        papersContainer.addEventListener('change', function(e) {
+            if (e.target.classList.contains('paper-checkbox')) {
+                updateSelectedCount();
+            }
+        });
+    }
+    
+    // 全选功能
+    if (selectAllBtn) {
+        selectAllBtn.addEventListener('click', function() {
+            const checkboxes = document.querySelectorAll('.paper-checkbox');
+            checkboxes.forEach(cb => cb.checked = true);
+            updateSelectedCount();
+            console.log('All papers selected');
+        });
+    }
+    
+    // 清空选择
+    if (clearAllBtn) {
+        clearAllBtn.addEventListener('click', function() {
+            const checkboxes = document.querySelectorAll('.paper-checkbox');
+            checkboxes.forEach(cb => cb.checked = false);
+            updateSelectedCount();
+            console.log('All selections cleared');
+        });
+    }
+    
     // 导出功能
     if (exportBtn) {
         exportBtn.addEventListener('click', function(e) {
@@ -381,9 +429,22 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // 导出为 BibTeX
     function exportToBibTeX() {
-        let bibtex = '';
+        // 获取所有选中的复选框
+        const checkboxes = document.querySelectorAll('.paper-checkbox:checked');
         
-        filteredPapers.slice(0, loadedCount).forEach((paper, index) => {
+        if (checkboxes.length === 0) {
+            alert('请至少选择一篇论文导出！');
+            return;
+        }
+        
+        // 获取选中的论文ID
+        const selectedIds = Array.from(checkboxes).map(cb => cb.dataset.paperId);
+        
+        // 从所有论文数据中找到对应的论文
+        const selectedPapers = allPapersData.filter(paper => selectedIds.includes(paper.id));
+        
+        let bibtex = '';
+        selectedPapers.forEach((paper, index) => {
             const arxivId = paper.id;
             const year = paper.published.split('-')[0];
             
@@ -398,7 +459,7 @@ document.addEventListener('DOMContentLoaded', function() {
             bibtex += `\n}\n\n`;
         });
         
-        console.log(`Exporting ${filteredPapers.slice(0, loadedCount).length} papers`);
+        console.log(`Exporting ${selectedPapers.length} selected papers`);
         downloadFile(bibtex, 'papers.bib', 'text/plain');
     }
     

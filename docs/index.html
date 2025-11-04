@@ -11,7 +11,7 @@
         <div class="container">
             <h1>📚 DailyPaper</h1>
             <p class="subtitle">每日自动更新 AI/ML/CV/NLP 领域最新论文</p>
-            <p class="update-time">最后更新: 2025-11-04 20:19:46 UTC</p>
+            <p class="update-time">最后更新: 2025-11-04 20:29:01 UTC</p>
         </div>
     </header>
     
@@ -56,7 +56,11 @@
         </div>
         <div class="results-info">
             <span id="resultsCount">加载中...</span>
-            <button class="export-btn" id="exportBtn">📥 导出结果</button>
+            <div class="export-controls">
+                <button class="select-btn" id="selectAllBtn">✓ 全选</button>
+                <button class="select-btn" id="clearAllBtn">✗ 清空</button>
+                <button class="export-btn" id="exportBtn">📥 导出选中 (<span id="selectedCount">0</span>)</button>
+            </div>
         </div>
     </nav>
     
