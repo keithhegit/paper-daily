@@ -74,9 +74,20 @@ class HTMLGenerator:
                     <button class="filter-btn category-btn" data-category="Multimodal">Multimodal</button>
                 </div>
             </div>
+            <div class="filter-group">
+                <label class="filter-label">📅 排序方式：</label>
+                <div class="filters sort-filters">
+                    <button class="filter-btn sort-btn active" data-sort="date-desc">最新优先</button>
+                    <button class="filter-btn sort-btn" data-sort="date-asc">最早优先</button>
+                </div>
+            </div>
         </div>
         <div class="search-box">
             <input type="text" id="searchInput" placeholder="🔍 搜索论文标题、作者、摘要...">
+        </div>
+        <div class="results-info">
+            <span id="resultsCount">显示 {len(self.papers)} 篇论文</span>
+            <button class="export-btn" id="exportBtn">📥 导出结果</button>
         </div>
     </nav>
     
@@ -122,6 +133,57 @@ class HTMLGenerator:
         }
         return category_map.get(category, category)
     
+    def extract_code_links(self, abstract: str) -> Dict[str, str]:
+        """从摘要中提取代码和项目链接"""
+        import re
+        links = {}
+        
+        # 提取 Code: 链接
+        code_pattern = r'[Cc]ode[:\s]+(?:available at\s+)?(\S+)'
+        code_match = re.search(code_pattern, abstract)
+        if code_match:
+            links['code'] = code_match.group(1).rstrip('.,;')
+        
+        # 提取 Project: 链接
+        project_pattern = r'[Pp]roject[:\s]+(?:page\s+)?(\S+)'
+        project_match = re.search(project_pattern, abstract)
+        if project_match:
+            links['project'] = project_match.group(1).rstrip('.,;')
+        
+        # 提取 GitHub 链接
+        github_pattern = r'(https?://(?:www\.)?github\.com/[\w\-]+/[\w\-]+)'
+        github_match = re.search(github_pattern, abstract)
+        if github_match and 'code' not in links:
+            links['code'] = github_match.group(1)
+        
+        return links
+    
+    def get_venue_badge(self, conference: str) -> tuple:
+        """获取会议徽章的样式类和显示文本"""
+        if not conference:
+            return ('preprint', 'Preprint')
+        
+        # 顶级会议配色
+        venue_styles = {
+            'NeurIPS': ('venue-neurips', 'NeurIPS'),
+            'CVPR': ('venue-cvpr', 'CVPR'),
+            'ICCV': ('venue-iccv', 'ICCV'),
+            'ECCV': ('venue-eccv', 'ECCV'),
+            'ICML': ('venue-icml', 'ICML'),
+            'ICLR': ('venue-iclr', 'ICLR'),
+            'ACL': ('venue-acl', 'ACL'),
+            'EMNLP': ('venue-emnlp', 'EMNLP'),
+            'AAAI': ('venue-aaai', 'AAAI'),
+            'IJCAI': ('venue-ijcai', 'IJCAI'),
+        }
+        
+        # 检查会议名称
+        for venue_name, (style, display) in venue_styles.items():
+            if venue_name in conference:
+                return (style, conference)
+        
+        return ('venue-other', conference)
+    
     def generate_papers_html(self) -> str:
         """生成论文列表 HTML"""
         if not self.papers:
@@ -138,28 +200,30 @@ class HTMLGenerator:
             primary_category = paper.get('primary_category', paper['venue'])
             category_name = self.get_category_name(primary_category)
             
-            # 构建来源信息 - 优先显示会议/期刊
+            # 获取会议信息和徽章样式
             conference = paper.get('conference')
-            if conference:
-                # 如果有会议/期刊信息，优先显示
-                source_info = f"📍 {conference}"
-                source_class = "conference"
-            else:
-                # 否则显示 ArXiv 预印本
-                source_info = f"📄 ArXiv Preprint ({category_name})"
-                source_class = "preprint"
+            venue_class, venue_display = self.get_venue_badge(conference)
             
             # 确定发表状态
             is_published = 'published' if conference else 'preprint'
             
+            # 提取代码链接
+            code_links = self.extract_code_links(paper['abstract'])
+            code_links_html = ''
+            if code_links.get('code'):
+                code_links_html += f'<a href="{code_links["code"]}" target="_blank" class="btn-link btn-code">💻 Code</a>'
+            if code_links.get('project'):
+                code_links_html += f'<a href="{code_links["project"]}" target="_blank" class="btn-link btn-project">🌐 Project</a>'
+            
             paper_html = f"""
-            <article class="paper-card" data-tags="{','.join(paper.get('tags', []))}" data-status="{is_published}">
+            <article class="paper-card" data-tags="{','.join(paper.get('tags', []))}" data-status="{is_published}" data-date="{paper['published']}">
+                <div class="venue-badge {venue_class}">{venue_display}</div>
                 <h2 class="paper-title">
                     <a href="{paper['arxiv_url']}" target="_blank">{paper['title']}</a>
                 </h2>
                 <div class="paper-meta">
                     <span class="meta-item">📅 {paper['published']}</span>
-                    <span class="meta-item venue-{source_class}">{source_info}</span>
+                    <span class="meta-item">📖 ArXiv {category_name}</span>
                 </div>
                 <div class="paper-authors">
                     👥 {authors_html}
@@ -176,6 +240,7 @@ class HTMLGenerator:
                 <div class="paper-links">
                     <a href="{paper['pdf_url']}" target="_blank" class="btn-link">📄 PDF</a>
                     <a href="{paper['arxiv_url']}" target="_blank" class="btn-link">🔗 ArXiv</a>
+                    {code_links_html}
                 </div>
             </article>
             """
@@ -308,10 +373,44 @@ main {
     margin-top: 1rem;
 }
 
+/* 结果信息栏 */
+.results-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    padding: 0.8rem;
+    background: #f8f9fa;
+    border-radius: 8px;
+}
+
+#resultsCount {
+    font-size: 0.9rem;
+    color: #666;
+    font-weight: 500;
+}
+
+.export-btn {
+    padding: 0.5rem 1rem;
+    background: #667eea;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background 0.3s;
+}
+
+.export-btn:hover {
+    background: #5568d3;
+}
+
 /* 论文卡片 */
 .paper-card {
+    position: relative;
     background: white;
     padding: 1.5rem;
+    padding-top: 2.5rem;
     margin-bottom: 1rem;
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0,0,0,0.05);
@@ -321,6 +420,54 @@ main {
 .paper-card:hover {
     transform: translateY(-2px);
     box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+/* Venue 徽章 */
+.venue-badge {
+    position: absolute;
+    top: 0.8rem;
+    right: 0.8rem;
+    padding: 0.3rem 0.8rem;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.venue-neurips {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+}
+
+.venue-cvpr, .venue-iccv, .venue-eccv {
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    color: white;
+}
+
+.venue-icml, .venue-iclr {
+    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+    color: white;
+}
+
+.venue-acl, .venue-emnlp {
+    background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+    color: white;
+}
+
+.venue-aaai, .venue-ijcai {
+    background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+    color: white;
+}
+
+.venue-other {
+    background: #e8f5e9;
+    color: #2e7d32;
+}
+
+.preprint {
+    background: #f5f5f5;
+    color: #757575;
 }
 
 .paper-title {
@@ -415,10 +562,27 @@ main {
     border-radius: 5px;
     font-size: 0.9rem;
     transition: background 0.3s;
+    display: inline-block;
 }
 
 .btn-link:hover {
     background: #5568d3;
+}
+
+.btn-code {
+    background: #28a745;
+}
+
+.btn-code:hover {
+    background: #218838;
+}
+
+.btn-project {
+    background: #17a2b8;
+}
+
+.btn-project:hover {
+    background: #138496;
 }
 
 /* 底部 */
@@ -441,6 +605,31 @@ footer a {
     padding: 3rem;
     color: #999;
     font-size: 1.1rem;
+}
+
+/* 加载指示器 */
+.loading-indicator {
+    text-align: center;
+    padding: 2rem;
+    color: #667eea;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.loading-indicator::after {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    border: 3px solid #667eea;
+    border-radius: 50%;
+    border-top-color: transparent;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
 }
 
 /* 响应式设计 */
@@ -470,72 +659,198 @@ footer a {
     
     def generate_js(self):
         """生成 JavaScript 文件"""
-        js = """// 筛选和搜索功能
+        js = """// 筛选、搜索、排序和懒加载功能
 document.addEventListener('DOMContentLoaded', function() {
     const statusBtns = document.querySelectorAll('.status-btn');
     const categoryBtns = document.querySelectorAll('.category-btn');
+    const sortBtns = document.querySelectorAll('.sort-btn');
     const searchInput = document.getElementById('searchInput');
-    const papers = document.querySelectorAll('.paper-card');
+    const exportBtn = document.getElementById('exportBtn');
+    const resultsCount = document.getElementById('resultsCount');
+    const papersContainer = document.getElementById('papers-container');
+    const allPapers = Array.from(document.querySelectorAll('.paper-card'));
     
     let currentStatus = 'all';
     let currentCategory = 'all';
+    let currentSort = 'date-desc';
     let searchTerm = '';
+    let visiblePapers = [];
     
-    // 发表状态筛选按钮点击事件
+    // 懒加载相关
+    let loadedCount = 0;
+    const loadBatchSize = 50;
+    let isLoading = false;
+    
+    // 发表状态筛选
     statusBtns.forEach(btn => {
         btn.addEventListener('click', function() {
-            // 更新按钮状态
             statusBtns.forEach(b => b.classList.remove('active'));
             this.classList.add('active');
-            
             currentStatus = this.dataset.status;
-            filterPapers();
+            filterAndSortPapers();
         });
     });
     
-    // 研究领域筛选按钮点击事件
+    // 研究领域筛选
     categoryBtns.forEach(btn => {
         btn.addEventListener('click', function() {
-            // 更新按钮状态
             categoryBtns.forEach(b => b.classList.remove('active'));
             this.classList.add('active');
-            
             currentCategory = this.dataset.category;
-            filterPapers();
+            filterAndSortPapers();
         });
     });
     
-    // 搜索输入事件
-    searchInput.addEventListener('input', function() {
-        searchTerm = this.value.toLowerCase();
-        filterPapers();
+    // 排序按钮
+    sortBtns.forEach(btn => {
+        btn.addEventListener('click', function() {
+            sortBtns.forEach(b => b.classList.remove('active'));
+            this.classList.add('active');
+            currentSort = this.dataset.sort;
+            filterAndSortPapers();
+        });
     });
     
-    // 筛选论文
-    function filterPapers() {
-        let visibleCount = 0;
-        
-        papers.forEach(paper => {
+    // 搜索输入
+    searchInput.addEventListener('input', function() {
+        searchTerm = this.value.toLowerCase();
+        filterAndSortPapers();
+    });
+    
+    // 筛选和排序论文
+    function filterAndSortPapers() {
+        // 筛选
+        visiblePapers = allPapers.filter(paper => {
             const tags = paper.dataset.tags.split(',');
             const status = paper.dataset.status;
             const text = paper.textContent.toLowerCase();
             
-            // 检查发表状态筛选
             const matchStatus = currentStatus === 'all' || status === currentStatus;
-            
-            // 检查研究领域筛选
             const matchCategory = currentCategory === 'all' || tags.includes(currentCategory);
-            
-            // 检查搜索关键词
             const matchSearch = searchTerm === '' || text.includes(searchTerm);
             
-            if (matchStatus && matchCategory && matchSearch) {
-                paper.style.display = 'block';
-                visibleCount++;
+            return matchStatus && matchCategory && matchSearch;
+        });
+        
+        // 排序
+        visiblePapers.sort((a, b) => {
+            const dateA = new Date(a.dataset.date);
+            const dateB = new Date(b.dataset.date);
+            
+            if (currentSort === 'date-desc') {
+                return dateB - dateA;
             } else {
-                paper.style.display = 'none';
+                return dateA - dateB;
             }
         });
+        
+        // 更新显示
+        resultsCount.textContent = `显示 ${visiblePapers.length} 篇论文`;
+        
+        // 重置懒加载
+        loadedCount = 0;
+        papersContainer.innerHTML = '';
+        
+        // 加载第一批
+        loadMorePapers();
+    }
+    
+    // 加载更多论文
+    function loadMorePapers() {
+        if (isLoading || loadedCount >= visiblePapers.length) return;
+        
+        isLoading = true;
+        const endIndex = Math.min(loadedCount + loadBatchSize, visiblePapers.length);
+        
+        for (let i = loadedCount; i < endIndex; i++) {
+            papersContainer.appendChild(visiblePapers[i].cloneNode(true));
+        }
+        
+        loadedCount = endIndex;
+        isLoading = false;
+        
+        // 如果还有更多，添加加载提示
+        if (loadedCount < visiblePapers.length) {
+            showLoadingIndicator();
+        }
+    }
+    
+    // 显示加载指示器
+    function showLoadingIndicator() {
+        let indicator = document.getElementById('loading-indicator');
+        if (!indicator) {
+            indicator = document.createElement('div');
+            indicator.id = 'loading-indicator';
+            indicator.className = 'loading-indicator';
+            indicator.textContent = '加载更多...';
+            papersContainer.appendChild(indicator);
+        }
+    }
+    
+    // 使用 Intersection Observer 实现懒加载
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                loadMorePapers();
+            }
+        });
+    }, {
+        rootMargin: '100px'
+    });
+    
+    // 观察加载指示器
+    const checkAndObserve = () => {
+        const indicator = document.getElementById('loading-indicator');
+        if (indicator) {
+            observer.observe(indicator);
+        }
+    };
+    
+    // 定期检查是否需要观察
+    setInterval(checkAndObserve, 1000);
+    
+    // 导出功能
+    exportBtn.addEventListener('click', function() {
+        exportToBibTeX();
+    });
+    
+    // 导出为 BibTeX
+    function exportToBibTeX() {
+        let bibtex = '';
+        const displayedPapers = papersContainer.querySelectorAll('.paper-card');
+        
+        displayedPapers.forEach((paper, index) => {
+            const title = paper.querySelector('.paper-title a').textContent.trim();
+            const authors = paper.querySelector('.paper-authors').textContent.replace('👥 ', '').trim();
+            const date = paper.dataset.date;
+            const arxivUrl = paper.querySelector('.paper-title a').href;
+            const arxivId = arxivUrl.split('/').pop();
+            
+            bibtex += `@article{${arxivId.replace('.', '_')},\\n`;
+            bibtex += `  title={${title}},\\n`;
+            bibtex += `  author={${authors}},\\n`;
+            bibtex += `  year={${date.split('-')[0]}},\\n`;
+            bibtex += `  journal={arXiv preprint arXiv:${arxivId}},\\n`;
+            bibtex += `  url={${arxivUrl}}\\n`;
+            bibtex += `}\\n\\n`;
+        });
+        
+        downloadFile(bibtex, 'papers.bib', 'text/plain');
+    }
+    
+    // 下载文件
+    function downloadFile(content, filename, contentType) {
+        const blob = new Blob([content], { type: contentType });
+        const url = URL.createObjectURL(blob);
+        const link = document.createElement('a');
+        link.href = url;
+        link.download = filename;
+        link.click();
+        URL.revokeObjectURL(url);
+    }
+    
+    // 初始化
+    filterAndSortPapers();
         
         // 显示无结果提示
         const container = document.getElementById('papers-container');
