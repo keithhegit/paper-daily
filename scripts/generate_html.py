@@ -22,6 +22,7 @@ class HTMLGenerator:
         self.data_path = Path(data_path)
         self.output_dir = Path(output_dir)
         self.papers = []
+        self.papers_by_month = {}  # 按月份分组的论文
         
     def load_papers(self):
         """加载论文数据"""
@@ -33,6 +34,54 @@ class HTMLGenerator:
             self.papers = json.load(f)
         
         logger.info(f"加载了 {len(self.papers)} 篇论文")
+        
+        # 按月份分组
+        for paper in self.papers:
+            # 从 published 字段提取年月 (格式: 2025-10-31)
+            published = paper.get('published', '')
+            if published:
+                year_month = published[:7]  # 提取 "2025-10"
+                if year_month not in self.papers_by_month:
+                    self.papers_by_month[year_month] = []
+                self.papers_by_month[year_month].append(paper)
+        
+        logger.info(f"论文分布: {', '.join([f'{k}: {len(v)}篇' for k, v in sorted(self.papers_by_month.items(), reverse=True)])}")
+    
+    def generate_monthly_data_files(self):
+        """生成按月份分离的数据文件"""
+        data_dir = self.output_dir / "data"
+        data_dir.mkdir(parents=True, exist_ok=True)
+        
+        # 为每个月份生成独立的 JSON 文件
+        for year_month, papers in self.papers_by_month.items():
+            file_path = data_dir / f"{year_month}.json"
+            with open(file_path, 'w', encoding='utf-8') as f:
+                json.dump(papers, f, ensure_ascii=False, indent=2)
+            logger.info(f"生成月度数据文件: {file_path} ({len(papers)} 篇)")
+        
+        # 生成索引文件，包含所有月份的元数据
+        months_index = []
+        for year_month in sorted(self.papers_by_month.keys(), reverse=True):
+            papers = self.papers_by_month[year_month]
+            months_index.append({
+                'month': year_month,
+                'count': len(papers),
+                'published_count': sum(1 for p in papers if p.get('conference')),
+                'preprint_count': sum(1 for p in papers if not p.get('conference'))
+            })
+        
+        with open(data_dir / "index.json", 'w', encoding='utf-8') as f:
+            json.dump(months_index, f, ensure_ascii=False, indent=2)
+        
+        logger.info(f"生成月份索引文件: {data_dir / 'index.json'}")
+    
+    def generate_month_buttons(self):
+        """生成月份筛选按钮"""
+        buttons = []
+        for year_month in sorted(self.papers_by_month.keys(), reverse=True):
+            count = len(self.papers_by_month[year_month])
+            buttons.append(f'<button class="filter-btn month-btn" data-month="{year_month}">{year_month} ({count})</button>')
+        return '\n                    '.join(buttons)
     
     def generate_index_html(self):
         """生成主页 HTML"""
@@ -56,11 +105,18 @@ class HTMLGenerator:
     <nav class="container">
         <div class="filter-section">
             <div class="filter-group">
+                <label class="filter-label">� 月份：</label>
+                <div class="filters month-filters">
+                    <button class="filter-btn month-btn active" data-month="all">全部 ({len(self.papers)})</button>
+                    {self.generate_month_buttons()}
+                </div>
+            </div>
+            <div class="filter-group">
                 <label class="filter-label">📌 发表状态：</label>
                 <div class="filters status-filters">
-                    <button class="filter-btn status-btn active" data-status="all">全部 ({len(self.papers)})</button>
-                    <button class="filter-btn status-btn" data-status="published">已发表 ({sum(1 for p in self.papers if p.get('conference'))})</button>
-                    <button class="filter-btn status-btn" data-status="preprint">预印本 ({sum(1 for p in self.papers if not p.get('conference'))})</button>
+                    <button class="filter-btn status-btn active" data-status="all">全部</button>
+                    <button class="filter-btn status-btn" data-status="published">已发表</button>
+                    <button class="filter-btn status-btn" data-status="preprint">预印本</button>
                 </div>
             </div>
             <div class="filter-group">
@@ -75,7 +131,7 @@ class HTMLGenerator:
                 </div>
             </div>
             <div class="filter-group">
-                <label class="filter-label">📅 排序方式：</label>
+                <label class="filter-label">� 排序方式：</label>
                 <div class="filters sort-filters">
                     <button class="filter-btn sort-btn active" data-sort="date-desc">最新优先</button>
                     <button class="filter-btn sort-btn" data-sort="date-asc">最早优先</button>
@@ -86,7 +142,7 @@ class HTMLGenerator:
             <input type="text" id="searchInput" placeholder="🔍 搜索论文标题、作者、摘要...">
         </div>
         <div class="results-info">
-            <span id="resultsCount">显示 {len(self.papers)} 篇论文</span>
+            <span id="resultsCount">加载中...</span>
             <button class="export-btn" id="exportBtn">📥 导出结果</button>
         </div>
     </nav>
@@ -96,11 +152,6 @@ class HTMLGenerator:
             <!-- Papers will be loaded by JavaScript -->
         </div>
     </main>
-    
-    <!-- Store papers data in JSON -->
-    <script id="papers-data" type="application/json">
-        {json.dumps(self.papers, ensure_ascii=False)}
-    </script>
     
     <footer>
         <div class="container">
@@ -668,23 +719,8 @@ footer a {
 document.addEventListener('DOMContentLoaded', function() {
     console.log('JavaScript loaded');
     
-    // 加载论文数据
-    const papersDataEl = document.getElementById('papers-data');
-    if (!papersDataEl) {
-        console.error('Papers data element not found');
-        return;
-    }
-    
-    let allPapersData;
-    try {
-        allPapersData = JSON.parse(papersDataEl.textContent);
-        console.log(`Loaded ${allPapersData.length} papers`);
-    } catch (e) {
-        console.error('Failed to parse papers data:', e);
-        return;
-    }
-    
     // 获取DOM元素
+    const monthBtns = document.querySelectorAll('.month-btn');
     const statusBtns = document.querySelectorAll('.status-btn');
     const categoryBtns = document.querySelectorAll('.category-btn');
     const sortBtns = document.querySelectorAll('.sort-btn');
@@ -694,6 +730,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const papersContainer = document.getElementById('papers-container');
     
     console.log('DOM elements:', {
+        monthBtns: monthBtns.length,
         statusBtns: statusBtns.length,
         categoryBtns: categoryBtns.length,
         sortBtns: sortBtns.length,
@@ -704,15 +741,76 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
     // 状态变量
+    let allPapersData = [];  // 所有论文数据
+    let currentMonth = 'all';  // 当前选中的月份
     let currentStatus = 'all';
     let currentCategory = 'all';
     let currentSort = 'date-desc';
     let searchTerm = '';
     let filteredPapers = [];
     let loadedCount = 0;
-    const loadBatchSize = 50;
+    const initialBatchSize = 50;  // 第一次加载50个
+    const subsequentBatchSize = 10;  // 后续每次加载10个
     let isLoading = false;
     let observer = null;
+    let monthsCache = {};  // 缓存已加载的月份数据
+    
+    // 加载月份索引
+    async function loadMonthsIndex() {
+        try {
+            const response = await fetch('data/index.json');
+            const monthsIndex = await response.json();
+            console.log('Months index loaded:', monthsIndex);
+            
+            // 默认加载最新月份的数据
+            if (monthsIndex.length > 0) {
+                await loadMonthData('all');
+            }
+        } catch (e) {
+            console.error('Failed to load months index:', e);
+        }
+    }
+    
+    // 加载指定月份的数据
+    async function loadMonthData(month) {
+        if (month === 'all') {
+            // 加载所有月份
+            try {
+                const response = await fetch('data/index.json');
+                const monthsIndex = await response.json();
+                
+                // 加载所有月份数据
+                allPapersData = [];
+                for (const monthInfo of monthsIndex) {
+                    if (!monthsCache[monthInfo.month]) {
+                        const monthResponse = await fetch(`data/${monthInfo.month}.json`);
+                        monthsCache[monthInfo.month] = await monthResponse.json();
+                    }
+                    allPapersData.push(...monthsCache[monthInfo.month]);
+                }
+                console.log(`Loaded all months, total ${allPapersData.length} papers`);
+            } catch (e) {
+                console.error('Failed to load all months data:', e);
+            }
+        } else {
+            // 加载单个月份
+            if (!monthsCache[month]) {
+                try {
+                    const response = await fetch(`data/${month}.json`);
+                    monthsCache[month] = await response.json();
+                    console.log(`Loaded month ${month}, ${monthsCache[month].length} papers`);
+                } catch (e) {
+                    console.error(`Failed to load month ${month}:`, e);
+                    return;
+                }
+            }
+            allPapersData = monthsCache[month];
+            console.log(`Using cached data for ${month}, ${allPapersData.length} papers`);
+        }
+        
+        // 数据加载完成后，触发筛选
+        filterAndSortPapers();
+    }
     
     // 生成论文HTML
     function createPaperHTML(paper) {
@@ -767,26 +865,29 @@ document.addEventListener('DOMContentLoaded', function() {
         if (!conference) return null;
         
         const venueMap = {
-            'NeurIPS': { class: 'badge-neurips', text: 'NeurIPS' },
-            'ICLR': { class: 'badge-iclr', text: 'ICLR' },
-            'ICML': { class: 'badge-icml', text: 'ICML' },
-            'CVPR': { class: 'badge-cvpr', text: 'CVPR' },
-            'ICCV': { class: 'badge-iccv', text: 'ICCV' },
-            'ECCV': { class: 'badge-eccv', text: 'ECCV' },
-            'ACL': { class: 'badge-acl', text: 'ACL' },
-            'EMNLP': { class: 'badge-emnlp', text: 'EMNLP' },
-            'NAACL': { class: 'badge-naacl', text: 'NAACL' },
-            'AAAI': { class: 'badge-aaai', text: 'AAAI' },
-            'IJCAI': { class: 'badge-ijcai', text: 'IJCAI' }
+            'NeurIPS': 'badge-neurips',
+            'ICLR': 'badge-iclr',
+            'ICML': 'badge-icml',
+            'CVPR': 'badge-cvpr',
+            'ICCV': 'badge-iccv',
+            'ECCV': 'badge-eccv',
+            'ACL': 'badge-acl',
+            'EMNLP': 'badge-emnlp',
+            'NAACL': 'badge-naacl',
+            'AAAI': 'badge-aaai',
+            'IJCAI': 'badge-ijcai'
         };
         
+        // 使用完整的会议名称
+        let badgeClass = 'badge-published';
         for (const [key, value] of Object.entries(venueMap)) {
             if (conference.toUpperCase().includes(key)) {
-                return value;
+                badgeClass = value;
+                break;
             }
         }
         
-        return { class: 'badge-published', text: 'Published' };
+        return { class: badgeClass, text: conference };
     }
     
     // 筛选和排序论文
@@ -848,9 +949,12 @@ document.addEventListener('DOMContentLoaded', function() {
         }
         
         isLoading = true;
-        console.log(`Loading papers ${loadedCount} to ${loadedCount + loadBatchSize}`);
         
-        const endIndex = Math.min(loadedCount + loadBatchSize, filteredPapers.length);
+        // 第一次加载50个，后续每次10个
+        const batchSize = loadedCount === 0 ? initialBatchSize : subsequentBatchSize;
+        console.log(`Loading papers ${loadedCount} to ${loadedCount + batchSize} (batch size: ${batchSize})`);
+        
+        const endIndex = Math.min(loadedCount + batchSize, filteredPapers.length);
         const fragment = document.createDocumentFragment();
         
         for (let i = loadedCount; i < endIndex; i++) {
@@ -860,11 +964,17 @@ document.addEventListener('DOMContentLoaded', function() {
             fragment.appendChild(temp.firstElementChild);
         }
         
+        // 移除旧的加载指示器
+        const oldIndicator = document.getElementById('loading-indicator');
+        if (oldIndicator) {
+            oldIndicator.remove();
+        }
+        
         papersContainer.appendChild(fragment);
         loadedCount = endIndex;
         isLoading = false;
         
-        console.log(`Loaded ${endIndex} papers`);
+        console.log(`Loaded ${endIndex} papers total`);
         
         // 如果还有更多，设置加载触发器
         if (loadedCount < filteredPapers.length) {
@@ -905,6 +1015,27 @@ document.addEventListener('DOMContentLoaded', function() {
         
         observer.observe(indicator);
     }
+    
+    // 月份筛选
+    monthBtns.forEach(btn => {
+        btn.addEventListener('click', async function() {
+            console.log('Month button clicked:', this.dataset.month);
+            monthBtns.forEach(b => b.classList.remove('active'));
+            this.classList.add('active');
+            currentMonth = this.dataset.month;
+            
+            // 显示加载提示
+            if (resultsCount) {
+                resultsCount.textContent = '加载中...';
+            }
+            if (papersContainer) {
+                papersContainer.innerHTML = '<div style="text-align: center; padding: 40px; color: #666;">加载中...</div>';
+            }
+            
+            // 加载月份数据
+            await loadMonthData(currentMonth);
+        });
+    });
     
     // 发表状态筛选
     statusBtns.forEach(btn => {
@@ -995,9 +1126,9 @@ document.addEventListener('DOMContentLoaded', function() {
         console.log('File download triggered:', filename);
     }
     
-    // 初始化
+    // 初始化 - 加载数据
     console.log('Initializing...');
-    filterAndSortPapers();
+    loadMonthsIndex();
 });
 """
         
@@ -1014,6 +1145,7 @@ document.addEventListener('DOMContentLoaded', function() {
         logger.info("开始生成静态网页...")
         
         self.load_papers()
+        self.generate_monthly_data_files()  # 生成月度数据文件
         self.generate_css()
         self.generate_js()
         self.generate_index_html()

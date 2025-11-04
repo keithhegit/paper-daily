@@ -2,23 +2,8 @@
 document.addEventListener('DOMContentLoaded', function() {
     console.log('JavaScript loaded');
     
-    // 加载论文数据
-    const papersDataEl = document.getElementById('papers-data');
-    if (!papersDataEl) {
-        console.error('Papers data element not found');
-        return;
-    }
-    
-    let allPapersData;
-    try {
-        allPapersData = JSON.parse(papersDataEl.textContent);
-        console.log(`Loaded ${allPapersData.length} papers`);
-    } catch (e) {
-        console.error('Failed to parse papers data:', e);
-        return;
-    }
-    
     // 获取DOM元素
+    const monthBtns = document.querySelectorAll('.month-btn');
     const statusBtns = document.querySelectorAll('.status-btn');
     const categoryBtns = document.querySelectorAll('.category-btn');
     const sortBtns = document.querySelectorAll('.sort-btn');
@@ -28,6 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const papersContainer = document.getElementById('papers-container');
     
     console.log('DOM elements:', {
+        monthBtns: monthBtns.length,
         statusBtns: statusBtns.length,
         categoryBtns: categoryBtns.length,
         sortBtns: sortBtns.length,
@@ -38,15 +24,76 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
     // 状态变量
+    let allPapersData = [];  // 所有论文数据
+    let currentMonth = 'all';  // 当前选中的月份
     let currentStatus = 'all';
     let currentCategory = 'all';
     let currentSort = 'date-desc';
     let searchTerm = '';
     let filteredPapers = [];
     let loadedCount = 0;
-    const loadBatchSize = 50;
+    const initialBatchSize = 50;  // 第一次加载50个
+    const subsequentBatchSize = 10;  // 后续每次加载10个
     let isLoading = false;
     let observer = null;
+    let monthsCache = {};  // 缓存已加载的月份数据
+    
+    // 加载月份索引
+    async function loadMonthsIndex() {
+        try {
+            const response = await fetch('data/index.json');
+            const monthsIndex = await response.json();
+            console.log('Months index loaded:', monthsIndex);
+            
+            // 默认加载最新月份的数据
+            if (monthsIndex.length > 0) {
+                await loadMonthData('all');
+            }
+        } catch (e) {
+            console.error('Failed to load months index:', e);
+        }
+    }
+    
+    // 加载指定月份的数据
+    async function loadMonthData(month) {
+        if (month === 'all') {
+            // 加载所有月份
+            try {
+                const response = await fetch('data/index.json');
+                const monthsIndex = await response.json();
+                
+                // 加载所有月份数据
+                allPapersData = [];
+                for (const monthInfo of monthsIndex) {
+                    if (!monthsCache[monthInfo.month]) {
+                        const monthResponse = await fetch(`data/${monthInfo.month}.json`);
+                        monthsCache[monthInfo.month] = await monthResponse.json();
+                    }
+                    allPapersData.push(...monthsCache[monthInfo.month]);
+                }
+                console.log(`Loaded all months, total ${allPapersData.length} papers`);
+            } catch (e) {
+                console.error('Failed to load all months data:', e);
+            }
+        } else {
+            // 加载单个月份
+            if (!monthsCache[month]) {
+                try {
+                    const response = await fetch(`data/${month}.json`);
+                    monthsCache[month] = await response.json();
+                    console.log(`Loaded month ${month}, ${monthsCache[month].length} papers`);
+                } catch (e) {
+                    console.error(`Failed to load month ${month}:`, e);
+                    return;
+                }
+            }
+            allPapersData = monthsCache[month];
+            console.log(`Using cached data for ${month}, ${allPapersData.length} papers`);
+        }
+        
+        // 数据加载完成后，触发筛选
+        filterAndSortPapers();
+    }
     
     // 生成论文HTML
     function createPaperHTML(paper) {
@@ -101,26 +148,29 @@ document.addEventListener('DOMContentLoaded', function() {
         if (!conference) return null;
         
         const venueMap = {
-            'NeurIPS': { class: 'badge-neurips', text: 'NeurIPS' },
-            'ICLR': { class: 'badge-iclr', text: 'ICLR' },
-            'ICML': { class: 'badge-icml', text: 'ICML' },
-            'CVPR': { class: 'badge-cvpr', text: 'CVPR' },
-            'ICCV': { class: 'badge-iccv', text: 'ICCV' },
-            'ECCV': { class: 'badge-eccv', text: 'ECCV' },
-            'ACL': { class: 'badge-acl', text: 'ACL' },
-            'EMNLP': { class: 'badge-emnlp', text: 'EMNLP' },
-            'NAACL': { class: 'badge-naacl', text: 'NAACL' },
-            'AAAI': { class: 'badge-aaai', text: 'AAAI' },
-            'IJCAI': { class: 'badge-ijcai', text: 'IJCAI' }
+            'NeurIPS': 'badge-neurips',
+            'ICLR': 'badge-iclr',
+            'ICML': 'badge-icml',
+            'CVPR': 'badge-cvpr',
+            'ICCV': 'badge-iccv',
+            'ECCV': 'badge-eccv',
+            'ACL': 'badge-acl',
+            'EMNLP': 'badge-emnlp',
+            'NAACL': 'badge-naacl',
+            'AAAI': 'badge-aaai',
+            'IJCAI': 'badge-ijcai'
         };
         
+        // 使用完整的会议名称
+        let badgeClass = 'badge-published';
         for (const [key, value] of Object.entries(venueMap)) {
             if (conference.toUpperCase().includes(key)) {
-                return value;
+                badgeClass = value;
+                break;
             }
         }
         
-        return { class: 'badge-published', text: 'Published' };
+        return { class: badgeClass, text: conference };
     }
     
     // 筛选和排序论文
@@ -182,9 +232,12 @@ document.addEventListener('DOMContentLoaded', function() {
         }
         
         isLoading = true;
-        console.log(`Loading papers ${loadedCount} to ${loadedCount + loadBatchSize}`);
         
-        const endIndex = Math.min(loadedCount + loadBatchSize, filteredPapers.length);
+        // 第一次加载50个，后续每次10个
+        const batchSize = loadedCount === 0 ? initialBatchSize : subsequentBatchSize;
+        console.log(`Loading papers ${loadedCount} to ${loadedCount + batchSize} (batch size: ${batchSize})`);
+        
+        const endIndex = Math.min(loadedCount + batchSize, filteredPapers.length);
         const fragment = document.createDocumentFragment();
         
         for (let i = loadedCount; i < endIndex; i++) {
@@ -194,11 +247,17 @@ document.addEventListener('DOMContentLoaded', function() {
             fragment.appendChild(temp.firstElementChild);
         }
         
+        // 移除旧的加载指示器
+        const oldIndicator = document.getElementById('loading-indicator');
+        if (oldIndicator) {
+            oldIndicator.remove();
+        }
+        
         papersContainer.appendChild(fragment);
         loadedCount = endIndex;
         isLoading = false;
         
-        console.log(`Loaded ${endIndex} papers`);
+        console.log(`Loaded ${endIndex} papers total`);
         
         // 如果还有更多，设置加载触发器
         if (loadedCount < filteredPapers.length) {
@@ -239,6 +298,27 @@ document.addEventListener('DOMContentLoaded', function() {
         
         observer.observe(indicator);
     }
+    
+    // 月份筛选
+    monthBtns.forEach(btn => {
+        btn.addEventListener('click', async function() {
+            console.log('Month button clicked:', this.dataset.month);
+            monthBtns.forEach(b => b.classList.remove('active'));
+            this.classList.add('active');
+            currentMonth = this.dataset.month;
+            
+            // 显示加载提示
+            if (resultsCount) {
+                resultsCount.textContent = '加载中...';
+            }
+            if (papersContainer) {
+                papersContainer.innerHTML = '<div style="text-align: center; padding: 40px; color: #666;">加载中...</div>';
+            }
+            
+            // 加载月份数据
+            await loadMonthData(currentMonth);
+        });
+    });
     
     // 发表状态筛选
     statusBtns.forEach(btn => {
@@ -329,7 +409,7 @@ document.addEventListener('DOMContentLoaded', function() {
         console.log('File download triggered:', filename);
     }
     
-    // 初始化
+    // 初始化 - 加载数据
     console.log('Initializing...');
-    filterAndSortPapers();
+    loadMonthsIndex();
 });
