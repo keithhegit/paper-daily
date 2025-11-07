@@ -36,7 +36,8 @@
     "tags": [
       "Robotics",
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27629v2",
@@ -70,7 +71,8 @@
     "venue": "cs.AI",
     "comment": "17 Pages, 5 figures",
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.27598v2",
@@ -108,7 +110,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27181v2",
@@ -138,7 +141,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27584v2",
@@ -166,7 +170,8 @@
     "conference": null,
     "tags": [
       "Multimodal"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27255v2",
@@ -192,7 +197,8 @@
     "tags": [
       "Multimodal",
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27181v2",
@@ -222,7 +228,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27584v2",
@@ -250,7 +257,8 @@
     "conference": null,
     "tags": [
       "Multimodal"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27408v2",
@@ -275,7 +283,8 @@
     "venue": "cs.LG",
     "comment": "32 pages, 17 figures, research paper",
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.27584v2",
@@ -303,7 +312,8 @@
     "conference": null,
     "tags": [
       "Multimodal"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27688v1",
@@ -332,7 +342,8 @@
     "tags": [
       "Natural Language Processing",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27680v1",
@@ -371,7 +382,8 @@
     "tags": [
       "Multimodal",
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27671v1",
@@ -401,7 +413,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27659v1",
@@ -427,7 +440,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27655v1",
@@ -449,7 +463,8 @@
     "venue": "cs.AI",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.27651v1",
@@ -475,7 +490,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27646v1",
@@ -500,7 +516,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27632v1",
@@ -536,7 +553,8 @@
     "tags": [
       "Multimodal",
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27630v1",
@@ -575,7 +593,8 @@
     "tags": [
       "Natural Language Processing",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27629v1",
@@ -609,7 +628,8 @@
     "venue": "cs.AI",
     "comment": "17 Pages, 5 figures",
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.27628v1",
@@ -634,7 +654,8 @@
     "tags": [
       "Natural Language Processing",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27623v1",
@@ -669,7 +690,8 @@
     "tags": [
       "Multimodal",
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27617v1",
@@ -702,7 +724,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27606v1",
@@ -736,7 +759,8 @@
       "Machine Learning",
       "Multimodal",
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27598v1",
@@ -774,7 +798,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27571v1",
@@ -806,7 +831,8 @@
     "conference": null,
     "tags": [
       "Multimodal"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27568v1",
@@ -830,7 +856,8 @@
     "venue": "cs.AI",
     "comment": "Short Paper - Under Review",
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.27565v1",
@@ -858,7 +885,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27558v1",
@@ -885,7 +913,8 @@
     "tags": [
       "Multimodal",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27554v1",
@@ -911,7 +940,8 @@
     "venue": "cs.AI",
     "comment": "5 pages",
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.27545v1",
@@ -945,7 +975,8 @@
       "Multimodal",
       "Natural Language Processing",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27544v1",
@@ -972,7 +1003,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27543v1",
@@ -1005,7 +1037,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27527v1",
@@ -1036,7 +1069,8 @@
     "tags": [
       "Natural Language Processing",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27522v1",
@@ -1062,7 +1096,8 @@
     "venue": "cs.AI",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.27508v1",
@@ -1092,7 +1127,8 @@
     "conference": null,
     "tags": [
       "Multimodal"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27504v1",
@@ -1123,7 +1159,8 @@
     "tags": [
       "Multimodal",
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27497v1",
@@ -1152,7 +1189,8 @@
     "tags": [
       "Natural Language Processing",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27486v1",
@@ -1181,7 +1219,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27484v1",
@@ -1207,7 +1246,8 @@
     "venue": "cs.AI",
     "comment": "Uzay Macar and Paul C. Bogdan contributed equally to this work, and\n  their listed order was determined by coinflip",
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.27462v1",
@@ -1237,7 +1277,8 @@
       "Machine Learning",
       "Natural Language Processing",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27448v1",
@@ -1264,7 +1305,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27442v1",
@@ -1291,7 +1333,8 @@
     "tags": [
       "Machine Learning",
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27432v1",
@@ -1321,7 +1364,8 @@
     "conference": "NeurIPS 2025",
     "tags": [
       "Multimodal"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27428v1",
@@ -1351,7 +1395,8 @@
     "tags": [
       "Machine Learning",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27421v1",
@@ -1378,7 +1423,8 @@
     "tags": [
       "Machine Learning",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27419v1",
@@ -1408,7 +1454,8 @@
     "tags": [
       "Machine Learning",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27413v1",
@@ -1437,7 +1484,8 @@
     "tags": [
       "Natural Language Processing",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27410v1",
@@ -1466,7 +1514,8 @@
     "venue": "cs.AI",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.27403v1",
@@ -1493,7 +1542,8 @@
     "venue": "cs.AI",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.27400v1",
@@ -1520,7 +1570,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27383v1",
@@ -1546,7 +1597,8 @@
     "tags": [
       "Machine Learning",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27379v1",
@@ -1571,7 +1623,8 @@
     "tags": [
       "Machine Learning",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27378v1",
@@ -1598,7 +1651,8 @@
     "venue": "cs.AI",
     "comment": "Project page at https://ajmeek.github.io/cot_monitorability_website/",
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.27364v1",
@@ -1629,7 +1683,8 @@
     "tags": [
       "Multimodal",
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27363v1",
@@ -1656,7 +1711,8 @@
       "Multimodal",
       "Natural Language Processing",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27353v1",
@@ -1681,7 +1737,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27343v1",
@@ -1705,7 +1762,8 @@
     "conference": null,
     "tags": [
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27329v1",
@@ -1732,7 +1790,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27324v1",
@@ -1760,7 +1819,8 @@
     "tags": [
       "Computer Vision",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27315v1",
@@ -1796,7 +1856,8 @@
     "tags": [
       "Computer Vision",
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27313v1",
@@ -1825,7 +1886,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27287v1",
@@ -1853,7 +1915,8 @@
     "conference": "EMNLP 2025",
     "tags": [
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27281v1",
@@ -1882,7 +1945,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27280v1",
@@ -1914,7 +1978,8 @@
     "tags": [
       "Multimodal",
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27269v1",
@@ -1943,7 +2008,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27267v1",
@@ -1975,7 +2041,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27258v1",
@@ -2002,7 +2069,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27254v1",
@@ -2028,7 +2096,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27253v1",
@@ -2055,7 +2124,8 @@
     "venue": "cs.AI",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.27247v1",
@@ -2080,7 +2150,8 @@
     "venue": "cs.AI",
     "comment": "Accepted for publication in IEEE Transactions on Neural Systems and\n  Rehabilitation Engineering",
     "conference": "Accepted for publication in IEEE Transactions on N",
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.27246v1",
@@ -2110,7 +2181,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27244v1",
@@ -2142,7 +2214,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27238v1",
@@ -2173,7 +2246,8 @@
     "conference": "SIGMOD 2026",
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27222v1",
@@ -2200,7 +2274,8 @@
     "venue": "cs.AI",
     "comment": "NeurIPS 2025",
     "conference": "NeurIPS 2025",
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.27213v1",
@@ -2234,7 +2309,8 @@
     "venue": "cs.AI",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.27210v1",
@@ -2266,7 +2342,8 @@
       "Multimodal",
       "Natural Language Processing",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27208v1",
@@ -2295,7 +2372,8 @@
     "tags": [
       "Machine Learning",
       "Multimodal"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27207v1",
@@ -2319,7 +2397,8 @@
     "venue": "cs.AI",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.27206v1",
@@ -2350,7 +2429,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27196v1",
@@ -2380,7 +2460,8 @@
     "tags": [
       "Multimodal",
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27194v1",
@@ -2404,7 +2485,8 @@
     "venue": "cs.AI",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.27191v1",
@@ -2431,7 +2513,8 @@
     "tags": [
       "Machine Learning",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27186v1",
@@ -2462,7 +2545,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27181v1",
@@ -2492,7 +2576,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27176v1",
@@ -2526,7 +2611,8 @@
       "Machine Learning",
       "Natural Language Processing",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27173v1",
@@ -2556,7 +2642,8 @@
       "Machine Learning",
       "Multimodal",
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27172v1",
@@ -2584,7 +2671,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27171v1",
@@ -2611,7 +2699,8 @@
     "conference": null,
     "tags": [
       "Computer Vision"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27164v1",
@@ -2642,7 +2731,8 @@
       "Computer Vision",
       "Multimodal",
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27163v1",
@@ -2670,7 +2760,8 @@
     "venue": "cs.AI",
     "comment": "9 pages, 1 figure",
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.27153v1",
@@ -2702,7 +2793,8 @@
     "conference": "NeurIPS 2025",
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27128v1",
@@ -2729,7 +2821,8 @@
     "conference": "NeurIPS 2025",
     "tags": [
       "Computer Vision"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27126v1",
@@ -2756,7 +2849,8 @@
     "tags": [
       "Machine Learning",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27102v1",
@@ -2787,7 +2881,8 @@
     "tags": [
       "Machine Learning",
       "Multimodal"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27094v1",
@@ -2819,7 +2914,8 @@
     "conference": null,
     "tags": [
       "Multimodal"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27091v1",
@@ -2850,7 +2946,8 @@
       "Multimodal",
       "Natural Language Processing",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27080v1",
@@ -2876,7 +2973,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27063v1",
@@ -2905,7 +3003,8 @@
     "venue": "cs.AI",
     "comment": "11 pages, many figures and images",
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.27062v1",
@@ -2931,7 +3030,8 @@
     "venue": "cs.AI",
     "comment": "19 pages",
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.27692v1",
@@ -2956,7 +3056,8 @@
     "venue": "cs.CV",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.27684v1",
@@ -2985,7 +3086,8 @@
     "venue": "cs.CV",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.27680v1",
@@ -3024,7 +3126,8 @@
     "tags": [
       "Multimodal",
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27679v1",
@@ -3051,7 +3154,8 @@
     "venue": "cs.CV",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.27677v1",
@@ -3081,7 +3185,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27667v1",
@@ -3111,7 +3216,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27650v1",
@@ -3136,7 +3242,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27649v1",
@@ -3167,7 +3274,8 @@
     "tags": [
       "Computer Vision",
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27647v1",
@@ -3198,7 +3306,8 @@
     "conference": "NeurIPS 2025",
     "tags": [
       "Multimodal"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27646v1",
@@ -3223,7 +3332,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27632v1",
@@ -3259,7 +3369,8 @@
     "tags": [
       "Multimodal",
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27623v1",
@@ -3294,7 +3405,8 @@
     "tags": [
       "Multimodal",
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27607v1",
@@ -3323,7 +3435,8 @@
     "tags": [
       "Multimodal",
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27606v1",
@@ -3357,7 +3470,8 @@
       "Machine Learning",
       "Multimodal",
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27602v1",
@@ -3380,7 +3494,8 @@
     "venue": "cs.CV",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.27599v1",
@@ -3405,7 +3520,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27584v1",
@@ -3433,7 +3549,8 @@
     "conference": null,
     "tags": [
       "Multimodal"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27571v1",
@@ -3465,7 +3582,8 @@
     "conference": null,
     "tags": [
       "Multimodal"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27547v1",
@@ -3492,7 +3610,8 @@
     "venue": "cs.CV",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.27533v1",
@@ -3519,7 +3638,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27508v1",
@@ -3549,7 +3669,8 @@
     "conference": null,
     "tags": [
       "Multimodal"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27481v1",
@@ -3578,7 +3699,8 @@
     "conference": "NeurIPS 2025",
     "tags": [
       "Multimodal"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27475v1",
@@ -3605,7 +3727,8 @@
     "tags": [
       "Machine Learning",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27460v1",
@@ -3632,7 +3755,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27452v1",
@@ -3667,7 +3791,8 @@
       "Natural Language Processing",
       "Multimodal",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27442v1",
@@ -3694,7 +3819,8 @@
     "tags": [
       "Machine Learning",
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27439v1",
@@ -3718,7 +3844,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27432v1",
@@ -3748,7 +3875,8 @@
     "conference": "NeurIPS 2025",
     "tags": [
       "Multimodal"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27421v1",
@@ -3775,7 +3903,8 @@
     "tags": [
       "Machine Learning",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27392v1",
@@ -3801,7 +3930,8 @@
       "Machine Learning",
       "Natural Language Processing",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27391v1",
@@ -3832,7 +3962,8 @@
     "tags": [
       "Multimodal",
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27364v1",
@@ -3863,7 +3994,8 @@
     "tags": [
       "Multimodal",
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27359v1",
@@ -3887,7 +4019,8 @@
     "venue": "cs.CV",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.27350v1",
@@ -3917,7 +4050,8 @@
     "tags": [
       "Multimodal",
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27335v1",
@@ -3943,7 +4077,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27326v1",
@@ -3967,7 +4102,8 @@
     "venue": "cs.CV",
     "comment": "Winning Solution of the MICCAI 2025 ODELIA Breast MRI Classification\n  Challenge",
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.27324v1",
@@ -3995,7 +4131,8 @@
     "tags": [
       "Computer Vision",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27318v1",
@@ -4022,7 +4159,8 @@
     "venue": "cs.CV",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.27316v1",
@@ -4053,7 +4191,8 @@
     "tags": [
       "Computer Vision",
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27315v1",
@@ -4089,7 +4228,8 @@
     "tags": [
       "Computer Vision",
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27307v1",
@@ -4116,7 +4256,8 @@
     "venue": "cs.CV",
     "comment": "18 pages, 6 figures, 3 tables",
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.27296v1",
@@ -4143,7 +4284,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27285v1",
@@ -4167,7 +4309,8 @@
     "venue": "cs.CV",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.27280v1",
@@ -4199,7 +4342,8 @@
     "tags": [
       "Multimodal",
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27266v1",
@@ -4232,7 +4376,8 @@
     "conference": null,
     "tags": [
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27265v1",
@@ -4260,7 +4405,8 @@
     "tags": [
       "Multimodal",
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27261v1",
@@ -4287,7 +4433,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27255v1",
@@ -4312,7 +4459,8 @@
     "tags": [
       "Multimodal",
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27249v1",
@@ -4338,7 +4486,8 @@
     "tags": [
       "Computer Vision",
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27245v1",
@@ -4366,7 +4515,8 @@
     "tags": [
       "Machine Learning",
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27237v1",
@@ -4396,7 +4546,8 @@
     "venue": "cs.CV",
     "comment": "22 pages, 9 figures",
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.27236v1",
@@ -4426,7 +4577,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27234v1",
@@ -4456,7 +4608,8 @@
     "venue": "cs.CV",
     "comment": "Project Page: https://g-1nonly.github.io/MoRE_Website/, Code:\n  https://github.com/alibaba/Taobao3D",
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.27224v1",
@@ -4482,7 +4635,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27222v1",
@@ -4509,7 +4663,8 @@
     "venue": "cs.CV",
     "comment": "NeurIPS 2025",
     "conference": "NeurIPS 2025",
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.27219v1",
@@ -4535,7 +4690,8 @@
     "venue": "cs.CV",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.27213v1",
@@ -4569,7 +4725,8 @@
     "venue": "cs.CV",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.27210v1",
@@ -4601,7 +4758,8 @@
       "Multimodal",
       "Natural Language Processing",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27208v1",
@@ -4630,7 +4788,8 @@
     "tags": [
       "Machine Learning",
       "Multimodal"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27195v1",
@@ -4660,7 +4819,8 @@
     "tags": [
       "Multimodal",
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27186v1",
@@ -4691,7 +4851,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27181v1",
@@ -4721,7 +4882,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27179v1",
@@ -4746,7 +4908,8 @@
     "conference": null,
     "tags": [
       "Multimodal"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27171v1",
@@ -4773,7 +4936,8 @@
     "conference": null,
     "tags": [
       "Computer Vision"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27169v1",
@@ -4796,7 +4960,8 @@
     "venue": "cs.CV",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.27166v1",
@@ -4823,7 +4988,8 @@
     "conference": null,
     "tags": [
       "Computer Vision"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27164v1",
@@ -4854,7 +5020,8 @@
       "Computer Vision",
       "Multimodal",
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27158v1",
@@ -4886,7 +5053,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27155v1",
@@ -4914,7 +5082,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27148v1",
@@ -4945,7 +5114,8 @@
     "tags": [
       "Machine Learning",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27139v1",
@@ -4966,7 +5136,8 @@
     "venue": "cs.CV",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.27135v1",
@@ -4994,7 +5165,8 @@
     "tags": [
       "Multimodal",
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27133v1",
@@ -5020,7 +5192,8 @@
     "conference": null,
     "tags": [
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27128v1",
@@ -5047,7 +5220,8 @@
     "conference": "NeurIPS 2025",
     "tags": [
       "Computer Vision"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27088v1",
@@ -5073,7 +5247,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27688v1",
@@ -5102,7 +5277,8 @@
     "tags": [
       "Natural Language Processing",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27672v1",
@@ -5130,7 +5306,8 @@
     "conference": "EMNLP 2025",
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27641v1",
@@ -5156,7 +5333,8 @@
     "conference": "NeurIPS 2025",
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27623v1",
@@ -5191,7 +5369,8 @@
     "tags": [
       "Multimodal",
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27571v1",
@@ -5223,7 +5402,8 @@
     "conference": null,
     "tags": [
       "Multimodal"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27569v1",
@@ -5253,7 +5433,8 @@
     "tags": [
       "Machine Learning",
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27568v1",
@@ -5277,7 +5458,8 @@
     "venue": "cs.CL",
     "comment": "Short Paper - Under Review",
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.27556v1",
@@ -5303,7 +5485,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27552v1",
@@ -5335,7 +5518,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27543v1",
@@ -5368,7 +5552,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27535v1",
@@ -5408,7 +5593,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27532v1",
@@ -5432,7 +5618,8 @@
     "venue": "cs.CL",
     "comment": "Accepted to EMNLP Findings",
     "conference": "EMNLP",
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.27516v1",
@@ -5460,7 +5647,8 @@
     "conference": "Accepted at the IEEE International Conference on D",
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27512v1",
@@ -5489,7 +5677,8 @@
       "Machine Learning",
       "Natural Language Processing",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27484v1",
@@ -5515,7 +5704,8 @@
     "venue": "cs.CL",
     "comment": "Uzay Macar and Paul C. Bogdan contributed equally to this work, and\n  their listed order was determined by coinflip",
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.27477v1",
@@ -5538,7 +5728,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27469v1",
@@ -5564,7 +5755,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27462v1",
@@ -5594,7 +5786,8 @@
       "Machine Learning",
       "Natural Language Processing",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27419v1",
@@ -5624,7 +5817,8 @@
     "tags": [
       "Machine Learning",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27418v1",
@@ -5649,7 +5843,8 @@
     "tags": [
       "Natural Language Processing",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27413v1",
@@ -5678,7 +5873,8 @@
     "tags": [
       "Natural Language Processing",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27407v1",
@@ -5700,7 +5896,8 @@
     "venue": "cs.CL",
     "comment": "Accepted to the International Conference on Information and\n  Communication Technologies for Amazigh (TICAM 25)",
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.27400v1",
@@ -5727,7 +5924,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27378v1",
@@ -5754,7 +5952,8 @@
     "venue": "cs.CL",
     "comment": "Project page at https://ajmeek.github.io/cot_monitorability_website/",
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.27369v1",
@@ -5782,7 +5981,8 @@
     "venue": "cs.CL",
     "comment": "15 pages, 3 images",
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.27355v1",
@@ -5806,7 +6006,8 @@
     "conference": "EMNLP 2025",
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27337v1",
@@ -5831,7 +6032,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27328v1",
@@ -5857,7 +6059,8 @@
     "tags": [
       "Natural Language Processing",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27313v1",
@@ -5886,7 +6089,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27269v1",
@@ -5915,7 +6119,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27267v1",
@@ -5947,7 +6152,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27258v1",
@@ -5974,7 +6180,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27254v1",
@@ -6000,7 +6207,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27246v1",
@@ -6030,7 +6238,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27241v1",
@@ -6054,7 +6263,8 @@
     "venue": "cs.CL",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.27238v1",
@@ -6085,7 +6295,8 @@
     "conference": "SIGMOD 2026",
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27196v1",
@@ -6115,7 +6326,8 @@
     "tags": [
       "Multimodal",
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27195v1",
@@ -6145,7 +6357,8 @@
     "tags": [
       "Multimodal",
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27183v1",
@@ -6172,7 +6385,8 @@
     "venue": "cs.CL",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.27176v1",
@@ -6206,7 +6420,8 @@
       "Machine Learning",
       "Natural Language Processing",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27118v1",
@@ -6235,7 +6450,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27106v1",
@@ -6259,7 +6475,8 @@
     "conference": "EMNLP 2025",
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27087v1",
@@ -6284,7 +6501,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27077v1",
@@ -6312,7 +6530,8 @@
     "tags": [
       "Machine Learning",
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27063v1",
@@ -6341,7 +6560,8 @@
     "venue": "cs.CL",
     "comment": "11 pages, many figures and images",
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.27688v1",
@@ -6370,7 +6590,8 @@
     "tags": [
       "Natural Language Processing",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27680v1",
@@ -6409,7 +6630,8 @@
     "tags": [
       "Multimodal",
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27679v1",
@@ -6436,7 +6658,8 @@
     "venue": "cs.LG",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.27675v1",
@@ -6466,7 +6689,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27671v1",
@@ -6496,7 +6720,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27663v1",
@@ -6522,7 +6747,8 @@
     "venue": "cs.LG",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.27659v1",
@@ -6548,7 +6774,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27651v1",
@@ -6574,7 +6801,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27650v1",
@@ -6599,7 +6827,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27643v1",
@@ -6629,7 +6858,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27641v1",
@@ -6655,7 +6885,8 @@
     "conference": "NeurIPS 2025",
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27640v1",
@@ -6684,7 +6915,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27638v1",
@@ -6709,7 +6941,8 @@
     "venue": "cs.LG",
     "comment": "25 pages",
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.27610v1",
@@ -6743,7 +6976,8 @@
     "tags": [
       "Machine Learning",
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27588v1",
@@ -6771,7 +7005,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27584v1",
@@ -6799,7 +7034,8 @@
     "conference": null,
     "tags": [
       "Multimodal"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27571v1",
@@ -6831,7 +7067,8 @@
     "conference": null,
     "tags": [
       "Multimodal"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27562v1",
@@ -6857,7 +7094,8 @@
     "venue": "cs.LG",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.27558v1",
@@ -6884,7 +7122,8 @@
     "tags": [
       "Multimodal",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27537v1",
@@ -6911,7 +7150,8 @@
       "Machine Learning",
       "Natural Language Processing",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27530v1",
@@ -6938,7 +7178,8 @@
     "venue": "cs.LG",
     "comment": "8 pages, 11 figures",
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.27527v1",
@@ -6969,7 +7210,8 @@
     "tags": [
       "Natural Language Processing",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27525v1",
@@ -6998,7 +7240,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27522v1",
@@ -7024,7 +7267,8 @@
     "venue": "cs.LG",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.27517v1",
@@ -7054,7 +7298,8 @@
     "conference": "NeurIPS 2025",
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27516v1",
@@ -7082,7 +7327,8 @@
     "conference": "Accepted at the IEEE International Conference on D",
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27506v1",
@@ -7113,7 +7359,8 @@
     "conference": null,
     "tags": [
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27504v1",
@@ -7144,7 +7391,8 @@
     "tags": [
       "Multimodal",
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27503v1",
@@ -7170,7 +7418,8 @@
     "conference": "11 pages, 10 figures, under review at IEEE Transac",
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27498v1",
@@ -7198,7 +7447,8 @@
     "conference": null,
     "tags": [
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27497v1",
@@ -7227,7 +7477,8 @@
     "tags": [
       "Natural Language Processing",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27486v1",
@@ -7256,7 +7507,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27484v1",
@@ -7282,7 +7534,8 @@
     "venue": "cs.LG",
     "comment": "Uzay Macar and Paul C. Bogdan contributed equally to this work, and\n  their listed order was determined by coinflip",
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.27480v1",
@@ -7306,7 +7559,8 @@
     "venue": "cs.LG",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.27474v1",
@@ -7332,7 +7586,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27443v1",
@@ -7359,7 +7614,8 @@
     "conference": "Accepted for 2025 ACM SIGSPATIAL conference",
     "tags": [
       "Multimodal"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27413v1",
@@ -7388,7 +7644,8 @@
     "tags": [
       "Natural Language Processing",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27408v1",
@@ -7413,7 +7670,8 @@
     "venue": "cs.LG",
     "comment": "32 pages, 17 figures, research paper",
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.27403v1",
@@ -7440,7 +7698,8 @@
     "venue": "cs.LG",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.27397v1",
@@ -7468,7 +7727,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27391v1",
@@ -7499,7 +7759,8 @@
     "tags": [
       "Multimodal",
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27385v1",
@@ -7524,7 +7785,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27378v1",
@@ -7551,7 +7813,8 @@
     "venue": "cs.LG",
     "comment": "Project page at https://ajmeek.github.io/cot_monitorability_website/",
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.27359v1",
@@ -7575,7 +7838,8 @@
     "venue": "cs.LG",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.27342v1",
@@ -7601,7 +7865,8 @@
     "venue": "cs.LG",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.27338v1",
@@ -7625,7 +7890,8 @@
     "tags": [
       "Machine Learning",
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27334v1",
@@ -7652,7 +7918,8 @@
     "tags": [
       "Machine Learning",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27321v1",
@@ -7676,7 +7943,8 @@
     "conference": null,
     "tags": [
       "Multimodal"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27313v1",
@@ -7705,7 +7973,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27304v1",
@@ -7729,7 +7998,8 @@
     "venue": "cs.LG",
     "comment": "6 pages, 11 figures, 3 tables",
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.27297v1",
@@ -7753,7 +8023,8 @@
     "conference": "ArXiv version of the IEEE JBHI paper\n  (https://ie",
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27287v1",
@@ -7781,7 +8052,8 @@
     "conference": "EMNLP 2025",
     "tags": [
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27281v1",
@@ -7810,7 +8082,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27280v1",
@@ -7842,7 +8115,8 @@
     "tags": [
       "Multimodal",
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27274v1",
@@ -7871,7 +8145,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27269v1",
@@ -7900,7 +8175,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27265v1",
@@ -7928,7 +8204,8 @@
     "tags": [
       "Multimodal",
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27263v1",
@@ -7954,7 +8231,8 @@
     "venue": "cs.LG",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.27258v1",
@@ -7981,7 +8259,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27256v1",
@@ -8015,7 +8294,8 @@
     "tags": [
       "Multimodal",
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27254v1",
@@ -8041,7 +8321,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27253v1",
@@ -8068,7 +8349,8 @@
     "venue": "cs.LG",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.27240v1",
@@ -8098,7 +8380,8 @@
     "conference": null,
     "tags": [
       "Multimodal"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27222v1",
@@ -8125,7 +8408,8 @@
     "venue": "cs.LG",
     "comment": "NeurIPS 2025",
     "conference": "NeurIPS 2025",
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.27213v1",
@@ -8159,7 +8443,8 @@
     "venue": "cs.LG",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.27207v1",
@@ -8183,7 +8468,8 @@
     "venue": "cs.LG",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.27197v1",
@@ -8206,7 +8492,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27186v1",
@@ -8237,7 +8524,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27182v1",
@@ -8262,7 +8550,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27177v1",
@@ -8286,7 +8575,8 @@
     "venue": "cs.LG",
     "comment": "A minor algorithmic error in our paper presented on COLT 2025 has\n  been corrected in this arXiv update. We also have updated the pseudo-code of\n  the algorithm. Our theoretical analyses, as well as all theoretical bounds,\n  remain unaffected by those changes",
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.27173v1",
@@ -8316,7 +8606,8 @@
       "Machine Learning",
       "Multimodal",
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27172v1",
@@ -8344,7 +8635,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27153v1",
@@ -8376,7 +8668,8 @@
     "conference": "NeurIPS 2025",
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27146v1",
@@ -8405,7 +8698,8 @@
     "tags": [
       "Machine Learning",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27145v1",
@@ -8433,7 +8727,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27136v1",
@@ -8459,7 +8754,8 @@
     "conference": "ACM CIKM 2025",
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27131v1",
@@ -8484,7 +8780,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27130v1",
@@ -8527,7 +8824,8 @@
     "tags": [
       "Natural Language Processing",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27126v1",
@@ -8554,7 +8852,8 @@
     "tags": [
       "Machine Learning",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27123v1",
@@ -8581,7 +8880,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27114v1",
@@ -8613,7 +8913,8 @@
     "conference": null,
     "tags": [
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27097v1",
@@ -8638,7 +8939,8 @@
     "venue": "cs.LG",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.27091v1",
@@ -8669,7 +8971,8 @@
       "Multimodal",
       "Natural Language Processing",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27090v1",
@@ -8698,7 +9001,8 @@
     "conference": "ICLR 2026",
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27072v1",
@@ -8723,7 +9027,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27065v1",
@@ -8758,7 +9063,8 @@
       "Computer Vision",
       "Machine Learning",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27063v1",
@@ -8787,7 +9093,8 @@
     "venue": "cs.LG",
     "comment": "11 pages, many figures and images",
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.27062v1",
@@ -8813,7 +9120,8 @@
     "venue": "cs.LG",
     "comment": "19 pages",
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.27584v1",
@@ -8841,7 +9149,8 @@
     "conference": null,
     "tags": [
       "Multimodal"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27571v1",
@@ -8873,7 +9182,8 @@
     "conference": null,
     "tags": [
       "Multimodal"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27566v1",
@@ -8902,7 +9212,8 @@
     "tags": [
       "Machine Learning",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27342v1",
@@ -8928,7 +9239,8 @@
     "venue": "cs.IR",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.27274v1",
@@ -8957,7 +9269,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27259v1",
@@ -8983,7 +9296,8 @@
     "venue": "cs.IR",
     "comment": "13 pages, 3 figures, Research Paper",
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.27246v1",
@@ -9013,7 +9327,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27238v1",
@@ -9044,7 +9359,8 @@
     "conference": "SIGMOD 2026",
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27232v1",
@@ -9076,7 +9392,8 @@
     "tags": [
       "Machine Learning",
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27157v1",
@@ -9107,7 +9424,8 @@
     "tags": [
       "Machine Learning",
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27141v1",
@@ -9131,7 +9449,8 @@
     "venue": "cs.IR",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.27666v1",
@@ -9161,7 +9480,8 @@
     "conference": null,
     "tags": [
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27607v1",
@@ -9190,7 +9510,8 @@
     "tags": [
       "Multimodal",
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27558v1",
@@ -9217,7 +9538,8 @@
     "tags": [
       "Multimodal",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27545v1",
@@ -9251,7 +9573,8 @@
       "Multimodal",
       "Natural Language Processing",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27436v1",
@@ -9279,7 +9602,8 @@
     "venue": "cs.RO",
     "comment": "Workshop on Socially Aware and Cooperative Intelligent Systems in HAI\n  2025",
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.27428v1",
@@ -9309,7 +9633,8 @@
     "tags": [
       "Machine Learning",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27420v1",
@@ -9334,7 +9659,8 @@
     "venue": "cs.RO",
     "comment": "9 pages, 3 figures",
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.27333v1",
@@ -9364,7 +9690,8 @@
     "conference": null,
     "tags": [
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27327v1",
@@ -9391,7 +9718,8 @@
     "tags": [
       "Computer Vision",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27191v1",
@@ -9418,7 +9746,8 @@
     "tags": [
       "Machine Learning",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27184v1",
@@ -9449,7 +9778,8 @@
     "conference": "ICRA 2026",
     "tags": [
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27178v1",
@@ -9479,7 +9809,8 @@
     "tags": [
       "Computer Vision",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27151v1",
@@ -9508,7 +9839,8 @@
     "conference": null,
     "tags": [
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27133v1",
@@ -9534,7 +9866,8 @@
     "conference": null,
     "tags": [
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27114v1",
@@ -9566,7 +9899,8 @@
     "conference": null,
     "tags": [
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26907v2",
@@ -9591,7 +9925,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26781v2",
@@ -9618,7 +9953,8 @@
     "tags": [
       "Multimodal",
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26692v2",
@@ -9699,7 +10035,8 @@
     "venue": "cs.CL",
     "comment": "Kimi Linear tech report",
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26861v2",
@@ -9732,7 +10069,8 @@
     "conference": null,
     "tags": [
       "Multimodal"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26615v2",
@@ -9759,7 +10097,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26521v2",
@@ -9784,7 +10123,8 @@
     "tags": [
       "Natural Language Processing",
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26861v2",
@@ -9817,7 +10157,8 @@
     "conference": null,
     "tags": [
       "Multimodal"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27055v1",
@@ -9846,7 +10187,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27051v1",
@@ -9882,7 +10224,8 @@
     "conference": null,
     "tags": [
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27042v1",
@@ -9911,7 +10254,8 @@
     "tags": [
       "Machine Learning",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27038v1",
@@ -9938,7 +10282,8 @@
     "tags": [
       "Machine Learning",
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27037v1",
@@ -9964,7 +10309,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27033v1",
@@ -9993,7 +10339,8 @@
     "tags": [
       "Natural Language Processing",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27009v1",
@@ -10019,7 +10366,8 @@
     "conference": "NeurIPS 2025",
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27002v1",
@@ -10047,7 +10395,8 @@
     "tags": [
       "Machine Learning",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27001v1",
@@ -10071,7 +10420,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26999v1",
@@ -10098,7 +10448,8 @@
     "conference": null,
     "tags": [
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27047v1",
@@ -10128,7 +10479,8 @@
       "Machine Learning",
       "Natural Language Processing",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27033v1",
@@ -10157,7 +10509,8 @@
     "tags": [
       "Natural Language Processing",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27028v1",
@@ -10183,7 +10536,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27020v1",
@@ -10210,7 +10564,8 @@
     "venue": "cs.CV",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26996v1",
@@ -10240,7 +10595,8 @@
       "Computer Vision",
       "Multimodal",
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26978v1",
@@ -10269,7 +10625,8 @@
     "tags": [
       "Multimodal",
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26967v1",
@@ -10299,7 +10656,8 @@
     "tags": [
       "Computer Vision",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26961v1",
@@ -10327,7 +10685,8 @@
     "tags": [
       "Machine Learning",
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26923v1",
@@ -10354,7 +10713,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26921v1",
@@ -10380,7 +10740,8 @@
     "conference": "NeurIPS 2025",
     "tags": [
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26907v1",
@@ -10405,7 +10766,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26903v1",
@@ -10437,7 +10799,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27492v1",
@@ -10468,7 +10831,8 @@
     "tags": [
       "Multimodal",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27055v1",
@@ -10497,7 +10861,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27054v1",
@@ -10525,7 +10890,8 @@
     "tags": [
       "Machine Learning",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27052v1",
@@ -10551,7 +10917,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27049v1",
@@ -10578,7 +10945,8 @@
     "venue": "cs.CL",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.27045v1",
@@ -10602,7 +10970,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27038v1",
@@ -10629,7 +10998,8 @@
     "tags": [
       "Machine Learning",
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27037v1",
@@ -10655,7 +11025,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27017v1",
@@ -10680,7 +11051,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27016v1",
@@ -10705,7 +11077,8 @@
     "tags": [
       "Machine Learning",
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26978v1",
@@ -10734,7 +11107,8 @@
     "tags": [
       "Multimodal",
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26974v1",
@@ -10764,7 +11138,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26969v1",
@@ -10798,7 +11173,8 @@
     "venue": "cs.CL",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26935v1",
@@ -10829,7 +11205,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26912v1",
@@ -10858,7 +11235,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26887v1",
@@ -10919,7 +11297,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26697v2",
@@ -10952,7 +11331,8 @@
     "tags": [
       "Natural Language Processing",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26861v1",
@@ -10985,7 +11365,8 @@
     "conference": null,
     "tags": [
       "Multimodal"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26606v2",
@@ -11014,7 +11395,8 @@
     "conference": "EMNLP 2025",
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26852v1",
@@ -11049,7 +11431,8 @@
     "tags": [
       "Natural Language Processing",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26847v1",
@@ -11077,7 +11460,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27056v1",
@@ -11104,7 +11488,8 @@
     "venue": "cs.LG",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.27051v1",
@@ -11140,7 +11525,8 @@
     "conference": null,
     "tags": [
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27050v1",
@@ -11169,7 +11555,8 @@
     "tags": [
       "Machine Learning",
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27044v1",
@@ -11194,7 +11581,8 @@
     "tags": [
       "Machine Learning",
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27042v1",
@@ -11223,7 +11611,8 @@
     "tags": [
       "Machine Learning",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27040v1",
@@ -11253,7 +11642,8 @@
       "Machine Learning",
       "Multimodal",
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27037v1",
@@ -11279,7 +11669,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27018v1",
@@ -11305,7 +11696,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27015v1",
@@ -11332,7 +11724,8 @@
     "tags": [
       "Natural Language Processing",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27014v1",
@@ -11359,7 +11752,8 @@
     "tags": [
       "Machine Learning",
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27009v1",
@@ -11385,7 +11779,8 @@
     "conference": "NeurIPS 2025",
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27004v1",
@@ -11412,7 +11807,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26861v1",
@@ -11445,7 +11841,8 @@
     "conference": null,
     "tags": [
       "Multimodal"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27048v1",
@@ -11480,7 +11877,8 @@
       "Machine Learning",
       "Multimodal",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27033v1",
@@ -11509,7 +11907,8 @@
     "tags": [
       "Natural Language Processing",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.27010v1",
@@ -11535,7 +11934,8 @@
     "venue": "cs.RO",
     "comment": "8 pages, 7 figures",
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26948v1",
@@ -11564,7 +11964,8 @@
     "conference": null,
     "tags": [
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26935v1",
@@ -11595,7 +11996,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26915v1",
@@ -11627,7 +12029,8 @@
     "tags": [
       "Natural Language Processing",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26909v1",
@@ -11659,7 +12062,8 @@
       "Multimodal",
       "Natural Language Processing",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26900v1",
@@ -11685,7 +12089,8 @@
     "venue": "cs.RO",
     "comment": "7 pages, 7 figures, to be published in MRS 2025",
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26855v1",
@@ -11709,7 +12114,8 @@
     "conference": null,
     "tags": [
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26082v2",
@@ -11734,7 +12140,8 @@
     "venue": "cs.RO",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26776v2",
@@ -11759,7 +12166,8 @@
     "venue": "cs.LG",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26709v2",
@@ -11786,7 +12194,8 @@
     "venue": "cs.LG",
     "comment": "8 pages, 2 figures",
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26616v2",
@@ -11812,7 +12221,8 @@
     "venue": "cs.LG",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26301v2",
@@ -11840,7 +12250,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26745v1",
@@ -11870,7 +12281,8 @@
     "tags": [
       "Natural Language Processing",
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26740v1",
@@ -11896,7 +12308,8 @@
     "tags": [
       "Robotics",
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26732v1",
@@ -11924,7 +12337,8 @@
     "tags": [
       "Natural Language Processing",
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26730v1",
@@ -11954,7 +12368,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26722v1",
@@ -11983,7 +12398,8 @@
     "conference": null,
     "tags": [
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26721v1",
@@ -12011,7 +12427,8 @@
     "tags": [
       "Natural Language Processing",
       "Multimodal"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26714v1",
@@ -12036,7 +12453,8 @@
     "venue": "cs.AI",
     "comment": "mini paper, 2 figures",
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26702v1",
@@ -12065,7 +12483,8 @@
     "tags": [
       "Natural Language Processing",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26697v1",
@@ -12098,7 +12517,8 @@
     "tags": [
       "Natural Language Processing",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26684v1",
@@ -12126,7 +12546,8 @@
       "Computer Vision",
       "Machine Learning",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26683v1",
@@ -12156,7 +12577,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26658v1",
@@ -12187,7 +12609,8 @@
     "tags": [
       "Natural Language Processing",
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26646v1",
@@ -12216,7 +12639,8 @@
     "tags": [
       "Robotics",
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26616v1",
@@ -12242,7 +12666,8 @@
     "venue": "cs.AI",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26606v1",
@@ -12271,7 +12696,8 @@
     "conference": "EMNLP 2025",
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26603v1",
@@ -12300,7 +12726,8 @@
     "tags": [
       "Natural Language Processing",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26601v1",
@@ -12326,7 +12753,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26585v1",
@@ -12354,7 +12782,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26575v1",
@@ -12385,7 +12814,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26566v1",
@@ -12413,7 +12843,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26551v1",
@@ -12439,7 +12870,8 @@
     "conference": null,
     "tags": [
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26550v1",
@@ -12481,7 +12913,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26543v1",
@@ -12509,7 +12942,8 @@
     "conference": "NeurIPS 2025",
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26518v1",
@@ -12536,7 +12970,8 @@
     "venue": "cs.AI",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26512v1",
@@ -12561,7 +12996,8 @@
     "venue": "cs.AI",
     "comment": "ICDM 2025 Workshop",
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26494v1",
@@ -12587,7 +13023,8 @@
     "tags": [
       "Natural Language Processing",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26493v1",
@@ -12617,7 +13054,8 @@
     "venue": "cs.AI",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26486v1",
@@ -12642,7 +13080,8 @@
     "venue": "cs.AI",
     "comment": "Accepted in ICKG 2025 Conference, 8 Pages, 2 Figures",
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26484v1",
@@ -12668,7 +13107,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26481v1",
@@ -12694,7 +13134,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26474v1",
@@ -12730,7 +13171,8 @@
       "Natural Language Processing",
       "Machine Learning",
       "Multimodal"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26457v1",
@@ -12759,7 +13201,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26451v1",
@@ -12788,7 +13231,8 @@
     "venue": "cs.AI",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26444v1",
@@ -12815,7 +13259,8 @@
     "venue": "cs.AI",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26420v1",
@@ -12844,7 +13289,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26418v1",
@@ -12871,7 +13317,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26412v1",
@@ -12898,7 +13345,8 @@
     "conference": null,
     "tags": [
       "Multimodal"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26411v1",
@@ -12925,7 +13373,8 @@
     "tags": [
       "Natural Language Processing",
       "Multimodal"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26406v1",
@@ -12955,7 +13404,8 @@
       "Robotics",
       "Machine Learning",
       "Multimodal"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26402v1",
@@ -12982,7 +13432,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26396v1",
@@ -13006,7 +13457,8 @@
     "venue": "cs.AI",
     "comment": "40 pages",
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26390v1",
@@ -13033,7 +13485,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26384v1",
@@ -13060,7 +13513,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26380v1",
@@ -13086,7 +13540,8 @@
     "conference": null,
     "tags": [
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26374v1",
@@ -13113,7 +13568,8 @@
     "venue": "cs.AI",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26352v1",
@@ -13139,7 +13595,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26347v1",
@@ -13166,7 +13623,8 @@
     "tags": [
       "Robotics",
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26346v1",
@@ -13189,7 +13647,8 @@
     "venue": "cs.AI",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26345v1",
@@ -13215,7 +13674,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26342v1",
@@ -13240,7 +13700,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26339v1",
@@ -13271,7 +13732,8 @@
     "tags": [
       "Robotics",
       "Multimodal"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26336v1",
@@ -13299,7 +13761,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26324v1",
@@ -13327,7 +13790,8 @@
     "venue": "cs.AI",
     "comment": "NeurIPS 2025",
     "conference": "NeurIPS 2025",
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26309v1",
@@ -13358,7 +13822,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26303v1",
@@ -13386,7 +13851,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26302v1",
@@ -13414,7 +13880,8 @@
     "conference": null,
     "tags": [
       "Multimodal"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26298v1",
@@ -13441,7 +13908,8 @@
     "tags": [
       "Natural Language Processing",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26285v1",
@@ -13475,7 +13943,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26278v1",
@@ -13502,7 +13971,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26275v1",
@@ -13537,7 +14007,8 @@
     "venue": "cs.AI",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26270v1",
@@ -13562,7 +14033,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26243v1",
@@ -13588,7 +14060,8 @@
     "tags": [
       "Natural Language Processing",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26242v1",
@@ -13617,7 +14090,8 @@
     "conference": null,
     "tags": [
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26238v1",
@@ -13643,7 +14117,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26230v1",
@@ -13671,7 +14146,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26219v1",
@@ -13700,7 +14176,8 @@
     "tags": [
       "Natural Language Processing",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26217v1",
@@ -13730,7 +14207,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26205v1",
@@ -13758,7 +14236,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26202v1",
@@ -13785,7 +14264,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26200v1",
@@ -13811,7 +14291,8 @@
     "tags": [
       "Natural Language Processing",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26188v1",
@@ -13835,7 +14316,8 @@
     "venue": "cs.AI",
     "comment": "NCMLAI 2018",
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26186v1",
@@ -13862,7 +14344,8 @@
     "conference": "NeurIPS 2025",
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26185v1",
@@ -13888,7 +14371,8 @@
     "venue": "cs.AI",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26172v1",
@@ -13916,7 +14400,8 @@
     "venue": "cs.AI",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26167v1",
@@ -13947,7 +14432,8 @@
     "tags": [
       "Natural Language Processing",
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26165v1",
@@ -13975,7 +14461,8 @@
     "conference": "6th ACM International Conference on AI in Finance,",
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26159v1",
@@ -14001,7 +14488,8 @@
     "venue": "cs.AI",
     "comment": "This paper is currently under review for presentation at the IEEE\n  SAMI 2026 Conference",
     "conference": "This paper is currently under review for presentat",
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26157v1",
@@ -14027,7 +14515,8 @@
     "conference": "EMNLP 2025",
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26151v1",
@@ -14055,7 +14544,8 @@
     "tags": [
       "Natural Language Processing",
       "Multimodal"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26144v1",
@@ -14101,7 +14591,8 @@
       "Natural Language Processing",
       "Machine Learning",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26143v1",
@@ -14129,7 +14620,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26136v1",
@@ -14163,7 +14655,8 @@
     "tags": [
       "Natural Language Processing",
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26130v1",
@@ -14190,7 +14683,8 @@
     "conference": "Pre-print prepared for journal submission",
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26125v1",
@@ -14229,7 +14723,8 @@
       "Natural Language Processing",
       "Multimodal",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26113v1",
@@ -14257,7 +14752,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26105v1",
@@ -14282,7 +14778,8 @@
     "venue": "cs.AI",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26099v1",
@@ -14307,7 +14804,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26098v1",
@@ -14340,7 +14838,8 @@
     "tags": [
       "Natural Language Processing",
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26094v1",
@@ -14370,7 +14869,8 @@
     "venue": "cs.AI",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26089v1",
@@ -14398,7 +14898,8 @@
     "tags": [
       "Robotics",
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26800v1",
@@ -14430,7 +14931,8 @@
     "tags": [
       "Machine Learning",
       "Multimodal"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26799v1",
@@ -14455,7 +14957,8 @@
     "conference": "EMNLP 2025",
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26796v1",
@@ -14489,7 +14992,8 @@
     "conference": null,
     "tags": [
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26795v1",
@@ -14517,7 +15021,8 @@
     "venue": "cs.CV",
     "comment": "NeurIPS 2025",
     "conference": "NeurIPS 2025",
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26794v1",
@@ -14553,7 +15058,8 @@
     "tags": [
       "Natural Language Processing",
       "Multimodal"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26786v1",
@@ -14583,7 +15089,8 @@
       "Computer Vision",
       "Machine Learning",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26781v1",
@@ -14610,7 +15117,8 @@
     "tags": [
       "Natural Language Processing",
       "Multimodal"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26778v1",
@@ -14636,7 +15144,8 @@
     "venue": "cs.CV",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26769v1",
@@ -14665,7 +15174,8 @@
       "Natural Language Processing",
       "Multimodal",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26759v1",
@@ -14698,7 +15208,8 @@
     "conference": "Accepted to ACMMM 2025",
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26703v1",
@@ -14729,7 +15240,8 @@
     "venue": "cs.CV",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26694v1",
@@ -14751,7 +15263,8 @@
     "venue": "cs.CV",
     "comment": "Article written for Frontiers of Science Award, International\n  Congress on Basic Science, 2025",
     "conference": "Article written for Frontiers of Science Award, In",
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26684v1",
@@ -14779,7 +15292,8 @@
       "Computer Vision",
       "Machine Learning",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26681v1",
@@ -14806,7 +15320,8 @@
     "tags": [
       "Computer Vision",
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26661v1",
@@ -14831,7 +15346,8 @@
     "venue": "cs.CV",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26653v1",
@@ -14858,7 +15374,8 @@
       "Computer Vision",
       "Machine Learning",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26641v1",
@@ -14889,7 +15406,8 @@
       "Multimodal",
       "Robotics",
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26635v1",
@@ -14920,7 +15438,8 @@
     "tags": [
       "Natural Language Processing",
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26630v1",
@@ -14944,7 +15463,8 @@
     "conference": null,
     "tags": [
       "Computer Vision"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26614v1",
@@ -14971,7 +15491,8 @@
     "tags": [
       "Computer Vision",
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26609v1",
@@ -15001,7 +15522,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26601v1",
@@ -15027,7 +15549,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26583v1",
@@ -15075,7 +15598,8 @@
       "Machine Learning",
       "Multimodal",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26582v1",
@@ -15103,7 +15627,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26580v1",
@@ -15128,7 +15653,8 @@
     "tags": [
       "Natural Language Processing",
       "Multimodal"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26573v1",
@@ -15157,7 +15683,8 @@
     "conference": "6 pages, 2025 IEEE International Workshop on Metro",
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26569v1",
@@ -15189,7 +15716,8 @@
     "conference": null,
     "tags": [
       "Multimodal"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26568v1",
@@ -15220,7 +15748,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26509v1",
@@ -15245,7 +15774,8 @@
     "tags": [
       "Computer Vision",
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26474v1",
@@ -15281,7 +15811,8 @@
       "Natural Language Processing",
       "Machine Learning",
       "Multimodal"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26466v1",
@@ -15309,7 +15840,8 @@
     "conference": null,
     "tags": [
       "Multimodal"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26464v1",
@@ -15340,7 +15872,8 @@
     "tags": [
       "Natural Language Processing",
       "Multimodal"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26443v1",
@@ -15365,7 +15898,8 @@
     "conference": null,
     "tags": [
       "Computer Vision"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26441v1",
@@ -15392,7 +15926,8 @@
     "tags": [
       "Natural Language Processing",
       "Multimodal"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26412v1",
@@ -15419,7 +15954,8 @@
     "conference": null,
     "tags": [
       "Multimodal"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26391v1",
@@ -15444,7 +15980,8 @@
     "tags": [
       "Computer Vision",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26390v1",
@@ -15471,7 +16008,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26369v1",
@@ -15499,7 +16037,8 @@
     "venue": "cs.CV",
     "comment": "7 pages, 3 figures, accepted to IPIN 2025",
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26358v1",
@@ -15527,7 +16066,8 @@
     "tags": [
       "Robotics",
       "Multimodal"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26339v1",
@@ -15558,7 +16098,8 @@
     "tags": [
       "Robotics",
       "Multimodal"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26315v1",
@@ -15586,7 +16127,8 @@
     "tags": [
       "Natural Language Processing",
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26304v1",
@@ -15610,7 +16152,8 @@
     "venue": "cs.CV",
     "comment": "Published at IWAIPR 2025 conference",
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26297v1",
@@ -15638,7 +16181,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26294v1",
@@ -15665,7 +16209,8 @@
     "tags": [
       "Robotics",
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26292v1",
@@ -15696,7 +16241,8 @@
     "tags": [
       "Robotics",
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26282v1",
@@ -15721,7 +16267,8 @@
     "venue": "cs.CV",
     "comment": "Accepted at BIOSIG 2025 conference",
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26268v1",
@@ -15749,7 +16296,8 @@
     "venue": "cs.CV",
     "comment": "NeurIPS 2025 spotlight",
     "conference": "NeurIPS 2025",
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26241v1",
@@ -15778,7 +16326,8 @@
     "tags": [
       "Natural Language Processing",
       "Multimodal"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26213v1",
@@ -15805,7 +16354,8 @@
     "venue": "cs.CV",
     "comment": "TL;DR: With OmniLayout-1M dataset and LLM-based coarse-to-fine\n  learning, we enable universal and diverse document layout generation",
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26203v1",
@@ -15832,7 +16382,8 @@
     "tags": [
       "Robotics",
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26196v1",
@@ -15862,7 +16413,8 @@
     "tags": [
       "Computer Vision",
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26186v1",
@@ -15889,7 +16441,8 @@
     "conference": "NeurIPS 2025",
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26173v1",
@@ -15916,7 +16469,8 @@
     "conference": null,
     "tags": [
       "Computer Vision"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26170v1",
@@ -15944,7 +16498,8 @@
       "Natural Language Processing",
       "Machine Learning",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26160v1",
@@ -16005,7 +16560,8 @@
     "venue": "cs.CV",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26154v1",
@@ -16036,7 +16592,8 @@
     "tags": [
       "Computer Vision",
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26151v1",
@@ -16064,7 +16621,8 @@
     "tags": [
       "Natural Language Processing",
       "Multimodal"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26149v1",
@@ -16091,7 +16649,8 @@
     "venue": "cs.CV",
     "comment": "13 pages, 10 figures, 5 tables",
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26141v1",
@@ -16120,7 +16679,8 @@
     "tags": [
       "Natural Language Processing",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26140v1",
@@ -16153,7 +16713,8 @@
     "venue": "cs.CV",
     "comment": "Project page: https://fullpart3d.github.io",
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26131v1",
@@ -16182,7 +16743,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26125v1",
@@ -16221,7 +16783,8 @@
       "Natural Language Processing",
       "Multimodal",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26117v1",
@@ -16247,7 +16810,8 @@
     "tags": [
       "Computer Vision",
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26114v1",
@@ -16286,7 +16850,8 @@
     "tags": [
       "Natural Language Processing",
       "Multimodal"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26113v1",
@@ -16314,7 +16879,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26105v1",
@@ -16339,7 +16905,8 @@
     "venue": "cs.CV",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26052v1",
@@ -16366,7 +16933,8 @@
     "tags": [
       "Natural Language Processing",
       "Multimodal"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26049v1",
@@ -16395,7 +16963,8 @@
     "tags": [
       "Computer Vision",
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26038v1",
@@ -16421,7 +16990,8 @@
     "venue": "cs.CV",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26745v1",
@@ -16451,7 +17021,8 @@
     "tags": [
       "Natural Language Processing",
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26732v1",
@@ -16479,7 +17050,8 @@
     "tags": [
       "Natural Language Processing",
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26707v1",
@@ -16511,7 +17083,8 @@
     "tags": [
       "Robotics",
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26697v1",
@@ -16544,7 +17117,8 @@
     "tags": [
       "Natural Language Processing",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26692v1",
@@ -16625,7 +17199,8 @@
     "venue": "cs.CL",
     "comment": "Kimi Linear tech report",
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26683v1",
@@ -16655,7 +17230,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26658v1",
@@ -16686,7 +17262,8 @@
     "tags": [
       "Natural Language Processing",
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26622v1",
@@ -16714,7 +17291,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26615v1",
@@ -16741,7 +17319,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26606v1",
@@ -16770,7 +17349,8 @@
     "conference": "EMNLP 2025",
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26577v1",
@@ -16796,7 +17376,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26575v1",
@@ -16827,7 +17408,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26543v1",
@@ -16855,7 +17437,8 @@
     "conference": "NeurIPS 2025",
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26521v1",
@@ -16880,7 +17463,8 @@
     "tags": [
       "Natural Language Processing",
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26512v1",
@@ -16905,7 +17489,8 @@
     "venue": "cs.CL",
     "comment": "ICDM 2025 Workshop",
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26498v1",
@@ -16936,7 +17521,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26495v1",
@@ -16968,7 +17554,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26493v1",
@@ -16998,7 +17585,8 @@
     "venue": "cs.CL",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26484v1",
@@ -17024,7 +17612,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26474v1",
@@ -17060,7 +17649,8 @@
       "Natural Language Processing",
       "Machine Learning",
       "Multimodal"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26457v1",
@@ -17089,7 +17679,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26446v1",
@@ -17119,7 +17710,8 @@
     "tags": [
       "Natural Language Processing",
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26423v1",
@@ -17149,7 +17741,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26422v1",
@@ -17181,7 +17774,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26354v1",
@@ -17206,7 +17800,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26352v1",
@@ -17232,7 +17827,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26345v1",
@@ -17258,7 +17854,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26336v1",
@@ -17286,7 +17883,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26322v1",
@@ -17313,7 +17911,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26298v1",
@@ -17340,7 +17939,8 @@
     "tags": [
       "Natural Language Processing",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26285v1",
@@ -17374,7 +17974,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26277v1",
@@ -17403,7 +18004,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26274v1",
@@ -17430,7 +18032,8 @@
     "conference": "This work has been submitted to the IEEE for possi",
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26271v1",
@@ -17460,7 +18063,8 @@
       "Natural Language Processing",
       "Multimodal",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26254v1",
@@ -17484,7 +18088,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26253v1",
@@ -17509,7 +18114,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26241v1",
@@ -17538,7 +18144,8 @@
     "tags": [
       "Natural Language Processing",
       "Multimodal"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26205v1",
@@ -17566,7 +18173,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26202v1",
@@ -17593,7 +18201,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26200v1",
@@ -17619,7 +18228,8 @@
     "tags": [
       "Natural Language Processing",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26193v1",
@@ -17644,7 +18254,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26190v1",
@@ -17672,7 +18283,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26183v1",
@@ -17695,7 +18307,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26182v1",
@@ -17725,7 +18338,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26167v1",
@@ -17756,7 +18370,8 @@
     "tags": [
       "Natural Language Processing",
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26143v1",
@@ -17784,7 +18399,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26124v1",
@@ -17810,7 +18426,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26122v1",
@@ -17838,7 +18455,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26101v1",
@@ -17874,7 +18492,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26095v1",
@@ -17905,7 +18524,8 @@
     "venue": "cs.CL",
     "comment": "Accepted to NeurIPS 2025 Datasets & Benchmarks track",
     "conference": "NeurIPS 2025",
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26038v1",
@@ -17931,7 +18551,8 @@
     "venue": "cs.CL",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26037v1",
@@ -17957,7 +18578,8 @@
     "venue": "cs.CL",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26032v1",
@@ -18001,7 +18623,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26800v1",
@@ -18033,7 +18656,8 @@
     "tags": [
       "Machine Learning",
       "Multimodal"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26795v1",
@@ -18061,7 +18685,8 @@
     "venue": "cs.LG",
     "comment": "NeurIPS 2025",
     "conference": "NeurIPS 2025",
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26792v1",
@@ -18088,7 +18713,8 @@
     "tags": [
       "Natural Language Processing",
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26786v1",
@@ -18118,7 +18744,8 @@
       "Computer Vision",
       "Machine Learning",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26783v1",
@@ -18146,7 +18773,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26778v1",
@@ -18172,7 +18800,8 @@
     "venue": "cs.LG",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26777v1",
@@ -18196,7 +18825,8 @@
     "venue": "cs.LG",
     "comment": "NeurIPS 2025 Workshop on Recent Advances in Time Series Foundation\n  Models (BERT2S)",
     "conference": "NeurIPS 2025",
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26769v1",
@@ -18225,7 +18855,8 @@
       "Natural Language Processing",
       "Multimodal",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26745v1",
@@ -18255,7 +18886,8 @@
     "tags": [
       "Natural Language Processing",
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26723v1",
@@ -18283,7 +18915,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26722v1",
@@ -18312,7 +18945,8 @@
     "conference": null,
     "tags": [
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26717v1",
@@ -18335,7 +18969,8 @@
     "venue": "cs.LG",
     "comment": "equal contribution",
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26715v1",
@@ -18367,7 +19002,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26714v1",
@@ -18392,7 +19028,8 @@
     "venue": "cs.LG",
     "comment": "mini paper, 2 figures",
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26709v1",
@@ -18419,7 +19056,8 @@
     "venue": "cs.LG",
     "comment": "8 pages, 2 figures",
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26707v1",
@@ -18451,7 +19089,8 @@
     "tags": [
       "Robotics",
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26706v1",
@@ -18478,7 +19117,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26704v1",
@@ -18504,7 +19144,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26700v1",
@@ -18532,7 +19173,8 @@
     "tags": [
       "Robotics",
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26692v1",
@@ -18613,7 +19255,8 @@
     "venue": "cs.LG",
     "comment": "Kimi Linear tech report",
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26690v1",
@@ -18639,7 +19282,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26688v1",
@@ -18665,7 +19309,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26679v1",
@@ -18688,7 +19333,8 @@
     "venue": "cs.LG",
     "comment": "SODA 2026; equal contribution",
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26672v1",
@@ -18714,7 +19360,8 @@
     "tags": [
       "Robotics",
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26656v1",
@@ -18740,7 +19387,8 @@
     "conference": null,
     "tags": [
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26646v1",
@@ -18769,7 +19417,8 @@
     "tags": [
       "Robotics",
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26645v1",
@@ -18797,7 +19446,8 @@
     "venue": "cs.LG",
     "comment": "Accepted to NeurIPS 2025",
     "conference": "NeurIPS 2025",
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26643v1",
@@ -18822,7 +19472,8 @@
     "venue": "cs.LG",
     "comment": "25 pages, 13 figures, VLDB Journal",
     "conference": "VLDB",
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26633v1",
@@ -18848,7 +19499,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26616v1",
@@ -18874,7 +19526,8 @@
     "venue": "cs.LG",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26609v1",
@@ -18904,7 +19557,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26607v1",
@@ -18930,7 +19584,8 @@
     "tags": [
       "Robotics",
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26593v1",
@@ -18956,7 +19611,8 @@
     "conference": "NeurIPS 2025",
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26586v1",
@@ -18982,7 +19638,8 @@
     "venue": "cs.LG",
     "comment": "Five pages, four figures, to be presented at the AI in Science\n  Summit, Denmark, November, 2025",
     "conference": "Five pages, four figures, to be presented at the A",
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26577v1",
@@ -19008,7 +19665,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26566v1",
@@ -19036,7 +19694,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26560v1",
@@ -19059,7 +19718,8 @@
     "venue": "cs.LG",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26557v1",
@@ -19087,7 +19747,8 @@
     "tags": [
       "Robotics",
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26551v1",
@@ -19113,7 +19774,8 @@
     "conference": null,
     "tags": [
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26543v1",
@@ -19141,7 +19803,8 @@
     "conference": "NeurIPS 2025",
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26541v1",
@@ -19167,7 +19830,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26533v1",
@@ -19192,7 +19856,8 @@
     "venue": "cs.LG",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26527v1",
@@ -19221,7 +19886,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26519v1",
@@ -19249,7 +19915,8 @@
     "tags": [
       "Robotics",
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26512v1",
@@ -19274,7 +19941,8 @@
     "venue": "cs.LG",
     "comment": "ICDM 2025 Workshop",
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26510v1",
@@ -19305,7 +19973,8 @@
     "tags": [
       "Natural Language Processing",
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26501v1",
@@ -19331,7 +20000,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26491v1",
@@ -19364,7 +20034,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26487v1",
@@ -19392,7 +20063,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26486v1",
@@ -19417,7 +20089,8 @@
     "venue": "cs.LG",
     "comment": "Accepted in ICKG 2025 Conference, 8 Pages, 2 Figures",
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26475v1",
@@ -19450,7 +20123,8 @@
     "tags": [
       "Natural Language Processing",
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26474v1",
@@ -19486,7 +20160,8 @@
       "Natural Language Processing",
       "Machine Learning",
       "Multimodal"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26466v1",
@@ -19514,7 +20189,8 @@
     "conference": null,
     "tags": [
       "Multimodal"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26461v1",
@@ -19540,7 +20216,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26451v1",
@@ -19569,7 +20246,8 @@
     "venue": "cs.LG",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26444v1",
@@ -19596,7 +20274,8 @@
     "venue": "cs.LG",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26433v1",
@@ -19624,7 +20303,8 @@
     "conference": null,
     "tags": [
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26402v1",
@@ -19651,7 +20331,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26401v1",
@@ -19677,7 +20358,8 @@
     "venue": "cs.LG",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26392v1",
@@ -19705,7 +20387,8 @@
     "tags": [
       "Natural Language Processing",
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26389v1",
@@ -19732,7 +20415,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26384v1",
@@ -19759,7 +20443,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26376v1",
@@ -19788,7 +20473,8 @@
     "venue": "cs.LG",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26369v1",
@@ -19816,7 +20502,8 @@
     "venue": "cs.LG",
     "comment": "7 pages, 3 figures, accepted to IPIN 2025",
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26353v1",
@@ -19842,7 +20529,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26350v1",
@@ -19866,7 +20554,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26347v1",
@@ -19893,7 +20582,8 @@
     "tags": [
       "Robotics",
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26345v1",
@@ -19919,7 +20609,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26342v1",
@@ -19944,7 +20635,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26340v1",
@@ -19974,7 +20666,8 @@
     "tags": [
       "Robotics",
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26328v1",
@@ -19997,7 +20690,8 @@
     "venue": "cs.LG",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26324v1",
@@ -20025,7 +20719,8 @@
     "venue": "cs.LG",
     "comment": "NeurIPS 2025",
     "conference": "NeurIPS 2025",
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26323v1",
@@ -20048,7 +20743,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26311v1",
@@ -20075,7 +20771,8 @@
     "tags": [
       "Machine Learning",
       "Multimodal"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26307v1",
@@ -20102,7 +20799,8 @@
     "conference": "37 pages, 4 figures, 86 references. Submitted to J",
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26303v1",
@@ -20130,7 +20828,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26302v1",
@@ -20158,7 +20857,8 @@
     "conference": null,
     "tags": [
       "Multimodal"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26301v1",
@@ -20185,7 +20885,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26285v1",
@@ -20219,7 +20920,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26284v1",
@@ -20241,7 +20943,8 @@
     "venue": "cs.LG",
     "comment": "33 pages, 13 figures",
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26278v1",
@@ -20268,7 +20971,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26275v1",
@@ -20303,7 +21007,8 @@
     "venue": "cs.LG",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26274v1",
@@ -20330,7 +21035,8 @@
     "conference": "This work has been submitted to the IEEE for possi",
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26266v1",
@@ -20358,7 +21064,8 @@
     "tags": [
       "Robotics",
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26243v1",
@@ -20384,7 +21091,8 @@
     "tags": [
       "Natural Language Processing",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26230v1",
@@ -20412,7 +21120,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26219v1",
@@ -20441,7 +21150,8 @@
     "tags": [
       "Natural Language Processing",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26188v1",
@@ -20465,7 +21175,8 @@
     "venue": "cs.LG",
     "comment": "NCMLAI 2018",
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26185v1",
@@ -20491,7 +21202,8 @@
     "venue": "cs.LG",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26184v1",
@@ -20523,7 +21235,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26159v1",
@@ -20549,7 +21262,8 @@
     "venue": "cs.LG",
     "comment": "This paper is currently under review for presentation at the IEEE\n  SAMI 2026 Conference",
     "conference": "This paper is currently under review for presentat",
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26157v1",
@@ -20575,7 +21289,8 @@
     "conference": "EMNLP 2025",
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26148v1",
@@ -20598,7 +21313,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26146v1",
@@ -20621,7 +21337,8 @@
     "conference": null,
     "tags": [
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26750v1",
@@ -20646,7 +21363,8 @@
     "venue": "cs.IR",
     "comment": "4 pages, 1 Figure, 2 tables",
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26569v1",
@@ -20678,7 +21396,8 @@
     "conference": null,
     "tags": [
       "Multimodal"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26546v1",
@@ -20708,7 +21427,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26512v1",
@@ -20733,7 +21453,8 @@
     "venue": "cs.IR",
     "comment": "ICDM 2025 Workshop",
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26486v1",
@@ -20758,7 +21479,8 @@
     "venue": "cs.IR",
     "comment": "Accepted in ICKG 2025 Conference, 8 Pages, 2 Figures",
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26461v1",
@@ -20784,7 +21506,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26407v1",
@@ -20810,7 +21533,8 @@
     "tags": [
       "Natural Language Processing",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26309v1",
@@ -20841,7 +21565,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26231v1",
@@ -20873,7 +21598,8 @@
     "tags": [
       "Robotics",
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26178v1",
@@ -20899,7 +21625,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26104v1",
@@ -20930,7 +21657,8 @@
     "tags": [
       "Natural Language Processing",
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26095v1",
@@ -20961,7 +21689,8 @@
     "venue": "cs.IR",
     "comment": "Accepted to NeurIPS 2025 Datasets & Benchmarks track",
     "conference": "NeurIPS 2025",
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26742v1",
@@ -20988,7 +21717,8 @@
     "conference": null,
     "tags": [
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26670v1",
@@ -21018,7 +21748,8 @@
     "conference": null,
     "tags": [
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26656v1",
@@ -21044,7 +21775,8 @@
     "conference": null,
     "tags": [
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26646v1",
@@ -21073,7 +21805,8 @@
     "tags": [
       "Robotics",
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26638v1",
@@ -21100,7 +21833,8 @@
     "conference": "IROS 2025",
     "tags": [
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26623v1",
@@ -21124,7 +21858,8 @@
     "venue": "cs.RO",
     "comment": "8 pages, 6 figures. Submitted to IEEE-RAS International Conference on\n  Soft Robotics 2026",
     "conference": "8 pages, 6 figures. Submitted to IEEE-RAS Internat",
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26614v1",
@@ -21151,7 +21886,8 @@
     "tags": [
       "Computer Vision",
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26588v1",
@@ -21180,7 +21916,8 @@
     "tags": [
       "Robotics",
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26571v1",
@@ -21208,7 +21945,8 @@
     "venue": "cs.RO",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26551v1",
@@ -21234,7 +21972,8 @@
     "conference": null,
     "tags": [
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26536v1",
@@ -21281,7 +22020,8 @@
     "tags": [
       "Robotics",
       "Multimodal"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26531v1",
@@ -21313,7 +22053,8 @@
     "tags": [
       "Robotics",
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26406v1",
@@ -21343,7 +22084,8 @@
       "Robotics",
       "Machine Learning",
       "Multimodal"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26369v1",
@@ -21371,7 +22113,8 @@
     "venue": "cs.RO",
     "comment": "7 pages, 3 figures, accepted to IPIN 2025",
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26363v1",
@@ -21398,7 +22141,8 @@
     "tags": [
       "Robotics",
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26362v1",
@@ -21425,7 +22169,8 @@
     "conference": null,
     "tags": [
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26358v1",
@@ -21453,7 +22198,8 @@
     "tags": [
       "Robotics",
       "Multimodal"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26280v1",
@@ -21483,7 +22229,8 @@
     "tags": [
       "Robotics",
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26236v1",
@@ -21512,7 +22259,8 @@
     "conference": null,
     "tags": [
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26170v1",
@@ -21540,7 +22288,8 @@
       "Natural Language Processing",
       "Machine Learning",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26142v1",
@@ -21564,7 +22313,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26139v1",
@@ -21586,7 +22336,8 @@
     "venue": "cs.RO",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26132v1",
@@ -21610,7 +22361,8 @@
     "tags": [
       "Robotics",
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26131v1",
@@ -21639,7 +22391,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26082v1",
@@ -21664,7 +22417,8 @@
     "venue": "cs.RO",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26080v1",
@@ -21689,7 +22443,8 @@
     "venue": "cs.RO",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26067v1",
@@ -21716,7 +22471,8 @@
     "tags": [
       "Robotics",
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26040v1",
@@ -21746,7 +22502,8 @@
     "tags": [
       "Robotics",
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26802v1",
@@ -21778,7 +22535,8 @@
     "venue": "cs.AI",
     "tags": [
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26790v1",
@@ -21810,7 +22568,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26790v1",
     "source": "ArXiv",
     "venue": "cs.AI",
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26788v1",
@@ -21840,7 +22599,8 @@
     "tags": [
       "Natural Language Processing",
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26787v1",
@@ -21907,7 +22667,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26787v1",
     "source": "ArXiv",
     "venue": "cs.AI",
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26784v1",
@@ -21931,7 +22692,8 @@
     "venue": "cs.AI",
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26782v1",
@@ -21956,7 +22718,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26782v1",
     "source": "ArXiv",
     "venue": "cs.AI",
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26776v1",
@@ -21979,7 +22742,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26776v1",
     "source": "ArXiv",
     "venue": "cs.AI",
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26771v1",
@@ -22003,7 +22767,8 @@
     "arxiv_url": "http://arxiv.org/abs/2510.26771v1",
     "source": "ArXiv",
     "venue": "cs.AI",
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26768v1",
@@ -22035,7 +22800,8 @@
     "venue": "cs.AI",
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26752v1",
@@ -22058,7 +22824,8 @@
     "venue": "cs.AI",
     "tags": [
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25401v1",
@@ -22085,7 +22852,8 @@
     "venue": "cs.IR",
     "comment": "12 pages",
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.25965v2",
@@ -22111,7 +22879,8 @@
     "conference": "This work has been submitted to the IEEE for possi",
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26837v1",
@@ -22136,7 +22905,8 @@
     "conference": null,
     "tags": [
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26027v1",
@@ -22164,7 +22934,8 @@
     "tags": [
       "Natural Language Processing",
       "Multimodal"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26022v1",
@@ -22193,7 +22964,8 @@
     "venue": "cs.CV",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26017v1",
@@ -22220,7 +22992,8 @@
     "conference": "Submitted to Hydrology and Earth System Sciences",
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26006v1",
@@ -22251,7 +23024,8 @@
       "Computer Vision",
       "Multimodal",
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26004v1",
@@ -22281,7 +23055,8 @@
     "conference": null,
     "tags": [
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26001v1",
@@ -22307,7 +23082,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25990v1",
@@ -22331,7 +23107,8 @@
     "venue": "cs.CV",
     "comment": "Paper for the Trackrad2025 challenge, Team BreizhTrack",
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.25976v1",
@@ -22360,7 +23137,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25970v1",
@@ -22389,7 +23167,8 @@
     "tags": [
       "Computer Vision",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25921v1",
@@ -22419,7 +23198,8 @@
       "Robotics",
       "Machine Learning",
       "Multimodal"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25901v1",
@@ -22442,7 +23222,8 @@
     "venue": "cs.CV",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.25897v1",
@@ -22470,7 +23251,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25772v1",
@@ -22501,7 +23283,8 @@
     "venue": "cs.CV",
     "comment": "Project Page URL:https://libaolu312.github.io/VFXMaster/",
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.25765v1",
@@ -22530,7 +23313,8 @@
     "tags": [
       "Robotics",
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25760v1",
@@ -22574,7 +23358,8 @@
       "Natural Language Processing",
       "Multimodal",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25739v1",
@@ -22602,7 +23387,8 @@
     "tags": [
       "Computer Vision",
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25594v1",
@@ -22629,7 +23415,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25590v1",
@@ -22662,7 +23449,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25522v1",
@@ -22690,7 +23478,8 @@
     "tags": [
       "Computer Vision",
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25512v1",
@@ -22718,7 +23507,8 @@
     "conference": "NeurIPS 2025",
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25463v1",
@@ -22744,7 +23534,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25440v1",
@@ -22773,7 +23564,8 @@
     "venue": "cs.CV",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.25387v1",
@@ -22803,7 +23595,8 @@
     "conference": "NeurIPS 2025",
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25372v1",
@@ -22830,7 +23623,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25347v1",
@@ -22867,7 +23661,8 @@
     "conference": "Volume 16206 of the Lecture Notes in Computer Science series",
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25345v1",
@@ -22892,7 +23687,8 @@
     "venue": "cs.CV",
     "comment": "Accepted by IEEE Transactions on Image Processing (TIP), 2025",
     "conference": "Accepted by IEEE Transactions on Image Processing ",
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.25332v1",
@@ -22923,7 +23719,8 @@
     "tags": [
       "Natural Language Processing",
       "Multimodal"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25327v2",
@@ -22953,7 +23750,8 @@
       "Robotics",
       "Machine Learning",
       "Multimodal"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25318v1",
@@ -22977,7 +23775,8 @@
     "conference": null,
     "tags": [
       "Computer Vision"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26024v1",
@@ -23003,7 +23802,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26020v1",
@@ -23036,7 +23836,8 @@
     "tags": [
       "Natural Language Processing",
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26006v1",
@@ -23067,7 +23868,8 @@
       "Computer Vision",
       "Multimodal",
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25992v1",
@@ -23102,7 +23904,8 @@
     "tags": [
       "Natural Language Processing",
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25979v1",
@@ -23134,7 +23937,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25977v1",
@@ -23159,7 +23963,8 @@
     "venue": "cs.CL",
     "comment": "12 pages, 8 figures, submitted to the Proceedings of the Twenty-First\n  European Conference on Computer Systems (EuroSys'26)",
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.25975v1",
@@ -23185,7 +23990,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25967v1",
@@ -23212,7 +24018,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25947v1",
@@ -23240,7 +24047,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25941v1",
@@ -23269,7 +24077,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25932v1",
@@ -23297,7 +24106,8 @@
     "conference": "Accepted for publication in the Proceedings of the",
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25904v1",
@@ -23329,7 +24139,8 @@
     "venue": "cs.CL",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.25884v1",
@@ -23359,7 +24170,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25860v1",
@@ -23390,7 +24202,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25771v1",
@@ -23420,7 +24233,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25766v1",
@@ -23451,7 +24265,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25761v1",
@@ -23477,7 +24292,8 @@
       "Natural Language Processing",
       "Machine Learning",
       "Multimodal"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25744v2",
@@ -23512,7 +24328,8 @@
     "venue": "cs.CL",
     "comment": "22 pages, 5 figures, 3 tables",
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.25741v1",
@@ -23568,7 +24385,8 @@
     "tags": [
       "Natural Language Processing",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25732v1",
@@ -23594,7 +24412,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25726v1",
@@ -23636,7 +24455,8 @@
     "venue": "cs.CL",
     "comment": "Website: https://toolathlon.xyz/",
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.25701v1",
@@ -23665,7 +24485,8 @@
     "tags": [
       "Natural Language Processing",
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25817v1",
@@ -23698,7 +24519,8 @@
     "conference": "ACL 2025",
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25694v1",
@@ -23730,7 +24552,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25682v2",
@@ -23763,7 +24586,8 @@
       "Natural Language Processing",
       "Machine Learning",
       "Multimodal"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25677v1",
@@ -23790,7 +24614,8 @@
     "venue": "cs.CL",
     "comment": "45 pages",
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.25816v1",
@@ -23817,7 +24642,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25628v1",
@@ -23855,7 +24681,8 @@
     "tags": [
       "Natural Language Processing",
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25626v1",
@@ -23888,7 +24715,8 @@
     "conference": "NeurIPS 2025",
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25623v2",
@@ -23913,7 +24741,8 @@
     "conference": "EMNLP",
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25621v1",
@@ -23941,7 +24770,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25595v1",
@@ -23972,7 +24802,8 @@
     "conference": "ICML 2025",
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25577v1",
@@ -24000,7 +24831,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25557v1",
@@ -24028,7 +24860,8 @@
       "Natural Language Processing",
       "Machine Learning",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25536v2",
@@ -24062,7 +24895,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25460v1",
@@ -24088,7 +24922,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25441v1",
@@ -24119,7 +24954,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25440v1",
@@ -24148,7 +24984,8 @@
     "venue": "cs.CL",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.25434v1",
@@ -24177,7 +25014,8 @@
       "Natural Language Processing",
       "Multimodal",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25432v1",
@@ -24201,7 +25039,8 @@
     "conference": "Presented at the Annual Meeting of the American Po",
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25427v1",
@@ -24227,7 +25066,8 @@
     "conference": "EMNLP 2025",
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25426v1",
@@ -24252,7 +25092,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26007v1",
@@ -24279,7 +25120,8 @@
     "venue": "cs.IR",
     "comment": "Accepted for presentation at the AI in Science Summit 2025",
     "conference": "Accepted for presentation at the AI in Science Sum",
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.25718v1",
@@ -24304,7 +25146,8 @@
     "conference": null,
     "tags": [
       "Multimodal"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25622v2",
@@ -24334,7 +25177,8 @@
     "conference": null,
     "tags": [
       "Multimodal"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25621v1",
@@ -24362,7 +25206,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25488v1",
@@ -24391,7 +25236,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25428v1",
@@ -24417,7 +25263,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25402v2",
@@ -24441,7 +25288,8 @@
     "venue": "cs.IR",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.25285v1",
@@ -24467,7 +25315,8 @@
     "venue": "cs.IR",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.25283v1",
@@ -24490,7 +25339,8 @@
     "venue": "cs.IR",
     "comment": "16 pages, 5 figures, Research Paper",
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.25259v1",
@@ -24516,7 +25366,8 @@
     "venue": "cs.IR",
     "comment": "The 39th Conference on Neural Information Processing Systems (NeurIPS\n  2025)",
     "conference": "NeurIPS 2025",
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.25220v1",
@@ -24548,7 +25399,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25160v2",
@@ -24574,7 +25426,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25093v1",
@@ -24604,7 +25457,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26023v1",
@@ -24630,7 +25484,8 @@
     "tags": [
       "Natural Language Processing",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26018v1",
@@ -24659,7 +25514,8 @@
     "venue": "cs.RO",
     "comment": "8 pages, 9 figures, submitted for review to IEEE RA-L",
     "conference": "8 pages, 9 figures, submitted for review to IEEE R",
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.26004v1",
@@ -24689,7 +25545,8 @@
     "conference": null,
     "tags": [
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25985v1",
@@ -24716,7 +25573,8 @@
     "conference": null,
     "tags": [
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25965v1",
@@ -24742,7 +25600,8 @@
     "conference": "This work has been submitted to the IEEE for possi",
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25960v1",
@@ -24770,7 +25629,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25913v1",
@@ -24798,7 +25658,8 @@
     "venue": "cs.RO",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.25901v1",
@@ -24821,7 +25682,8 @@
     "venue": "cs.RO",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.25850v1",
@@ -24848,7 +25710,8 @@
     "tags": [
       "Natural Language Processing",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25768v1",
@@ -24874,7 +25737,8 @@
     "conference": null,
     "tags": [
       "Computer Vision"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25754v1",
@@ -24900,7 +25764,8 @@
     "conference": null,
     "tags": [
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25727v1",
@@ -24924,7 +25789,8 @@
     "conference": null,
     "tags": [
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25713v1",
@@ -24949,7 +25815,8 @@
     "conference": null,
     "tags": [
       "Multimodal"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25650v1",
@@ -24972,7 +25839,8 @@
     "venue": "cs.RO",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.25634v1",
@@ -25001,7 +25869,8 @@
       "Natural Language Processing",
       "Machine Learning",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25616v1",
@@ -25031,7 +25900,8 @@
     "tags": [
       "Natural Language Processing",
       "Multimodal"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25597v1",
@@ -25058,7 +25928,8 @@
     "conference": null,
     "tags": [
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25548v1",
@@ -25088,7 +25959,8 @@
       "Natural Language Processing",
       "Multimodal",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25520v1",
@@ -25119,7 +25991,8 @@
     "conference": null,
     "tags": [
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25479v1",
@@ -25146,7 +26019,8 @@
     "venue": "cs.RO",
     "comment": "\\c{opyright} 2025 Alexander Rambech, Ivar Saksvik and Vahid Hassani.\n  Accepted by IFAC for publication under a Creative Commons License CC-BY-NC-ND",
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.25463v1",
@@ -25172,7 +26046,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25422v1",
@@ -25198,7 +26073,8 @@
     "tags": [
       "Robotics",
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25405v1",
@@ -25227,7 +26103,8 @@
     "tags": [
       "Robotics",
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25386v1",
@@ -25255,7 +26132,8 @@
     "conference": "Accepted to 2025 IEEE International Automated Vehi",
     "tags": [
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25338v1",
@@ -25280,7 +26158,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25335v1",
@@ -25304,7 +26183,8 @@
     "venue": "cs.RO",
     "comment": "8 pages",
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.25314v1",
@@ -25334,7 +26214,8 @@
     "venue": "cs.RO",
     "comment": "The source code will be publicly available at\n  https://github.com/ZongxiYu-ZJU/BMI",
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.25280v1",
@@ -25362,7 +26243,8 @@
     "conference": null,
     "tags": [
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25268v1",
@@ -25393,7 +26275,8 @@
     "tags": [
       "Natural Language Processing",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25255v1",
@@ -25419,7 +26302,8 @@
     "tags": [
       "Robotics",
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25241v1",
@@ -25449,7 +26333,8 @@
     "tags": [
       "Robotics",
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25233v1",
@@ -25476,7 +26361,8 @@
     "tags": [
       "Robotics",
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25211v1",
@@ -25509,7 +26395,8 @@
     "conference": null,
     "tags": [
       "Multimodal"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25191v1",
@@ -25537,7 +26424,8 @@
       "Natural Language Processing",
       "Multimodal",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25138v1",
@@ -25569,7 +26457,8 @@
       "Natural Language Processing",
       "Multimodal",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25122v1",
@@ -25598,7 +26487,8 @@
       "Natural Language Processing",
       "Multimodal",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25086v1",
@@ -25625,7 +26515,8 @@
     "conference": null,
     "tags": [
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25797v1",
@@ -25652,7 +26543,8 @@
     "tags": [
       "Computer Vision",
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25072v1",
@@ -25674,7 +26566,8 @@
     "venue": "cs.RO",
     "comment": "The International Journal of Advanced Manufacturing Technology, 2024",
     "conference": "The International Journal of Advanced Manufacturin",
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.25053v1",
@@ -25705,7 +26598,8 @@
       "Robotics",
       "Machine Learning",
       "Multimodal"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.26824v1",
@@ -25748,7 +26642,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.25025v1",
@@ -25779,7 +26674,8 @@
     "conference": "To appear in IEEE BigData 2025",
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.24870v1",
@@ -25811,7 +26707,8 @@
     "conference": null,
     "tags": [
       "Multimodal"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.24701v1",
@@ -25894,7 +26791,8 @@
     "tags": [
       "Natural Language Processing",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.24652v1",
@@ -25919,7 +26817,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.24469v1",
@@ -25951,7 +26850,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.24431v1",
@@ -25983,7 +26883,8 @@
     "tags": [
       "Natural Language Processing",
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.24430v1",
@@ -26013,7 +26914,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.24402v1",
@@ -26042,7 +26944,8 @@
     "tags": [
       "Natural Language Processing",
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.24369v1",
@@ -26074,7 +26977,8 @@
     "venue": "cs.IR",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.23990v1",
@@ -26098,7 +27002,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.24994v1",
@@ -26125,7 +27030,8 @@
     "conference": null,
     "tags": [
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.24972v1",
@@ -26152,7 +27058,8 @@
     "tags": [
       "Robotics",
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.24949v1",
@@ -26184,7 +27091,8 @@
       "Natural Language Processing",
       "Multimodal",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.24692v1",
@@ -26210,7 +27118,8 @@
     "conference": null,
     "tags": [
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.24683v1",
@@ -26236,7 +27145,8 @@
     "conference": null,
     "tags": [
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.24680v1",
@@ -26261,7 +27171,8 @@
     "conference": null,
     "tags": [
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.24676v1",
@@ -26290,7 +27201,8 @@
     "tags": [
       "Robotics",
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.24671v1",
@@ -26318,7 +27230,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.24623v1",
@@ -26341,7 +27254,8 @@
     "venue": "cs.RO",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.24584v1",
@@ -26366,7 +27280,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.24571v1",
@@ -26391,7 +27306,8 @@
     "venue": "cs.RO",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.24554v1",
@@ -26417,7 +27333,8 @@
     "venue": "cs.RO",
     "comment": "Submitted for ICRA 2026",
     "conference": "ICRA 2026",
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.24533v1",
@@ -26446,7 +27363,8 @@
     "conference": null,
     "tags": [
       "Computer Vision"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.24515v1",
@@ -26471,7 +27389,8 @@
     "conference": "Submitted to IEEE Robotics and Automation Letters",
     "tags": [
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.24508v1",
@@ -26496,7 +27415,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.24482v1",
@@ -26526,7 +27446,8 @@
     "tags": [
       "Robotics",
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.24461v1",
@@ -26554,7 +27475,8 @@
     "tags": [
       "Robotics",
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.24457v1",
@@ -26578,7 +27500,8 @@
     "venue": "cs.RO",
     "comment": "8 pages, 11 figures",
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.25725v1",
@@ -26609,7 +27532,8 @@
     "tags": [
       "Robotics",
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.24410v1",
@@ -26636,7 +27560,8 @@
     "conference": "This work has been submitted to the IEEE for possi",
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.24399v1",
@@ -26663,7 +27588,8 @@
     "conference": "This work has been submitted to the IEEE for possi",
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.24335v1",
@@ -26690,7 +27616,8 @@
     "conference": null,
     "tags": [
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.24315v1",
@@ -26718,7 +27645,8 @@
     "conference": null,
     "tags": [
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.24261v1",
@@ -26748,7 +27676,8 @@
     "conference": "NeurIPS 2025",
     "tags": [
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.24259v1",
@@ -26775,7 +27704,8 @@
     "tags": [
       "Natural Language Processing",
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.24257v1",
@@ -26800,7 +27730,8 @@
     "conference": null,
     "tags": [
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.24194v1",
@@ -26828,7 +27759,8 @@
     "conference": null,
     "tags": [
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.24161v1",
@@ -26872,7 +27804,8 @@
       "Natural Language Processing",
       "Multimodal",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.24118v1",
@@ -26903,7 +27836,8 @@
     "conference": null,
     "tags": [
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.24109v1",
@@ -26933,7 +27867,8 @@
       "Natural Language Processing",
       "Multimodal",
       "Robotics"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.24108v1",
@@ -26968,7 +27903,8 @@
     "tags": [
       "Robotics",
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.24095v1",
@@ -26995,7 +27931,8 @@
     "venue": "cs.RO",
     "comment": "Neurips 2025",
     "conference": "NeurIPS 2025",
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.23018v2",
@@ -27023,7 +27960,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.23544v1",
@@ -27049,7 +27987,8 @@
     "venue": "cs.IR",
     "comment": "EMNLP 2025 Main (Short)",
     "conference": "EMNLP 2025",
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.23224v1",
@@ -27085,7 +28024,8 @@
     "tags": [
       "Machine Learning",
       "Multimodal"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.23104v1",
@@ -27112,7 +28052,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.23077v1",
@@ -27145,7 +28086,8 @@
     "tags": [
       "Robotics",
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.23066v1",
@@ -27175,7 +28117,8 @@
       "Computer Vision",
       "Multimodal",
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.23018v1",
@@ -27203,7 +28146,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.22956v1",
@@ -27234,7 +28178,8 @@
     "conference": "EMNLP 2025",
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.22942v1",
@@ -27266,7 +28211,8 @@
     "conference": "ICDE 2026",
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.22888v1",
@@ -27295,7 +28241,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.22733v2",
@@ -27323,7 +28270,8 @@
     "venue": "cs.IR",
     "comment": "Code and models are avaliable at https://alibaba-nlp.github.io/E2Rank",
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.22865v1",
@@ -27345,7 +28293,8 @@
     "venue": "cs.IR",
     "comment": "Presented at NORMalize 2025: The Third Workshop on the Normative\n  Design and Evaluation of Recommender Systems, co-located with the ACM\n  Conference on Recommender Systems 2025 (RecSys 2025), Prague",
     "conference": "RecSys 2025",
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.22739v1",
@@ -27376,7 +28325,8 @@
     "conference": null,
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.22733v1",
@@ -27404,7 +28354,8 @@
     "venue": "cs.IR",
     "comment": "Code and models are avaliable at https://alibaba-nlp.github.io/E2Rank",
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.22732v1",
@@ -27441,7 +28392,8 @@
     "conference": "NeurIPS 2025",
     "tags": [
       "Machine Learning"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.22694v1",
@@ -27471,7 +28423,8 @@
     "tags": [
       "Natural Language Processing",
       "Multimodal"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.22681v1",
@@ -27495,7 +28448,8 @@
     "venue": "cs.IR",
     "comment": "Preprint, accepted at WSDM 2026 (Full Paper). 16 pages, 8 figures",
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.22670v1",
@@ -27523,7 +28477,8 @@
     "conference": null,
     "tags": [
       "Natural Language Processing"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.22590v1",
@@ -27550,7 +28505,8 @@
     "venue": "cs.IR",
     "comment": null,
     "conference": null,
-    "tags": []
+    "tags": [],
+    "journal_ref": null
   },
   {
     "id": "2510.22023v2",
@@ -27581,7 +28537,8 @@
     "conference": null,
     "tags": [
       "Multimodal"
-    ]
+    ],
+    "journal_ref": null
   },
   {
     "id": "2510.18936v2",
@@ -27610,6 +28567,7 @@
     "tags": [
       "Natural Language Processing",
       "Multimodal"
-    ]
+    ],
+    "journal_ref": null
   }
 ]

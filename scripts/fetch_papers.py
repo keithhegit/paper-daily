@@ -86,11 +86,13 @@ class PaperFetcher:
                         'arxiv_url': result.entry_id,
                         'source': 'ArXiv',
                         'venue': category,
-                        'comment': result.comment if result.comment else None
+                        'comment': result.comment if result.comment else None,
+                        'journal_ref': result.journal_ref if hasattr(result, 'journal_ref') and result.journal_ref else None
                     }
                     
-                    # 提取会议/期刊信息
-                    paper['conference'] = self.extract_venue_from_comment(paper.get('comment'))
+                    # 提取会议/期刊信息（优先使用journal_ref，然后是comment）
+                    paper['conference'] = self.extract_venue_from_journal_ref(paper.get('journal_ref')) or \
+                                         self.extract_venue_from_comment(paper.get('comment'))
                     
                     # 分类论文
                     paper['tags'] = self.classify_paper(paper)
@@ -106,6 +108,59 @@ class PaperFetcher:
         
         logger.info(f"ArXiv 总共抓取了 {len(papers)} 篇论文")
         return papers
+    
+    def extract_venue_from_journal_ref(self, journal_ref: str) -> str:
+        """从 journal_ref 字段提取会议/期刊信息
+        例如: "The International Conference on Pattern Recognition (ICPR),2024"
+        """
+        if not journal_ref:
+            return None
+        
+        journal_ref = journal_ref.strip()
+        
+        import re
+        
+        # 常见会议列表
+        conferences = [
+            'CVPR', 'ICCV', 'ECCV', 'NeurIPS', 'ICML', 'ICLR', 
+            'ACL', 'EMNLP', 'NAACL', 'AAAI', 'IJCAI', 'KDD',
+            'ICRA', 'IROS', 'CoRL', 'RSS', 'ICPR',
+            'SIGIR', 'WWW', 'WSDM', 'RecSys',
+            'SIGMOD', 'VLDB', 'ICDE',
+            'SIGGRAPH', 'ICASSP', 'INTERSPEECH'
+        ]
+        
+        # 模式1: 提取括号中的会议缩写及周围信息
+        # 例如: "The International Conference on Pattern Recognition (ICPR),2024"
+        pattern_with_acronym = r'([^()]*)\s*\(([A-Z]{2,})\s*(?:\d+)?\)\s*,?\s*(\d{4})?'
+        match = re.search(pattern_with_acronym, journal_ref)
+        if match:
+            full_name = match.group(1).strip()  # "The International Conference on Pattern Recognition"
+            acronym = match.group(2)  # "ICPR"
+            year = match.group(3)  # "2024"
+            
+            # 检查是否是已知的会议
+            if acronym.upper() in conferences:
+                # 构建返回值
+                if year:
+                    result = f"{full_name} ({acronym} {year})"
+                else:
+                    result = f"{full_name} ({acronym})"
+                
+                # 限制长度
+                if len(result) <= 200:
+                    return result
+        
+        # 模式2: 如果没找到括号，就直接返回整个journal_ref
+        # 但只有在看起来像期刊/会议名称时才返回
+        if len(journal_ref) > 3 and len(journal_ref) <= 200:
+            # 检查是否包含常见的关键词
+            if any(keyword.lower() in journal_ref.lower() for keyword in 
+                   ['conference', 'journal', 'proceedings', 'transactions', 'letters', 
+                    'review', 'symposium', 'workshop', 'conference']):
+                return journal_ref
+        
+        return None
     
     def extract_venue_from_comment(self, comment: str) -> str:
         """从 comment 字段提取会议/期刊信息，优先返回原始完整描述"""
