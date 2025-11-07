@@ -43,12 +43,405 @@ document.addEventListener('DOMContentLoaded', function() {
     let observer = null;
     let monthsCache = {};  // 缓存已加载的月份数据
     
+    // 自定义分类管理（支持关键词）
+    const CUSTOM_CATEGORIES_KEY = 'dailypaper_custom_categories';
+    let customCategories = loadCustomCategories();
+    
+    // 加载自定义分类（兼容旧格式）
+    function loadCustomCategories() {
+        try {
+            const stored = localStorage.getItem(CUSTOM_CATEGORIES_KEY);
+            if (!stored) return [];
+            
+            const parsed = JSON.parse(stored);
+            
+            // 兼容旧格式（字符串数组）
+            if (Array.isArray(parsed) && parsed.length > 0) {
+                if (typeof parsed[0] === 'string') {
+                    // 旧格式：转换为新格式
+                    const newFormat = parsed.map(name => ({
+                        name: name,
+                        keywords: []
+                    }));
+                    saveCustomCategories(newFormat);
+                    return newFormat;
+                }
+            }
+            
+            return parsed;
+        } catch (e) {
+            console.error('Failed to load custom categories:', e);
+            return [];
+        }
+    }
+    
+    // 保存自定义分类
+    function saveCustomCategories() {
+        try {
+            localStorage.setItem(CUSTOM_CATEGORIES_KEY, JSON.stringify(customCategories));
+        } catch (e) {
+            console.error('Failed to save custom categories:', e);
+        }
+    }
+    
+    // 添加自定义分类
+    function addCustomCategory(categoryName, keywords = []) {
+        if (!categoryName || categoryName.trim() === '') return false;
+        
+        const trimmed = categoryName.trim();
+        
+        // 检查是否已存在
+        if (customCategories.some(cat => cat.name === trimmed)) {
+            alert('该分类已存在！');
+            return false;
+        }
+        
+        // 检查是否是默认分类
+        const defaultCategories = [
+            'Computer Vision',
+            'Natural Language Processing',
+            'Machine Learning',
+            'Robotics',
+            'Multimodal'
+        ];
+        if (defaultCategories.includes(trimmed)) {
+            alert('该分类是默认分类，无需添加！');
+            return false;
+        }
+        
+        customCategories.push({
+            name: trimmed,
+            keywords: Array.isArray(keywords) ? keywords : []
+        });
+        saveCustomCategories();
+        updateCategoryButtons();
+        renderCustomCategoriesList();
+        
+        // 重新应用动态分类
+        if (allPapersData.length > 0) {
+            allPapersData = applyCustomCategoryTags(allPapersData);
+            filterAndSortPapers();
+        }
+        
+        return true;
+    }
+    
+    // 更新自定义分类的关键词
+    function updateCustomCategoryKeywords(categoryName, keywords) {
+        const category = customCategories.find(cat => {
+            const catName = typeof cat === 'string' ? cat : cat.name;
+            return catName === categoryName;
+        });
+        
+        if (category) {
+            if (typeof category === 'string') {
+                // 旧格式，转换为新格式
+                const index = customCategories.indexOf(category);
+                customCategories[index] = {
+                    name: categoryName,
+                    keywords: Array.isArray(keywords) ? keywords : []
+                };
+            } else {
+                category.keywords = Array.isArray(keywords) ? keywords : [];
+            }
+            saveCustomCategories();
+            renderCustomCategoriesList();
+            
+            console.log(`Updated keywords for "${categoryName}":`, keywords);
+            
+            // 重新应用动态分类
+            if (allPapersData.length > 0) {
+                allPapersData = applyCustomCategoryTags(allPapersData);
+                filterAndSortPapers();
+            }
+        } else {
+            console.warn(`Category "${categoryName}" not found`);
+        }
+    }
+    
+    // 删除自定义分类
+    function removeCustomCategory(categoryName) {
+        customCategories = customCategories.filter(cat => cat.name !== categoryName);
+        saveCustomCategories();
+        updateCategoryButtons();
+        renderCustomCategoriesList();
+        
+        // 重新应用动态分类（移除该分类的标签）
+        if (allPapersData.length > 0) {
+            allPapersData = allPapersData.map(paper => ({
+                ...paper,
+                tags: (paper.tags || []).filter(tag => tag !== categoryName)
+            }));
+            filterAndSortPapers();
+        }
+        
+        // 如果删除的是当前选中的分类，切换到"全部"
+        if (currentCategory === categoryName) {
+            currentCategory = 'all';
+            document.querySelectorAll('.category-btn').forEach(btn => {
+                btn.classList.remove('active');
+                if (btn.dataset.category === 'all') {
+                    btn.classList.add('active');
+                }
+            });
+            filterAndSortPapers();
+        }
+    }
+    
+    // 基于自定义分类的关键词动态分类论文
+    function applyCustomCategoryTags(papers) {
+        if (customCategories.length === 0) {
+            return papers;
+        }
+        
+        console.log('Applying custom category tags...', customCategories);
+        
+        let matchedCount = 0;
+        const result = papers.map(paper => {
+            const text = `${paper.title} ${paper.abstract}`.toLowerCase();
+            const tags = new Set(paper.tags || []);
+            
+            // 检查每个自定义分类
+            customCategories.forEach(category => {
+                const categoryName = typeof category === 'string' ? category : category.name;
+                const keywords = typeof category === 'object' ? (category.keywords || []) : [];
+                
+                // 如果没有关键词，跳过
+                if (keywords.length === 0) {
+                    return;
+                }
+                
+                // 检查是否匹配关键词
+                const hasKeyword = keywords.some(keyword => {
+                    const keywordLower = keyword.toLowerCase().trim();
+                    if (!keywordLower) return false;
+                    return text.includes(keywordLower);
+                });
+                
+                if (hasKeyword) {
+                    tags.add(categoryName);
+                    matchedCount++;
+                    console.log(`Matched paper "${paper.title.substring(0, 50)}..." to category "${categoryName}"`);
+                }
+            });
+            
+            return {
+                ...paper,
+                tags: Array.from(tags)
+            };
+        });
+        
+        console.log(`Applied custom tags: ${matchedCount} matches found`);
+        return result;
+    }
+    
+    // 渲染自定义分类列表
+    function renderCustomCategoriesList() {
+        const listContainer = document.getElementById('customCategoriesList');
+        if (!listContainer) return;
+        
+        if (customCategories.length === 0) {
+            listContainer.innerHTML = '<p class="empty-message">暂无自定义分类</p>';
+            return;
+        }
+        
+        listContainer.innerHTML = customCategories.map((category, index) => {
+            const categoryName = typeof category === 'string' ? category : category.name;
+            const keywords = typeof category === 'object' ? (category.keywords || []) : [];
+            const keywordsStr = keywords.join(', ');
+            
+            return `
+                <div class="custom-category-item" data-index="${index}">
+                    <div class="category-info">
+                        <div class="category-name-row">
+                            <strong>${categoryName}</strong>
+                            <button class="delete-category-btn" data-category="${categoryName}">删除</button>
+                        </div>
+                        <div class="category-keywords">
+                            <label>关键词：</label>
+                            <input type="text" 
+                                   class="keywords-input" 
+                                   data-category="${categoryName}"
+                                   value="${keywordsStr}"
+                                   placeholder="用逗号分隔，如: reinforcement learning, RL, Q-learning">
+                            <button class="save-keywords-btn" data-category="${categoryName}">保存</button>
+                        </div>
+                        <div class="keywords-hint">
+                            <small>💡 提示：关键词用于匹配论文标题和摘要，用逗号分隔多个关键词。例如：reinforcement learning, RL, Q-learning</small>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }).join('');
+        
+        // 添加删除按钮事件
+        listContainer.querySelectorAll('.delete-category-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                const categoryName = this.dataset.category;
+                if (confirm(`确定要删除分类 "${categoryName}" 吗？`)) {
+                    removeCustomCategory(categoryName);
+                }
+            });
+        });
+        
+        // 添加保存关键词按钮事件
+        listContainer.querySelectorAll('.save-keywords-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                const categoryName = this.dataset.category;
+                const input = listContainer.querySelector(`.keywords-input[data-category="${categoryName}"]`);
+                if (input) {
+                    const keywordsStr = input.value.trim();
+                    const keywords = keywordsStr 
+                        ? keywordsStr.split(',').map(k => k.trim()).filter(k => k)
+                        : [];
+                    
+                    console.log(`Saving keywords for "${categoryName}":`, keywords);
+                    
+                    if (keywords.length === 0) {
+                        alert('⚠️ 请至少输入一个关键词！关键词用于匹配论文标题和摘要。');
+                        return;
+                    }
+                    
+                    updateCustomCategoryKeywords(categoryName, keywords);
+                    
+                    // 显示保存成功提示
+                    const btnText = this.textContent;
+                    this.textContent = '✓ 已保存';
+                    this.style.background = '#28a745';
+                    setTimeout(() => {
+                        this.textContent = btnText;
+                        this.style.background = '';
+                    }, 1500);
+                }
+            });
+        });
+        
+        // 关键词输入框支持 Enter 键保存
+        listContainer.querySelectorAll('.keywords-input').forEach(input => {
+            input.addEventListener('keypress', function(e) {
+                if (e.key === 'Enter') {
+                    const categoryName = this.dataset.category;
+                    const saveBtn = listContainer.querySelector(`.save-keywords-btn[data-category="${categoryName}"]`);
+                    if (saveBtn) {
+                        saveBtn.click();
+                    }
+                }
+            });
+        });
+    }
+    
+    // 更新分类按钮（包含自定义分类）
+    function updateCategoryButtons() {
+        const categoryFilters = document.getElementById('categoryFilters');
+        if (!categoryFilters) return;
+        
+        // 获取所有分类（默认 + 自定义）
+        const customCategoryNames = customCategories.map(cat => 
+            typeof cat === 'string' ? cat : cat.name
+        );
+        const allCategories = new Set([
+            'Computer Vision',
+            'Natural Language Processing',
+            'Machine Learning',
+            'Robotics',
+            'Multimodal',
+            ...customCategoryNames
+        ]);
+        
+        // 先筛选出符合当前状态的论文
+        const statusFilteredPapers = allPapersData.filter(paper => {
+            const status = paper.conference ? 'published' : 'preprint';
+            return currentStatus === 'all' || status === currentStatus;
+        });
+        
+        // 计算各个领域的数量
+        const categoryCounts = {
+            'all': statusFilteredPapers.length
+        };
+        
+        // 初始化所有分类的计数
+        allCategories.forEach(cat => {
+            categoryCounts[cat] = 0;
+        });
+        
+        // 统计每个分类的论文数
+        statusFilteredPapers.forEach(paper => {
+            const tags = paper.tags || [];
+            tags.forEach(tag => {
+                if (categoryCounts.hasOwnProperty(tag)) {
+                    categoryCounts[tag]++;
+                }
+            });
+        });
+        
+        // 移除"全部"按钮外的所有分类按钮
+        const existingBtns = categoryFilters.querySelectorAll('.category-btn:not([data-category="all"])');
+        existingBtns.forEach(btn => btn.remove());
+        
+        // 更新"全部"按钮
+        const allBtn = categoryFilters.querySelector('[data-category="all"]');
+        if (allBtn) {
+            allBtn.textContent = `全部 (${categoryCounts['all']})`;
+        }
+        
+        // 添加默认分类按钮
+        const defaultCategories = [
+            { name: 'Computer Vision', display: 'Computer Vision' },
+            { name: 'Natural Language Processing', display: 'NLP' },
+            { name: 'Machine Learning', display: 'Machine Learning' },
+            { name: 'Robotics', display: 'Robotics' },
+            { name: 'Multimodal', display: 'Multimodal' }
+        ];
+        
+        defaultCategories.forEach(cat => {
+            if (categoryCounts[cat.name] > 0 || allCategories.has(cat.name)) {
+                const btn = document.createElement('button');
+                btn.className = 'filter-btn category-btn';
+                btn.dataset.category = cat.name;
+                btn.textContent = `${cat.display} (${categoryCounts[cat.name] || 0})`;
+                categoryFilters.appendChild(btn);
+                
+                btn.addEventListener('click', function() {
+                    document.querySelectorAll('.category-btn').forEach(b => b.classList.remove('active'));
+                    this.classList.add('active');
+                    currentCategory = this.dataset.category;
+                    filterAndSortPapers();
+                });
+            }
+        });
+        
+        // 添加自定义分类按钮
+        customCategories.forEach(cat => {
+            const catName = typeof cat === 'string' ? cat : cat.name;
+            if (categoryCounts[catName] > 0 || allCategories.has(catName)) {
+                const btn = document.createElement('button');
+                btn.className = 'filter-btn category-btn custom-category-btn';
+                btn.dataset.category = catName;
+                btn.textContent = `${catName} (${categoryCounts[catName] || 0})`;
+                categoryFilters.appendChild(btn);
+                
+                btn.addEventListener('click', function() {
+                    document.querySelectorAll('.category-btn').forEach(b => b.classList.remove('active'));
+                    this.classList.add('active');
+                    currentCategory = this.dataset.category;
+                    filterAndSortPapers();
+                });
+            }
+        });
+    }
+    
     // 加载月份索引
     async function loadMonthsIndex() {
         try {
-            const response = await fetch('data/index.json');
+            const response = await fetch('/api/months-index');
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
             const monthsIndex = await response.json();
             console.log('Months index loaded:', monthsIndex);
+            
+            // 更新月份按钮
+            updateMonthButtons(monthsIndex);
             
             // 默认加载最新月份的数据
             if (monthsIndex.length > 0) {
@@ -56,48 +449,99 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         } catch (e) {
             console.error('Failed to load months index:', e);
+            // 如果 API 失败，尝试直接加载所有数据
+            await loadMonthData('all');
         }
+    }
+    
+    // 更新月份按钮
+    function updateMonthButtons(monthsIndex) {
+        const monthFilters = document.querySelector('.month-filters');
+        if (!monthFilters) return;
+        
+        // 计算总数
+        const totalCount = monthsIndex.reduce((sum, m) => sum + m.count, 0);
+        
+        // 更新"全部"按钮
+        const allBtn = monthFilters.querySelector('[data-month="all"]');
+        if (allBtn) {
+            allBtn.textContent = `全部 (${totalCount})`;
+        }
+        
+        // 移除旧的月份按钮（保留"全部"按钮）
+        const existingBtns = monthFilters.querySelectorAll('.month-btn:not([data-month="all"])');
+        existingBtns.forEach(btn => btn.remove());
+        
+        // 添加新的月份按钮
+        monthsIndex.forEach(monthInfo => {
+            const btn = document.createElement('button');
+            btn.className = 'filter-btn month-btn';
+            btn.dataset.month = monthInfo.month;
+            btn.textContent = `${monthInfo.month} (${monthInfo.count})`;
+            monthFilters.appendChild(btn);
+            
+            // 添加事件监听
+            btn.addEventListener('click', async function() {
+                monthBtns.forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+                currentMonth = this.dataset.month;
+                
+                if (resultsCount) {
+                    resultsCount.textContent = '加载中...';
+                }
+                if (papersContainer) {
+                    papersContainer.innerHTML = '<div style="text-align: center; padding: 40px; color: #666;">加载中...</div>';
+                }
+                
+                await loadMonthData(currentMonth);
+            });
+        });
+        
+        // 重新获取月份按钮列表
+        const newMonthBtns = document.querySelectorAll('.month-btn');
+        // 注意：这里不能直接赋值给 monthBtns，因为它是 NodeList
+        // 但事件监听已经通过上面的代码添加了
     }
     
     // 加载指定月份的数据
     async function loadMonthData(month) {
-        if (month === 'all') {
-            // 加载所有月份
-            try {
-                const response = await fetch('data/index.json');
-                const monthsIndex = await response.json();
-                
-                // 加载所有月份数据
-                allPapersData = [];
-                for (const monthInfo of monthsIndex) {
-                    if (!monthsCache[monthInfo.month]) {
-                        const monthResponse = await fetch(`data/${monthInfo.month}.json`);
-                        monthsCache[monthInfo.month] = await monthResponse.json();
-                    }
-                    allPapersData.push(...monthsCache[monthInfo.month]);
-                }
-                console.log(`Loaded all months, total ${allPapersData.length} papers`);
-            } catch (e) {
-                console.error('Failed to load all months data:', e);
+        try {
+            const url = month === 'all' 
+                ? '/api/fetch-papers' 
+                : `/api/fetch-papers?month=${month}`;
+            
+            const response = await fetch(url);
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
             }
-        } else {
-            // 加载单个月份
-            if (!monthsCache[month]) {
-                try {
-                    const response = await fetch(`data/${month}.json`);
-                    monthsCache[month] = await response.json();
-                    console.log(`Loaded month ${month}, ${monthsCache[month].length} papers`);
-                } catch (e) {
-                    console.error(`Failed to load month ${month}:`, e);
-                    return;
-                }
+            
+            let papers = await response.json();
+            console.log(`Fetched ${papers.length} papers from API`);
+            
+            // 应用自定义分类标签
+            papers = applyCustomCategoryTags(papers);
+            
+            if (month === 'all') {
+                allPapersData = papers;
+                console.log(`Loaded all papers, total ${allPapersData.length} papers`);
+            } else {
+                // 缓存单月数据
+                monthsCache[month] = papers;
+                allPapersData = papers;
+                console.log(`Loaded month ${month}, ${allPapersData.length} papers`);
             }
-            allPapersData = monthsCache[month];
-            console.log(`Using cached data for ${month}, ${allPapersData.length} papers`);
+            
+            // 数据加载完成后，触发筛选
+            filterAndSortPapers();
+        } catch (e) {
+            console.error(`Failed to load month data for ${month}:`, e);
+            if (resultsCount) {
+                resultsCount.textContent = '加载失败，请刷新页面重试';
+            }
+            if (papersContainer) {
+                papersContainer.innerHTML = '<div style="text-align: center; padding: 40px; color: #d32f2f;">加载失败，请刷新页面重试</div>';
+            }
         }
-        
-        // 数据加载完成后，触发筛选
-        filterAndSortPapers();
     }
     
     // 生成论文HTML
@@ -138,7 +582,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         ${codeLink}
                     </div>
                     <div class="paper-authors">
-                        👥 ${paper.authors}
+                        👥 ${Array.isArray(paper.authors) ? paper.authors.join(', ') : paper.authors}
                     </div>
                     <div class="paper-tags">
                         ${tags}
@@ -191,41 +635,9 @@ document.addEventListener('DOMContentLoaded', function() {
         return { class: badgeClass, text: conference };
     }
     
-    // 更新研究领域按钮的数量
+    // 更新研究领域按钮的数量（已由 updateCategoryButtons 替代）
     function updateCategoryButtonCounts() {
-        // 先筛选出符合当前状态的论文
-        const statusFilteredPapers = allPapersData.filter(paper => {
-            const status = paper.conference ? 'published' : 'preprint';
-            return currentStatus === 'all' || status === currentStatus;
-        });
-        
-        // 计算各个领域的数量
-        const categoryCounts = {
-            'all': statusFilteredPapers.length,
-            'Computer Vision': 0,
-            'Natural Language Processing': 0,
-            'Machine Learning': 0,
-            'Robotics': 0,
-            'Multimodal': 0
-        };
-        
-        statusFilteredPapers.forEach(paper => {
-            const tags = paper.tags || [];
-            tags.forEach(tag => {
-                if (categoryCounts.hasOwnProperty(tag)) {
-                    categoryCounts[tag]++;
-                }
-            });
-        });
-        
-        // 更新按钮文本
-        categoryBtns.forEach(btn => {
-            const category = btn.dataset.category;
-            const displayName = category === 'all' ? '全部' : 
-                               category === 'Natural Language Processing' ? 'NLP' : category;
-            const count = categoryCounts[category] || 0;
-            btn.textContent = `${displayName} (${count})`;
-        });
+        updateCategoryButtons();
     }
     
     // 筛选和排序论文
@@ -260,7 +672,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
         
         // 更新研究领域按钮的数量
-        updateCategoryButtonCounts();
+        updateCategoryButtons();
         
         // 更新显示
         if (resultsCount) {
@@ -357,11 +769,12 @@ document.addEventListener('DOMContentLoaded', function() {
         observer.observe(indicator);
     }
     
-    // 月份筛选
-    monthBtns.forEach(btn => {
+    // 月份筛选（事件监听在 updateMonthButtons 中动态添加）
+    // 这里保留对初始月份按钮的监听（如果存在）
+    document.querySelectorAll('.month-btn').forEach(btn => {
         btn.addEventListener('click', async function() {
             console.log('Month button clicked:', this.dataset.month);
-            monthBtns.forEach(b => b.classList.remove('active'));
+            document.querySelectorAll('.month-btn').forEach(b => b.classList.remove('active'));
             this.classList.add('active');
             currentMonth = this.dataset.month;
             
@@ -389,16 +802,66 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
     
-    // 研究领域筛选
-    categoryBtns.forEach(btn => {
+    // 研究领域筛选（事件监听在 updateCategoryButtons 中动态添加）
+    // 这里保留对初始分类按钮的监听
+    document.querySelectorAll('.category-btn').forEach(btn => {
         btn.addEventListener('click', function() {
             console.log('Category button clicked:', this.dataset.category);
-            categoryBtns.forEach(b => b.classList.remove('active'));
+            document.querySelectorAll('.category-btn').forEach(b => b.classList.remove('active'));
             this.classList.add('active');
             currentCategory = this.dataset.category;
             filterAndSortPapers();
         });
     });
+    
+    // 自定义分类管理模态框
+    const categoryModal = document.getElementById('categoryModal');
+    const manageCategoriesBtn = document.getElementById('manageCategoriesBtn');
+    const closeModal = document.getElementById('closeModal');
+    const addCategoryBtn = document.getElementById('addCategoryBtn');
+    const newCategoryInput = document.getElementById('newCategoryInput');
+    
+    if (manageCategoriesBtn) {
+        manageCategoriesBtn.addEventListener('click', function() {
+            renderCustomCategoriesList();
+            categoryModal.classList.add('show');
+        });
+    }
+    
+    if (closeModal) {
+        closeModal.addEventListener('click', function() {
+            categoryModal.classList.remove('show');
+        });
+    }
+    
+    // 点击模态框外部关闭
+    if (categoryModal) {
+        categoryModal.addEventListener('click', function(e) {
+            if (e.target === categoryModal) {
+                categoryModal.classList.remove('show');
+            }
+        });
+    }
+    
+    // 添加自定义分类
+    if (addCategoryBtn && newCategoryInput) {
+        addCategoryBtn.addEventListener('click', function() {
+            const categoryName = newCategoryInput.value.trim();
+            if (categoryName) {
+                // 添加分类时，关键词为空，用户可以在管理界面中配置
+                if (addCustomCategory(categoryName, [])) {
+                    newCategoryInput.value = '';
+                }
+            }
+        });
+        
+        // 按 Enter 键添加
+        newCategoryInput.addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                addCategoryBtn.click();
+            }
+        });
+    }
     
     // 排序按钮
     sortBtns.forEach(btn => {
@@ -488,19 +951,37 @@ document.addEventListener('DOMContentLoaded', function() {
             const arxivId = paper.id;
             const year = paper.published.split('-')[0];
             
-            bibtex += `@article{${arxivId.replace('.', '_')},\n`;
-            bibtex += `  title={${paper.title}},\n`;
-            bibtex += `  author={${paper.authors}},\n`;
+            // 处理作者列表（BibTeX 格式要求用 "and" 连接）
+            const authors = Array.isArray(paper.authors) 
+                ? paper.authors.join(' and ')
+                : paper.authors;
+            
+            // 处理标题中的特殊字符（BibTeX 需要转义）
+            const title = paper.title
+                .replace(/\{/g, '\\{')
+                .replace(/\}/g, '\\}')
+                .replace(/\&/g, '\\&');
+            
+            // 生成唯一的引用键
+            const citeKey = arxivId.replace(/\./g, '_').replace(/:/g, '_');
+            
+            bibtex += `@article{${citeKey},\n`;
+            bibtex += `  title={${title}},\n`;
+            bibtex += `  author={${authors}},\n`;
             bibtex += `  year={${year}},\n`;
             bibtex += `  journal={arXiv preprint arXiv:${arxivId}}`;
             if (paper.conference) {
                 bibtex += `,\n  note={${paper.conference}}`;
             }
+            bibtex += `,\n  url={${paper.arxiv_url}}`;
             bibtex += `\n}\n\n`;
         });
         
         console.log(`Exporting ${selectedPapers.length} selected papers`);
-        downloadFile(bibtex, 'papers.bib', 'text/plain');
+        
+        // 添加文件头注释
+        const header = `% BibTeX export from DailyPaper\n% Generated: ${new Date().toLocaleString('zh-CN')}\n% Total papers: ${selectedPapers.length}\n\n`;
+        downloadFile(header + bibtex, 'papers.bib', 'text/plain');
     }
     
     // 下载文件
@@ -519,5 +1000,9 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // 初始化 - 加载数据
     console.log('Initializing...');
+    
+    // 初始化自定义分类列表
+    renderCustomCategoriesList();
+    
     loadMonthsIndex();
 });

@@ -1,0 +1,156 @@
+{
+  "sources": {
+    "arxiv": {
+      "enabled": true,
+      "categories": [
+        "cs.AI",
+        "cs.CV",
+        "cs.CL",
+        "cs.LG",
+        "cs.IR",
+        "cs.RO",
+        "cs.HC"
+      ],
+      "max_results": 100,
+      "days_back": 7
+    }
+  },
+  "categories": {
+    "Computer Vision": {
+      "keywords": [
+        "computer vision",
+        "image processing",
+        "object detection",
+        "image segmentation",
+        "face recognition",
+        "video analysis",
+        "3d reconstruction",
+        "pose estimation",
+        "visual recognition",
+        "image generation"
+      ]
+    },
+    "Natural Language Processing": {
+      "keywords": [
+        "natural language processing",
+        "language model",
+        "transformer",
+        "bert",
+        "gpt",
+        "machine translation",
+        "text generation",
+        "question answering",
+        "sentiment analysis",
+        "named entity recognition"
+      ]
+    },
+    "Machine Learning": {
+      "keywords": [
+        "machine learning",
+        "deep learning",
+        "neural network",
+        "reinforcement learning",
+        "transfer learning",
+        "few-shot learning",
+        "meta-learning",
+        "optimization",
+        "generative model",
+        "contrastive learning"
+      ]
+    },
+    "Robotics": {
+      "keywords": [
+        "robotics",
+        "autonomous",
+        "robot learning",
+        "manipulation",
+        "navigation",
+        "control"
+      ]
+    },
+    "Multimodal": {
+      "keywords": [
+        "multimodal",
+        "vision-language",
+        "clip",
+        "image-text",
+        "video-text",
+        "vision-language model",
+        "multimodal learning"
+      ]
+    },
+    "AI Companion": {
+      "keywords": [
+        "ai companion",
+        "virtual companion",
+        "emotional ai",
+        "affective computing",
+        "human-computer interaction",
+        "HCI",
+        "emotion recognition",
+        "emotion detection",
+        "psychological ai",
+        "mental health ai",
+        "conversational ai",
+        "empathetic ai",
+        "social robot",
+        "companion robot",
+        "emotional intelligence",
+        "empathy",
+        "emotion understanding",
+        "affective computing",
+        "sentiment analysis",
+        "emotion analysis"
+      ]
+    },
+    "AI Agents": {
+      "keywords": [
+        "ai agent",
+        "intelligent agent",
+        "autonomous agent",
+        "multi-agent system",
+        "agent framework",
+        "agent architecture",
+        "agent learning",
+        "reinforcement learning agent",
+        "language agent",
+        "tool-using agent",
+        "agentic ai",
+        "agent planning",
+        "LLM agent",
+        "GPT agent",
+        "autonomous agent",
+        "agent system",
+        "agentic",
+        "agent-based"
+      ]
+    }
+  },
+  "venues": {
+    "conferences": [
+      "NeurIPS",
+      "ICML",
+      "ICLR",
+      "CVPR",
+      "ICCV",
+      "ECCV",
+      "ACL",
+      "EMNLP",
+      "NAACL",
+      "AAAI",
+      "IJCAI",
+      "KDD",
+      "ICRA",
+      "IROS"
+    ],
+    "journals": [
+      "Nature",
+      "Science",
+      "PAMI",
+      "JMLR",
+      "TPAMI",
+      "IJCV"
+    ]
+  }
+}
+

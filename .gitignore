@@ -1,30 +1,16 @@
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
 
-# Virtual Environment
-venv/
-env/
-ENV/
-.venv
+# Build outputs
+dist/
+build/
+.wrangler/
+
+# Environment variables
+.env
+.env.local
 
 # IDE
 .vscode/
@@ -39,12 +25,19 @@ Thumbs.db
 
 # Logs
 *.log
+npm-debug.log*
 
-# Data (可选：如果不想提交历史数据)
-# data/papers_*.json
+# Python (保留原有 Python 相关文件，但不再使用)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
 
-# Jupyter Notebook
-.ipynb_checkpoints
+# Test outputs
+test-output/
+*.log
 
-# pytest
-.pytest_cache/
+# Cloudflare
+.wrangler/
+.dev.vars

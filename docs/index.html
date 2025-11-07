@@ -9,9 +9,16 @@
 <body>
     <header>
         <div class="container">
-            <h1>📚 DailyPaper</h1>
-            <p class="subtitle">每日自动更新 AI/ML/CV/NLP 领域最新论文</p>
-            <p class="update-time">最后更新: 2025-11-07 11:56:11 UTC</p>
+            <div class="header-content">
+                <div class="logo-section">
+                    <img src="https://pub-c98d5902eedf42f6a9765dfad981fd88.r2.dev/Icon/keith_logo.png" alt="Logo" class="site-logo">
+                    <h1>📚 DailyPaper</h1>
+                </div>
+                <div class="header-text">
+                    <p class="subtitle">每日自动更新 AI/ML/CV/NLP 领域最新论文</p>
+                    <p class="update-time">最后更新: 2025-11-07 11:56:11 UTC</p>
+                </div>
+            </div>
         </div>
     </header>
     
@@ -33,8 +40,11 @@
                 </div>
             </div>
             <div class="filter-group">
-                <label class="filter-label">🏷️ 研究领域：</label>
-                <div class="filters category-filters">
+                <div class="filter-label-row">
+                    <label class="filter-label">🏷️ 研究领域：</label>
+                    <button class="manage-categories-btn" id="manageCategoriesBtn" title="管理自定义分类">⚙️ 管理</button>
+                </div>
+                <div class="filters category-filters" id="categoryFilters">
                     <button class="filter-btn category-btn active" data-category="all">全部 (958)</button>
                     <button class="filter-btn category-btn" data-category="Computer Vision">Computer Vision (49)</button>
                     <button class="filter-btn category-btn" data-category="Natural Language Processing">NLP (401)</button>
@@ -69,6 +79,28 @@
             <!-- Papers will be loaded by JavaScript -->
         </div>
     </main>
+    
+    <!-- 自定义分类管理模态框 -->
+    <div id="categoryModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>管理自定义研究领域</h2>
+                <button class="modal-close" id="closeModal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="add-category-section">
+                    <input type="text" id="newCategoryInput" placeholder="输入新的研究领域名称..." class="category-input">
+                    <button id="addCategoryBtn" class="add-category-btn">+ 添加分类</button>
+                </div>
+                <div class="modal-hint">
+                    <p>💡 <strong>重要：</strong>添加分类后，必须为每个分类配置关键词才能匹配论文。关键词用于在论文标题和摘要中搜索匹配。</p>
+                </div>
+                <div class="custom-categories-list" id="customCategoriesList">
+                    <p class="empty-message">暂无自定义分类</p>
+                </div>
+            </div>
+        </div>
+    </div>
     
     <footer>
         <div class="container">
