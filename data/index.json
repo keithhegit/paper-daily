@@ -1,0 +1,44 @@
+[
+  {
+    "month": "2026-04",
+    "count": 7522,
+    "published_count": 1730,
+    "preprint_count": 5792
+  },
+  {
+    "month": "2026-03",
+    "count": 9075,
+    "published_count": 1933,
+    "preprint_count": 7142
+  },
+  {
+    "month": "2026-02",
+    "count": 8643,
+    "published_count": 1430,
+    "preprint_count": 7213
+  },
+  {
+    "month": "2026-01",
+    "count": 8309,
+    "published_count": 1300,
+    "preprint_count": 7009
+  },
+  {
+    "month": "2025-12",
+    "count": 8388,
+    "published_count": 1201,
+    "preprint_count": 7187
+  },
+  {
+    "month": "2025-11",
+    "count": 6477,
+    "published_count": 1346,
+    "preprint_count": 5131
+  },
+  {
+    "month": "2025-10",
+    "count": 973,
+    "published_count": 143,
+    "preprint_count": 830
+  }
+]
